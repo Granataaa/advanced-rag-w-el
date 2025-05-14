@@ -1,0 +1,209 @@
+[
+  {
+    "query": "Quali sono i vari metodi comportamentali di analisi del linguaggio discussi nella lezione?",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez005.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez005.txt-0",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-1",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-2",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-3",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-4",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-5",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-6",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-7"
+    ]
+  },
+  {
+    "query": "Come viene studiato il ruolo degli emisferi cerebrali nel linguaggio?",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez005.txt-10",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez005.txt-8",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-9",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-10",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-11",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-12"
+    ]
+  },
+  {
+    "query": "In che modo il riconoscimento visivo di stimoli linguistici differisce per l'emisfero destro e sinistro?",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez005.txt-11",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez005.txt-10",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-11",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-12"
+    ]
+  },
+  {
+    "query": "Qual è l'importanza del cacciavite nei test in psicolinguistica?",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez005.txt-11",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez005.txt-10",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-11"
+    ]
+  },  
+  {
+    "query": "Chi è stato Joseph Schumpeter?",
+    "gold_answer": "economia_applicata_clean_13_Lez013-0",
+    "relevant_docs": [
+      "economia_applicata_clean_13_Lez013-0"
+    ]
+  },
+  {
+    "query": "Quali sono le principali fasi del capitalismo secondo Schumpeter?",
+    "gold_answer": "economia_applicata_clean_13_Lez013-4",
+    "relevant_docs": [
+      "economia_applicata_clean_13_Lez013-4",
+      "economia_applicata_clean_13_Lez013-5"
+    ]
+  },
+  {
+    "query": "In che modo le crisi possono rappresentare un'opportunità, secondo Keynes?",
+    "gold_answer": "economia_applicata_clean_13_Lez013-10",
+    "relevant_docs": [
+      "economia_applicata_clean_13_Lez013-10",
+      "economia_applicata_clean_13_Lez013-9"
+    ]
+  },
+  {
+    "query": "Perché è importante la realtà degli anni trattati nel testo?",
+    "gold_answer": "economia_applicata_clean_13_Lez013-2",
+    "relevant_docs": [
+      "economia_applicata_clean_13_Lez013-2",
+      "economia_applicata_clean_13_Lez013-3"
+    ]
+  },
+  {
+    "query": "Qual è la funzione dei neuroni specchio?",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez015.txt-8",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez015.txt-7",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-10",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-8"
+    ]
+  },
+  {
+    "query": "Come vengono classificati i vari tipi di gesti secondo il testo?",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez015.txt-2",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez015.txt-3",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-1",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-2"
+    ]
+  },
+  {
+    "query": "Come si relazionano il vedere e il fare un gesto?",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez015.txt-9",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez015.txt-9",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-10",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-5"
+    ]
+  },
+  {
+    "query": "Qual è la vera natura dei gesti?",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez015.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez015.txt-6",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-0",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-1"
+    ]
+  },
+  {
+    "query": "Chi è Adam Smith e quale libro ha scritto?",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-0",
+      "economia_applicata_clean_02_Lez002.txt-1"
+    ]
+  },
+  {
+    "query": "Quali erano le condizioni economiche dell'Italia preunitaria e come influivano sul suo sviluppo industriale?",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-10",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-4",
+      "economia_applicata_clean_02_Lez002.txt-5",
+      "economia_applicata_clean_02_Lez002.txt-10"
+    ]
+  },
+  {
+    "query": "Perché l'Italia era in ritardo rispetto ad altri paesi nella rivoluzione industriale?",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-13",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-9",
+      "economia_applicata_clean_02_Lez002.txt-11",
+      "economia_applicata_clean_02_Lez002.txt-13"
+    ]
+  },
+  {
+    "query": "Che differenze ci sono tra quando era piccolo?",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-3"
+    ]
+  },
+  {
+    "query": "Chi sono Michael Merzenich e Paula Tallal?",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez012.txt-17",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez012.txt-16",
+      "linguaggio_e_comunicazione_clean_Lez012.txt-17",
+      "linguaggio_e_comunicazione_clean_Lez012.txt-18"
+    ]
+  },
+  {
+    "query": "Quali sono le differenze tra sordità centrale e periferica nel contesto dello sviluppo linguistico infantile?",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez012.txt-8",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez012.txt-7",
+      "linguaggio_e_comunicazione_clean_Lez012.txt-8",
+      "linguaggio_e_comunicazione_clean_Lez012.txt-9"
+    ]
+  },
+  {
+    "query": "Come possono le lesioni cerebrali infantili dimostrare la plasticità del cervello?",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez012.txt-7",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez012.txt-6",
+      "linguaggio_e_comunicazione_clean_Lez012.txt-7"
+    ]
+  },
+  {
+    "query": "Perché i test di vocabolario iniziano a otto mesi?",
+    "gold_answer": null,
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez012.txt-1",
+      "linguaggio_e_comunicazione_clean_Lez012.txt-2"
+    ]
+  },
+  {
+    "query": "Qual è la crisi più clamorosa che ha colpito l'economia italiana?",
+    "gold_answer": "economia_applicata_clean_24_Lez006-1",
+    "relevant_docs": [
+      "economia_applicata_clean_24_Lez006-0",
+      "economia_applicata_clean_24_Lez006-1"
+    ]
+  },
+  {
+    "query": "Quale strategia dovrebbe seguire l'Italia per migliorare la sua economia?",
+    "gold_answer": "economia_applicata_clean_24_Lez006-4",
+    "relevant_docs": [
+      "economia_applicata_clean_24_Lez006-4",
+      "economia_applicata_clean_24_Lez006-5"
+    ]
+  },
+  {
+    "query": "Cosa ha reso l'economia italiana vulnerabile durante la crisi del 2009?",
+    "gold_answer": "economia_applicata_clean_24_Lez006-3",
+    "relevant_docs": [
+      "economia_applicata_clean_24_Lez006-2",
+      "economia_applicata_clean_24_Lez006-3"
+    ]
+  },
+  {
+    "query": "Perché la moda italiana non è più prodotta in Italia?",
+    "gold_answer": null,
+    "relevant_docs": [
+      "economia_applicata_clean_24_Lez006-7"
+    ]
+  }
+]
