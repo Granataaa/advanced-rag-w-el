@@ -20,12 +20,24 @@ ORGANIZATION=your_organization_here
 PROJECT=your_project_here
 URL=your_api_url_here
 ```
+Moficare anche i file di configurazione:
+1. config.json (nella directory principale)
+ - con le specifiche del server e il path da cui prendere i video per lo speech-to-text
+2. reactApi/react-client/public/config.json
+ - con le specifiche del server
 
 ### 3. Preparare i file video
-Scaricare i video e posizionarli nella cartella:
+Scaricare i video e posizionarli in DUE cartelle:
 ```bash
 reactApi/react-client/public/video/nomeCorso
 ```
+e quella che hai messo nel config.json
+
+## Elaborazione 
+Se si vuole rifare lo speech-to-text e gli embeddings utilizzare questi script:
+1. whisperXuniNet.ipynb: Speech-to-Text
+2. extractionText.ipynb: Post-elaborazione testi (obbligatorio dopo Whisper)
+3. denseR.ipynb: Generazione embeddings
 
 ## Avvio del progetto
 
@@ -46,10 +58,6 @@ Il client si avvierà sulla porta 3000 in locale
 ## Documentazione API
 La documentazione dell'API è disponibile all'indirizzo:
 http://127.0.0.1:5000/ui
-
-## File importanti
-whisperXuniNet.ipynb: contiene lo script per lo speech-to-text (controllare dove mettere i video in modo da utilizzarlo)
-denseR.ipynb: crea gli embeddings
 
 ## Note finali
 Se qualcosa non dovesse funzionare o se ho dimenticato qualche passaggio, sentitevi liberi di contattarmi o aprire una issue nel repository.

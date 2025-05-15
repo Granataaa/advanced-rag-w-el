@@ -1,6 +1,10 @@
 import requests
+import json
 
-BASE_URL = 'http://localhost:5000'
+with open('../config.json', 'r') as f:
+    config = json.load(f)
+
+BASE_URL = f"http://{config['server']['host']}:{config['server']['port']}"
 
 def ask_query():
     while True:

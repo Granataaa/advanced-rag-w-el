@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function getVideoSrc(fileTxtName) {
   if (!fileTxtName.includes("clean")) return "";
@@ -20,13 +20,21 @@ function App() {
   const [loading, setLoading] = useState(false);  // Stato per il caricamento
   const [k_ric, setk_ric] = useState(5) // Stato sul numero di risposte date da Faiss
   const [LLMHelp, setLLMHelp] = useState(false)
+  const [config, setConfig] = useState(null);
+
+  useEffect(() => {
+    fetch('/config.json')
+      .then((res) => res.json())
+      .then((data) => setConfig(data))
+      .catch((err) => console.error('Errore nel caricamento config:', err));
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();  // Preveniamo il comportamento di default del form
     setLoading(true);  // Attiva il caricamento
 
     try {
-      const response = await fetch(`http://localhost:5000/ask?query=${encodeURIComponent(query)}&k_ric=${encodeURIComponent(k_ric)}&LLMHelp=${encodeURIComponent(LLMHelp)}`);
+      const response = await fetch(`http://${config.server.host}:${config.server.port}/ask?query=${encodeURIComponent(query)}&k_ric=${encodeURIComponent(k_ric)}&LLMHelp=${encodeURIComponent(LLMHelp)}`);
       if (!response.ok) {
         throw new Error(`Errore: ${response.status}`);
       }
