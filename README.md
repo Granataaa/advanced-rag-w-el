@@ -7,10 +7,24 @@
 ## Configurazione iniziale
 
 ### 1. Configurare l'ambiente Conda
-Importare l'environment.yml:
+Importare l'environment.yml se su windows:
 ```bash
 conda env create -f environment.yml
 ```
+su altri sistemi invece importare:
+```bash
+conda env create -f environment_crossplatform.yml
+```
+> **Nota:** Prima di importare l'ambiente, assicurati di aver selezionato la versione corretta del CUDA Toolkit compatibile con la tua GPU e con i pacchetti richiesti dal progetto.
+> Cambiare nel file .yml le righe con accanto il commento con la versione corretta.
+> Puoi verificare la versione scaricata in questo modo:
+> ```bash
+> nvcc --version
+> ```
+> oppure
+> ```bash
+> nvidia-smi
+> ```
 
 ### 2. Configurare le variabili d'ambiente
 Creare un file .env nella root del progetto con le seguenti variabili per l'API di OpenAI:
