@@ -48,7 +48,7 @@ def AIRequest(mess):
     payload = {
         "model": "gpt-4o",
         "messages": mess,
-        "max_tokens": 1000,
+        "max_tokens": 3000,
         "temperature": 0.0
     }
     response = requests.post(url, json=payload, headers=headers)
@@ -77,7 +77,8 @@ def LLMHelpFunc(query, results):
     Tu devi analizzare i risultati e restituire una risposta compatta alla query utilizzando le informazioni dei risultati.
     La query è: {query}, i risultati sono: {results}
     I risultati sono in formato JSON e contengono i seguenti campi: chunk_id, text, source, start_time, end_time, entities.
-    restituisci solo un testo unico con le note tipo [1] nelle parti di testo che hai scritto che sono prese da un file. solo questo testo e non altro.
+    restituisci solo un testo unico con le note tipo [1] nelle parti di testo che hai scritto che sono prese da un file. solo questo testo e non altro, non specificare i riferimenti alla fine del testo.
+    Se non hai trovato informazioni utili all'imterno dei risultati per la query data o la query sembra essere mal posta o fuori contesto, rispondi con "Nessun risultato trovato per questa domanda."
     """
 
     mess = [
@@ -104,10 +105,10 @@ def query_rag(query, k_ric, LLMHelp):
     D, I = index.search(query_embedding, k)
 
     # Applica soglia su similarità (cosine, dato che usi IndexFlatIP con normalizzazione)
-    threshold = 0.83
+    threshold = 0.0
     filtered_results = []
     for idx, score in zip(I[0], D[0]):
-        print(f"Similarità: {score}")
+        #print(f"Similarità: {score}")
         if score >= threshold:
             data = chunk_data[idx]
             data['similarity'] = float(score)
@@ -116,16 +117,28 @@ def query_rag(query, k_ric, LLMHelp):
     if not filtered_results:
         result_json = {"chunks": filtered_results}
         result_json["testoRisp"] = "Nessun risultato trovato per questa domanda."
+        #print(f"Risultati della query: {result_json}")
         return result_json
 
-    # (Opzionale) Passaggio a LLM per selezione/riassunto
+    result_json = {"chunks": filtered_results}
+    response_text = "Ecco i risultati!" # Testo di risposta predefinito
+
     if LLMHelp.lower() == "true":
         res = LLMHelpFunc(query, filtered_results)
-        
-    result_json = {"chunks": filtered_results}
-    if 'res' in locals():
-        result_json["testoRisp"] = res
-    else:
-        result_json["testoRisp"] = "Ecco i risultati!"
+        if res == "Nessun risultato trovato per questa domanda.":
+            result_json["chunks"] = []
+            response_text = res
+        else:
+            cleaned_chunks = []
+            response_text = res
+            for i, chunk in enumerate(result_json["chunks"]):
+                x = f"[{i + 1}]"
+                if x in res:
+                    cleaned_chunks.append(chunk)
+            result_json["chunks"] = cleaned_chunks
+
+    result_json["testoRisp"] = response_text
+
+    #print(f"Risultati della query: {result_json}")
     
     return result_json

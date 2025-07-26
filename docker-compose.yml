@@ -1,0 +1,44 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python rag_api/server.py
+    ports:
+      - "5000:5000"
+    environment:
+      # Passa le variabili d'ambiente di OpenAI al container del backend
+      # In un ambiente di produzione, considera l'uso di Docker secrets o vault
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      ORGANIZATION: ${ORGANIZATION}
+      PROJECT: ${PROJECT}
+      URL: ${URL}
+    volumes:
+      # Mappa la cartella dei video sul tuo host a una cartella nel container.
+      # Sostituisci '/path/assoluto/alla/tua/cartella/video_per_backend' 
+      # con il percorso reale sul tuo computer host.
+      # Questo deve corrispondere al path configurato in config.json del backend.
+      - /path/assoluto/alla/tua/cartella/video_per_backend:/app/videos_backend:ro
+    # Assicurati che il tuo server.py legga la configurazione da /app/videos_backend
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm start
+    ports:
+      - "3000:3000"
+    working_dir: /app/reactApi/react-client
+    depends_on:
+      - backend # Assicura che il backend sia avviato prima del frontend
+    volumes:
+      # Mappa la cartella dei video per il frontend.
+      # Sostituisci '/path/assoluto/alla/tua/cartella/reactApi/react-client/public/video'
+      # con il percorso reale sul tuo computer host.
+      - C:\Users\franc\OneDrive - Università degli Studi di Catania\Desktop\UNICT\TERZO ANNO\tiro\whisp\RAG_Granata\reactApi\react-client\public\video:/app/reactApi/react-client/public/video:ro
+      # Mappa il file di configurazione pubblico del frontend.
+      # Questo ti permette di modificarlo sull'host senza dover ricostruire l'immagine.
+      - ./reactApi/react-client/public/config.json:/app/reactApi/react-client/public/config.json:ro

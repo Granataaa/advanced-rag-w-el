@@ -3,7 +3,7 @@ import json
 
 # Caricamento del modello e del benchmark
 loading()
-with open("../benchmark.json", "r", encoding="utf-8") as f:
+with open("../benchmark2.json", "r", encoding="utf-8") as f:
     bench = json.load(f)
 
 # Inizializzazione delle metriche
@@ -23,15 +23,22 @@ for y in bench:
     q = y["query"]
     gold_answer = y["gold_answer"]
     
-    # Recupera i top-3 risultati per calcolare recall@3/precision@3
+    # Recupera i top-k risultati per calcolare recall@k/precision@k
     results = query_rag(q, 5, "false")["chunks"]
     
     # Estrai gli ID dei documenti recuperati (es. "doc-123")
     retrieved_docs = [f"{res['source']}-{res['chunk_id']}" for res in results]
+
+    print(gold_answer, retrieved_docs)
     
     # Calcolo delle metriche
     # 1. Exact Match (primo risultato)
-    metrics["exact_match"] += 1 if (retrieved_docs and retrieved_docs[0] == gold_answer) else 0
+    # Se il primo risultato corrisponde alla risposta corretta oppure se è vuoto e la gold answer è null
+    if retrieved_docs and retrieved_docs[0] == gold_answer:
+        metrics["exact_match"] += 1
+    elif not retrieved_docs and gold_answer is None:
+        metrics["exact_match"] += 1
+    # metrics["exact_match"] += 1 if (retrieved_docs and retrieved_docs[0] == gold_answer) else 0
     
     # 2. Recall@k e Precision@k (k=1 e k=3)
     for k in [1, 3, 5]:
@@ -51,7 +58,7 @@ for key in metrics:
         metrics[key] /= metrics["total_queries"]
 
 # Salva i risultati in un file JSON
-with open("benchmark_results.json", "w", encoding="utf-8") as f:
+with open("benchmark_results_1.json", "w", encoding="utf-8") as f:
     json.dump(metrics, f, indent=2)
 
 # Stampa il report
