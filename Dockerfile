@@ -1,57 +1,107 @@
-# Dockerfile
-# Base image con Miniconda (e quindi Python) e supporto CUDA
-# Scegli un'immagine base adatta: per CUDA 11.8 potresti cercare 'nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04' 
-# e poi installare Conda, oppure usare un'immagine che abbia già Miniconda e CUDA.
-# Per semplicità, useremo una base con Miniconda e assumeremo che le dipendenze Conda gestiranno il CUDA Toolkit corretto.
-# Se hai problemi con CUDA, potremmo dover usare una base nvidia/cuda e installare Conda manualmente.
-FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
+# --- FASE 1: Preparazione dell'ambiente CUDA e Python con Conda ---
+# Usiamo un'immagine PyTorch che include già CUDA e Conda.
+# Scegliamo una versione che sia compatibile con Python 3.12 (se disponibile, altrimenti una 3.10 o 3.11).
+# Controlla sempre le immagini disponibili su Docker Hub di PyTorch per la versione più adatta.
+# Per esempio, potresti usare "pytorch/pytorch:2.3.0-cuda12.1-cudnn8-devel" o simile.
+# Cerchiamo di avvicinarci il più possibile a Python 3.12.7. Se non trovi una 3.12, una 3.10/3.11 andrà bene.
+FROM pytorch/pytorch:2.7.0-cuda12.8-cudnn9-devel
 
-# Imposta la directory di lavoro all'interno del container
+# Imposta la directory di lavoro all'interno del container. Qui verranno copiati i tuoi file.
 WORKDIR /app
 
-# 1. Configurare l'ambiente Conda
-# Copia i file dell'ambiente Conda. 
-# Decidi quale usare in base al sistema di build di Docker (di solito Linux).
-# Se il tuo sistema di build è Linux, usa environment_crossplatform.yml
-# Se hai bisogno di usare l'ambiente Windows, dovresti pensare a una strategia di build diversa o usare WSL/Linux per la build.
+# Copia il file environment.yml nel container.
 COPY environment_crossplatform.yml .
 
-# Crea l'ambiente Conda.
-# Aggiungi qui eventuali canali aggiuntivi necessari per i pacchetti specifici di CUDA/PyTorch.
-# CONDA_OVERRIDE_CUDA: Questo è cruciale se l'ambiente Conda deve gestire le versioni CUDA.
-# Tuttavia, l'approccio più robusto è assicurarsi che l'immagine base NVIDIA-CUDA sia compatibile.
-# Se l'environment_crossplatform.yml ha dipendenze CUDA, assicurati che siano presenti anche i canali necessari.
-RUN conda env create -f environment_crossplatform.yml && \
-    echo "conda activate myenv" > ~/.bashrc && \
-    /opt/conda/envs/myenv/bin/conda clean -afy
+# Crea l'ambiente Conda usando il file environment.yml
+# '-f environment.yml' specifica il file da usare
+# '--prefix /opt/conda/envs/myenv' specifica dove creare l'ambiente (così non interferisce con l'ambiente base)
+# '--yes' per accettare automaticamente tutte le richieste.
+# Questo passaggio può richiedere tempo a seconda delle dipendenze.
+RUN conda env create -f environment_crossplatform.yml --prefix /opt/conda/envs/myenv && \
+    conda clean --all -f -y
 
-# Rendi l'ambiente Conda disponibile per le future istruzioni
-ENV PATH /opt/conda/envs/myenv/bin:$PATH
-ENV CONDA_DEFAULT_ENV myenv
+# Attiva l'ambiente Conda per le operazioni successive.
+# Questo modifica la variabile PATH in modo che i comandi come 'python' usino l'interprete dell'ambiente 'myenv'.
+ENV PATH="/opt/conda/envs/myenv/bin:$PATH"
 
-# 2. Installare Node.js e npm (per React)
-# Aggiungiamo un repository per Node.js per avere una versione più recente
-RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - && \
-    apt-get update && \
-    apt-get install -y nodejs && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+RUN python -m spacy download it_core_news_lg-3.8.0 --direct --no-deps
 
-# Copia l'intero progetto nella directory di lavoro del container
+# --- FASE 2: Preparazione dell'ambiente Node.js per React ---
+# Installeremo Node.js usando un gestore pacchetti (apt-get)
+# Aggiorna l'indice dei pacchetti e installa 'curl' e 'nodejs'
+# Curl ci servirà per scaricare il setup di Node.js.
+# Usiamo una versione LTS (Long Term Support) di Node.js, per esempio 18.x o 20.x
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    && curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - \
+    && apt-get install -y nodejs \
+    && rm -rf /var/lib/apt/lists/*
+
+# Verifica che Node.js e npm siano installati e nel PATH subito dopo l'installazione.
+# Se questo fallisce, ci darà un errore più specifico.
+# L'output di "which npm" mostrerà il percorso di npm.
+RUN which node && which npm
+
+# Assicurati che il PATH dell'ambiente Conda sia attivo
+ENV PATH="/opt/conda/envs/myenv/bin:$PATH"
+
+# --- FASE 3: Copia del codice del progetto e installazione delle dipendenze React ---
+
+# Copia tutto il resto del progetto nella directory di lavoro /app
+# Assicurati che il tuo .dockerignore (se presente) escluda directory come node_modules o .git
 COPY . .
 
-# Installare le dipendenze di React
-WORKDIR /app/reactApi/react-client
+# Vai nella directory del client React e installa le dipendenze
+# Ho notato dall'output che la tua directory React è `/reactApi/react-client`.
+# Assicurati che il percorso sia CORRETTO per la tua struttura.
+WORKDIR /app/reactApi/react-client 
+# CORREGGI QUI CON IL TUO PATH ESATTO
+
+# Aggiungiamo un'istruzione RUN separata per debug.
+# Questo ci dirà se npm è nel PATH in questo preciso punto.
+RUN echo "Checking npm path before install..." && which npm && npm --version
+
+# Ora esegui npm install
 RUN npm install
 
-# Costruire l'applicazione React per la produzione (opzionale, ma consigliato per deployment)
-# RUN npm run build
+# Build dell'applicazione React (opzionale ma consigliato per deployment di produzione)
+RUN npm run build
 
-# Torna alla directory root del progetto all'interno del container
+# Torna alla directory radice del progetto
 WORKDIR /app
 
-# Espone le porte che useranno il server API (5000) e il client React (3000)
-EXPOSE 5000
-EXPOSE 3000
+# --- FASE 4: Configurazione e Comandi di Avvio ---
 
-# Nessun CMD qui, perché useremo docker-compose per avviare i servizi separatamente.
+# Espone le porte che il server Python e il server React useranno.
+# Assicurati che queste porte corrispondano a quelle usate dal tuo codice.
+EXPOSE 5005
+# Esempio per il server Python
+EXPOSE 3000 
+# Esempio per il server React (se usi 'npm start' direttamente nel container)
+
+# Comando per avviare l'applicazione.
+# Useremo 'CMD' per specificare il comando predefinito quando il container viene avviato.
+# Per un'applicazione completa con server Python e client React, potresti voler usare 'supervisord'
+# o un semplice script bash per avviarli entrambi.
+# Per semplicità, inizialmente ti mostro come avviare il server Python.
+# Avvia il server Python
+CMD ["tail", "-f", "/dev/null"]
+# CMD ["python", "server.py"]
+
+# Se devi avviare sia il server Python che il client React, ti consiglio di creare un piccolo script bash:
+# Esempio di script chiamato 'start_app.sh':
+# #!/bin/bash
+#
+# # Avvia il server Python in background
+# python server.py &
+#
+# # Avvia il client React (potrebbe essere necessario andare nella sua directory)
+# cd client && npm start
+#
+# # Mantiene il container in esecuzione
+# tail -f /dev/null
+#
+# Poi nel Dockerfile useresti:
+# COPY start_app.sh .
+# RUN chmod +x start_app.sh
+# CMD ["./start_app.sh"]
