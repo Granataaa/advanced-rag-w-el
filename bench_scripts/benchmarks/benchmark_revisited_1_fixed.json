@@ -1,0 +1,718 @@
+[
+  {
+    "query": "Quali sono le tre rivoluzioni menzionate e gli argomenti trattati nella lezione?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_01_Lez001.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_01_Lez001.txt-0"
+    ]
+  },
+  {
+    "query": "Come la rivoluzione industriale ha influenzato la transizione dall'economia feudale all'economia moderna?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_01_Lez001.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_01_Lez001.txt-0"
+    ]
+  },
+  {
+    "query": "Perché il sistema delle classi sociali era considerato stazionario durante il feudalesimo?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_01_Lez001.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_01_Lez001.txt-1"
+    ]
+  },
+  {
+    "query": "Quali idee Smith ha preso da Newton?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Qual era la composizione percentuale degli operai industriali in Italia nel 1880?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_03_Lez003.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_03_Lez003.txt-2"
+    ]
+  },
+  {
+    "query": "Come si è evoluta l'industria italiana nel periodo post-unitario fino alla fine del XIX secolo?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_03_Lez003.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_03_Lez003.txt-1",
+      "economia_applicata_clean_03_Lez003.txt-2"
+    ]
+  },
+  {
+    "query": "Quali implicazioni ha avuto la mancanza di un sistema bancario moderno sull'industrializzazione italiana?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_03_Lez003.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_03_Lez003.txt-5"
+    ]
+  },
+  {
+    "query": "Che impatto hanno avuto le strade sull'economia italiana?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Qual è la grande crisi per definizione?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_05_Lez005.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_05_Lez005.txt-0"
+    ]
+  },
+  {
+    "query": "Come viene descritta la risposta americana alla crisi del 1929?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_05_Lez005.txt-8",
+    "relevant_docs": [
+      "economia_applicata_clean_05_Lez005.txt-8",
+      "economia_applicata_clean_05_Lez005.txt-9"
+    ]
+  },
+  {
+    "query": "Quali sono le implicazioni delle aspettative sui prezzi secondo il testo?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_05_Lez005.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_05_Lez005.txt-6",
+      "economia_applicata_clean_05_Lez005.txt-7"
+    ]
+  },
+  {
+    "query": "Perché falliscono le economie?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quali sono stati i motivi principali dell'accelerazione economica durante il boom degli anni '50 in Italia?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_07_Lez007.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_07_Lez007.txt-0"
+    ]
+  },
+  {
+    "query": "Come ha reagito l'industria italiana alle crisi economiche degli anni '70, e che ruolo hanno avuto i distretti industriali?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_07_Lez007.txt-12",
+    "relevant_docs": [
+      "economia_applicata_clean_07_Lez007.txt-12",
+      "economia_applicata_clean_07_Lez007.txt-14"
+    ]
+  },
+  {
+    "query": "In che modo la politica internazionale degli Stati Uniti ha influenzato le economie europee dopo la seconda guerra mondiale?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_07_Lez007.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_07_Lez007.txt-0"
+    ]
+  },
+  {
+    "query": "Cosa pensi del sistema economico italiano negli anni '60?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Qual è stato il processo storico che ha portato alla creazione del WTO?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_09_Lez009.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_09_Lez009.txt-1",
+      "economia_applicata_clean_09_Lez009.txt-2"
+    ]
+  },
+  {
+    "query": "Quali sono i motivi per cui il 2001 è considerato un anno di spartiacque nella storia economica?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_09_Lez009.txt-5",
+    "relevant_docs": [
+      "economia_applicata_clean_09_Lez009.txt-5",
+      "economia_applicata_clean_09_Lez009.txt-6"
+    ]
+  },
+  {
+    "query": "Quali potrebbero essere le implicazioni economiche del cambiamento di ruolo degli Stati Uniti da stabilità a crisi?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_09_Lez009.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_09_Lez009.txt-7",
+      "economia_applicata_clean_09_Lez009.txt-8"
+    ]
+  },
+  {
+    "query": "Come pensi che il tempo influenzi i cambiamenti?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Qual è stata l'evoluzione dell'età media per avere il primo figlio in Italia dal 1961 al 2010?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_11_Lez011.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_11_Lez011.txt-1",
+      "economia_applicata_clean_11_Lez011.txt-2"
+    ]
+  },
+  {
+    "query": "Come è cambiata la struttura sociale italiana dal 1931 al 2001?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_11_Lez011.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_11_Lez011.txt-3",
+      "economia_applicata_clean_11_Lez011.txt-4"
+    ]
+  },
+  {
+    "query": "Perché l'aumento del numero di famiglie influenza le strutture urbane in Italia?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_11_Lez011.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_11_Lez011.txt-2"
+    ]
+  },
+  {
+    "query": "Che tipo di problemi ci sono nel 1961?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quali sono i grandi cicli del capitalismo secondo Schumpeter?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_13_Lez013.txt-5",
+    "relevant_docs": [
+      "economia_applicata_clean_13_Lez013.txt-5"
+    ]
+  },
+  {
+    "query": "Qual è l'importanza della crisi del 1929 nella storia economica?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_13_Lez013.txt-9",
+    "relevant_docs": [
+      "economia_applicata_clean_13_Lez013.txt-9"
+    ]
+  },
+  {
+    "query": "Perché i cicli economici di Schumpeter sono difficili da identificare nel momento attuale?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_13_Lez013.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_13_Lez013.txt-3"
+    ]
+  },
+  {
+    "query": "Che cosa sta succedendo?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quali sono le quattro fasi individuate nel periodo della globalizzazione?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_15_Lez015.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_15_Lez015.txt-2"
+    ]
+  },
+  {
+    "query": "Qual è stata l'importanza della globalizzazione per la crisi economica globale?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_15_Lez015.txt-5",
+    "relevant_docs": [
+      "economia_applicata_clean_15_Lez015.txt-5"
+    ]
+  },
+  {
+    "query": "Perché la crisi del 2008 ha segnato una divisione tra le economie emergenti e sviluppate?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_15_Lez015.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_15_Lez015.txt-1",
+      "economia_applicata_clean_15_Lez015.txt-0"
+    ]
+  },
+  {
+    "query": "Cosa ha causato lo squilibrio in economia?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Qual è il ruolo della crisi del 2008 nella trasformazione economica globale?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_17_Lez017.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_17_Lez017.txt-1",
+      "economia_applicata_clean_17_Lez017.txt-5"
+    ]
+  },
+  {
+    "query": "Perché l'educazione e la ricerca sono cruciali per la crescita economica della Cina?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_17_Lez017.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_17_Lez017.txt-8",
+      "economia_applicata_clean_17_Lez017.txt-9"
+    ]
+  },
+  {
+    "query": "Cosa succederà con la crisi dei paesi nel futuro?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Come differiscono i cicli economici del nuovo secolo rispetto a quelli del Novecento?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_19_Bianchi_Lez001.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_19_Bianchi_Lez001.txt-2",
+      "economia_applicata_clean_19_Bianchi_Lez001.txt-3",
+      "economia_applicata_clean_19_Bianchi_Lez001.txt-5",
+      "economia_applicata_clean_19_Bianchi_Lez001.txt-11"
+    ]
+  },
+  {
+    "query": "Perché il 2001 è considerato uno spartiacque importante per l'economia mondiale?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_19_Bianchi_Lez001.txt-5",
+    "relevant_docs": [
+      "economia_applicata_clean_19_Bianchi_Lez001.txt-4",
+      "economia_applicata_clean_19_Bianchi_Lez001.txt-5"
+    ]
+  },
+  {
+    "query": "Che differenza c'è tra il ciclo economico e il ciclo di vita dei prodotti?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Qual è la definizione di un bene finale e come si differenzia da un bene intermedio?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_21_Bianchi_Lez003.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-2"
+    ]
+  },
+  {
+    "query": "Come è cambiata l'organizzazione produttiva dall'epoca fordista ad oggi?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_21_Bianchi_Lez003.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-3",
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-4",
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-5",
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-6"
+    ]
+  },
+  {
+    "query": "Quali implicazioni ha l'aumento dell'interscambio di prodotti intermedi sull'economia mondiale?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_21_Bianchi_Lez003.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-3",
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-4",
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-5",
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-6"
+    ]
+  },
+  {
+    "query": "Cosa succederebbe se il governo nazionale influisce sulle economie locali?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Spiega come l'economia derivativa abbia influenzato la crescita americana.",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_23_Bianchi_Lez005.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_23_Bianchi_Lez005.txt-1",
+      "economia_applicata_clean_23_Bianchi_Lez005.txt-2"
+    ]
+  },
+  {
+    "query": "Come le politiche economiche di Reagan hanno portato a una crisi globale di sistema?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_23_Bianchi_Lez005.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_23_Bianchi_Lez005.txt-7"
+    ]
+  },
+  {
+    "query": "Quali conseguenze provengono da crescita stagnante?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Qual è la funzione dell'Union Innovation Scoreboard?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_25_Lez007.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_25_Lez007.txt-4"
+    ]
+  },
+  {
+    "query": "Come è cambiata la situazione economica delle regioni italiane nel contesto europeo con l'introduzione dell'euro?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_25_Lez007.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_25_Lez007.txt-3",
+      "economia_applicata_clean_25_Lez007.txt-2"
+    ]
+  },
+  {
+    "query": "Perché solo alcune regioni del Nord Italia sono diventate leader nell'innovazione?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_25_Lez007.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_25_Lez007.txt-11"
+    ]
+  },
+  {
+    "query": "Quali strategie possono essere adottate per migliorare?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Chi è stato uno dei principali critici dell'idea che l'aumento delle risorse porti automaticamente alla crescita economica?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_27_Lez009.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_27_Lez009.txt-0"
+    ]
+  },
+  {
+    "query": "Spiega come l'approccio integrato differisce dalle politiche industriali del passato.",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_27_Lez009.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_27_Lez009.txt-0",
+      "economia_applicata_clean_27_Lez009.txt-2",
+      "economia_applicata_clean_27_Lez009.txt-6"
+    ]
+  },
+  {
+    "query": "Quali potrebbero essere le conseguenze di una politica che si concentra esclusivamente sulla crescita dei diritti senza adeguate risorse?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_27_Lez009.txt-5",
+    "relevant_docs": [
+      "economia_applicata_clean_27_Lez009.txt-5"
+    ]
+  },
+  {
+    "query": "Come funziona l'approccio integrato nella gestione delle politiche?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Qual è la differenza principale tra psicolinguistica e neurolinguistica?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez002.txt-1",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez002.txt-1"
+    ]
+  },
+  {
+    "query": "Spiega i livelli di analisi del linguaggio proposti dalla linguistica.",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez002.txt-1",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez002.txt-1"
+    ]
+  },
+  {
+    "query": "Perché il fonema è considerato un'astrazione nella linguistica?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez002.txt-3",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez002.txt-3",
+      "linguaggio_e_comunicazione_clean_Lez002.txt-4"
+    ]
+  },
+  {
+    "query": "Come funziona il linguaggio nel cervello?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Qual è il termine che descrive lo sviluppo della lingua storico-naturale nel singolo individuo?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez004.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez004.txt-0"
+    ]
+  },
+  {
+    "query": "Riassumi i processi che portano all'apprendimento del linguaggio nel bambino nei primi 18 mesi.",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez004.txt-8",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez004.txt-8",
+      "linguaggio_e_comunicazione_clean_Lez004.txt-9"
+    ]
+  },
+  {
+    "query": "Come potrebbe un bambino esposto al linguaggio dei segni percepire i movimenti delle mani rispetto ai suoni?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez004.txt-16",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez004.txt-15"
+    ]
+  },
+  {
+    "query": "Cos'è che rende speciale lo sviluppo linguistico?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quali tecniche sono utilizzate per mettere in relazione il comportamento linguistico con le strutture neurali?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez006.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez006.txt-0"
+    ]
+  },
+  {
+    "query": "Come possono le tecniche di stimolazione cerebrale aiutare nello studio del linguaggio?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez006.txt-12",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez006.txt-12"
+    ]
+  },
+  {
+    "query": "In che modo una lesione cerebrale influenzerebbe la capacità linguistica?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez006.txt-8",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez006.txt-8",
+      "linguaggio_e_comunicazione_clean_Lez006.txt-9"
+    ]
+  },
+  {
+    "query": "Cosa si intende per mappatura delle correlazioni nel linguaggio?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quali sono le categorie principali della memoria a lungo termine secondo gli studi citati?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez008.txt-6",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez008.txt-7"
+    ]
+  },
+  {
+    "query": "Come viene spiegato il rapporto tra linguaggio e memoria nei bilinguismi nelle lezioni?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez008.txt-8",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez008.txt-0",
+      "linguaggio_e_comunicazione_clean_Lez008.txt-8",
+      "linguaggio_e_comunicazione_clean_Lez008.txt-9",
+      "linguaggio_e_comunicazione_clean_Lez008.txt-10"
+    ]
+  },
+  {
+    "query": "Come influenzano l'età di acquisizione e la padronanza le rappresentazioni linguistiche nel cervello?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez008.txt-15",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez008.txt-15"
+    ]
+  },
+  {
+    "query": "Qual è il segreto dell'apprendimento implicito della grammatica?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quali sono le parti del cervello particolarmente importanti per il linguaggio?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez010.txt-2",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez010.txt-2"
+    ]
+  },
+  {
+    "query": "Come la fasiologia si è sviluppata a partire dalle teorie di Broca e Verniche?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez010.txt-5",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez010.txt-5",
+      "linguaggio_e_comunicazione_clean_Lez010.txt-6"
+    ]
+  },
+  {
+    "query": "Cosa potrebbe indicare una lesione all'area di Broca nell'emisfero sinistro?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez010.txt-7",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez010.txt-7"
+    ]
+  },
+  {
+    "query": "Quante tipologie di ventole cerebrali esistono?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Qual è la differenza tra un disturbo acquisito del linguaggio e un disturbo specifico del linguaggio nei bambini?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez012.txt-4",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez012.txt-4"
+    ]
+  },
+  {
+    "query": "Quali sono le principali considerazioni per la valutazione dei disturbi linguistici nei bambini?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez012.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez012.txt-0",
+      "linguaggio_e_comunicazione_clean_Lez012.txt-1"
+    ]
+  },
+  {
+    "query": "In che modo la plasticità cerebrale influisce sulla capacità di recupero nei bambini con lesioni linguistiche?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez012.txt-6",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez012.txt-6",
+      "linguaggio_e_comunicazione_clean_Lez012.txt-7"
+    ]
+  },
+  {
+    "query": "Perché i test diagnostici sono importanti?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quali sono le due grandi categorie di comunicazione non verbale?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez014.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez014.txt-0"
+    ]
+  },
+  {
+    "query": "Perché il contatto occhio-occhio ha un valore sociale importante?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez014.txt-4",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez014.txt-4"
+    ]
+  },
+  {
+    "query": "Come non verbale impatta il lavoro?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quante lingue dei segni esistono secondo Ethnolog?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez001.txt-1",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez001.txt-1"
+    ]
+  },
+  {
+    "query": "In che modo le lingue dei segni si differenziano dalle lingue vocali?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez001.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez001.txt-0"
+    ]
+  },
+  {
+    "query": "Quali fattori influenzano l'evoluzione delle lingue dei segni in una comunità?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez001.txt-9",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez001.txt-8"
+    ]
+  },
+  {
+    "query": "Le lingue dei segni sono difficili da capire?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Chi ha pubblicato la primissima descrizione della forma di comunicazione usata dagli studenti sordi negli anni '60?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez003.txt-1",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez003.txt-1"
+    ]
+  },
+  {
+    "query": "Come la ricerca sulle lingue dei segni all'estero ha influenzato lo sviluppo in Italia?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez003.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez003.txt-2",
+      "linguaggio_e_comunicazione_clean_Volterra_Lez003.txt-3"
+    ]
+  },
+  {
+    "query": "Perché la lingua dei segni italiana era inizialmente considerata primitiva?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez003.txt-4",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez003.txt-4"
+    ]
+  },
+  {
+    "query": "Quante lingue si parlano?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Cos'è il bilinguismo bimodale?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez005.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez005.txt-0"
+    ]
+  },
+  {
+    "query": "Perché è importante l'età di esposizione per l'acquisizione linguistica?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez005.txt-1",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez005.txt-1"
+    ]
+  },
+  {
+    "query": "Come migliora un bambino la competenza nella lingua scritta?",
+    "question_type": "ambiguous",
+    "gold_answer": null,
+    "relevant_docs": []
+  }
+]

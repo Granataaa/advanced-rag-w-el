@@ -1,0 +1,2227 @@
+[
+  {
+    "query": "Qual è stato il contributo di Adam Smith alla rivoluzione industriale con il suo libro 'La ricchezza delle Nazioni'?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-1"
+    ],
+    "mentions": [
+      "Adam Smith",
+      "La ricchezza delle Nazioni"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Riassumi come l'Italia è stata influenzata politicamente ed economicamente dalla divisione in tanti piccoli stati prima dell'unità nel 1861.",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-4",
+      "economia_applicata_clean_02_Lez002.txt-6",
+      "economia_applicata_clean_02_Lez002.txt-9"
+    ],
+    "mentions": [
+      "Italia",
+      "regno d'Italia"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo le caratteristiche geografiche e storiche dell'Italia hanno influenzato la sua capacità di partecipare alla rivoluzione industriale?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "Italia"
+    ],
+    "hops": 3
+  },
+  {
+    "query": "Quale sistema bancario si è sviluppato in Francia nella seconda metà dell'Ottocento grazie ai fratelli Perrier?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-0"
+    ],
+    "mentions": [
+      "Francia",
+      "Ottocento",
+      "fratelli Perrier"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come si intreccia il ruolo dello Stato con grandi banche e imprese in Italia all'inizio del Novecento?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-3",
+      "economia_applicata_clean_04_Lez004.txt-4"
+    ],
+    "mentions": [
+      "Stato",
+      "Italia",
+      "Novecento"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali conseguenze ha avuto l'economia di guerra sul sistema economico italiano durante la Prima Guerra Mondiale?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "Italia",
+      "Prima Guerra Mondiale"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Quale piano ha determinato il trasferimento di risorse dagli Stati Uniti verso l'Europa alla fine della Seconda Guerra Mondiale?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-3"
+    ],
+    "mentions": [
+      "piano Marshall",
+      "Stati Uniti",
+      "Europa",
+      "Seconda Guerra Mondiale"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come ha contribuito l'apertura dei mercati internazionali al boom economico italiano negli anni '60?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-9",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-9",
+      "economia_applicata_clean_06_Lez006.txt-10"
+    ],
+    "mentions": [
+      "Italia",
+      "boom economico"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "In che modo la politica dei cambi fissi stabilita a Bretton Woods ha influenzato le economie dei paesi come l'Italia?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-4",
+      "economia_applicata_clean_06_Lez006.txt-5",
+      "economia_applicata_clean_06_Lez006.txt-6"
+    ],
+    "mentions": [
+      "Bretton Woods",
+      "Italia",
+      "Fondo Monetario Internazionale"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In quale contesto economico si sviluppò la rivoluzione borghese in Inghilterra?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-0"
+    ],
+    "mentions": [
+      "rivoluzione borghese",
+      "Inghilterra"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Sintetizza l'impatto delle divisioni regionali sulla nascita dell'industria in Italia nel periodo postunitario.",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-10",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-10",
+      "economia_applicata_clean_02_Lez002.txt-11"
+    ],
+    "mentions": [
+      "Italia",
+      "nascita dell'industria"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Che relazione esiste tra la politica del re di Prussia e lo sviluppo economico in Italia?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "re di Prussia",
+      "Italia"
+    ],
+    "hops": 3
+  },
+  {
+    "query": "Quali erano le casse di risparmio nate nella metà dell'Ottocento in Italia?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-0"
+    ],
+    "mentions": [
+      "Ottocento",
+      "Italia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come ha contribuito Giovanni Giolitti al decollo industriale dell'Italia?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-4",
+      "economia_applicata_clean_04_Lez004.txt-6"
+    ],
+    "mentions": [
+      "Giovanni Giolitti",
+      "Italia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Perché il sistema della banca mista era considerato pericoloso in Italia agli inizi del Novecento?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "Italia",
+      "Novecento"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Qual era il ruolo di John Maynard Keynes nella conferenza di Bretton Woods?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-3"
+    ],
+    "mentions": [
+      "John Maynard Keynes",
+      "Bretton Woods"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Quali sono state le conseguenze della ricostruzione civile in Italia negli anni '50 in termini di sviluppo economico?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-9",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-9",
+      "economia_applicata_clean_06_Lez006.txt-10"
+    ],
+    "mentions": [
+      "La ricostruzione civile",
+      "Italia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come ha influenzato l'apertura economica l'evoluzione del sistema salariale in Italia durante il boom economico?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "Italia"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Che cosa ha detto Adamo Smith riguardo alla divisione del lavoro?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-3"
+    ],
+    "mentions": [
+      "Adamo Smith"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come l'Inghilterra ha influenzato lo sviluppo industriale nel Settecento?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-1"
+    ],
+    "mentions": [
+      "Inghilterra",
+      "Settecento"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "In che modo la rapida unificazione politica in Italia ha influenzato lo sviluppo economico?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-4"
+    ],
+    "mentions": [
+      "Italia",
+      "regno d'Italia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Qual è stato il contributo di Adam Smith alla rivoluzione borghese?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-1"
+    ],
+    "mentions": [
+      "Adam Smith",
+      "rivoluzione borghese"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come Adam Smith vede la relazione tra dimensione del mercato e grado di specializzazione?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-3",
+      "economia_applicata_clean_02_Lez002.txt-4"
+    ],
+    "mentions": [
+      "Adam Smith"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo la rapida unificazione del regno d'Italia ha influito sull'integrazione economica del paese?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-4",
+      "economia_applicata_clean_02_Lez002.txt-5"
+    ],
+    "mentions": [
+      "regno d'Italia",
+      "unificazione"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Chi sono i fratelli Perrier e qual è il loro contributo al sistema bancario?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-0"
+    ],
+    "mentions": [
+      "fratelli Perrier",
+      "Napoleone III"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Sintetizza come l'Italia ha utilizzato il sistema di banca mista sotto Giovanni Giolitti per promuovere la crescita industriale.",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-3",
+      "economia_applicata_clean_04_Lez004.txt-4",
+      "economia_applicata_clean_04_Lez004.txt-5"
+    ],
+    "mentions": [
+      "Giovanni Giolitti",
+      "Italia"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quale potrebbe essere stata la causa principale del crollo della banca italiana di sconto secondo lo scenario descritto?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-5",
+      "economia_applicata_clean_04_Lez004.txt-6",
+      "economia_applicata_clean_04_Lez004.txt-7"
+    ],
+    "mentions": [
+      "banca italiana di sconto",
+      "Ansaldo"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è stato il ruolo del piano Marshall nella ricostruzione europea del dopoguerra?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-3",
+      "economia_applicata_clean_06_Lez006.txt-7"
+    ],
+    "mentions": [
+      "piano Marshall"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "In che modo gli sviluppi economici e politici in Europa dopo la Seconda Guerra Mondiale sono stati influenzati da Bretton Woods e dal piano Marshall?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-3",
+      "economia_applicata_clean_06_Lez006.txt-7",
+      "economia_applicata_clean_06_Lez006.txt-10"
+    ],
+    "mentions": [
+      "Bretton Woods",
+      "piano Marshall"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Perché la Germania giocò un ruolo cruciale nella comunità economica europea dopo la Seconda Guerra Mondiale?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "Germania",
+      "CECA CECA"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali furono le conseguenze economiche per la Germania di Weimar dopo la prima guerra mondiale?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_08_Lez008.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_08_Lez008.txt-0"
+    ],
+    "mentions": [
+      "Germania di Weimar"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "In che modo gli aiuti degli Stati Uniti contribuirono al rilancio economico dell'Italia nel dopoguerra?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_08_Lez008.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_08_Lez008.txt-1"
+    ],
+    "mentions": [
+      "Stati Uniti",
+      "Italia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Qual era il ruolo della comunità europea del carbone e acciaio nella gestione del conflitto tra Francia e Germania?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_08_Lez008.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_08_Lez008.txt-4",
+      "economia_applicata_clean_08_Lez008.txt-5"
+    ],
+    "mentions": [
+      "comunità europea del carbone e acciaio",
+      "Francia",
+      "Germania"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è stata l'evoluzione della popolazione italiana dal 1911 al 2006 secondo le informazioni tratte dal testo?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_10_Lez010.txt-5",
+    "relevant_docs": [
+      "economia_applicata_clean_10_Lez010.txt-5",
+      "economia_applicata_clean_10_Lez010.txt-6"
+    ],
+    "mentions": [
+      "Italia",
+      "2006"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo la scuola ha contribuito alla formazione delle identità nazionali secondo Osborne?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_10_Lez010.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_10_Lez010.txt-2",
+      "economia_applicata_clean_10_Lez010.txt-3"
+    ],
+    "mentions": [
+      "Osborne",
+      "Nazione",
+      "Stato"
+    ],
+    "hops": 3
+  },
+  {
+    "query": "Quali sono le due entità i cui territori erano comunicanti ma ora sono separati da un confine per effetto delle politiche linguistiche nazionali?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_10_Lez010.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_10_Lez010.txt-2"
+    ],
+    "mentions": [
+      "Genova",
+      "Marsiglia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Quando crolla il titolo di Lehman Brothers alla borsa di New York, segnando l'inizio della crisi globale?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_12_Lez012.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_12_Lez012.txt-0"
+    ],
+    "mentions": [
+      "Lehman Brothers",
+      "borsa di New York"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Qual è stata l'evoluzione del concetto di crisi e come è interpretato nelle diverse culture secondo il testo?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_12_Lez012.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_12_Lez012.txt-3",
+      "economia_applicata_clean_12_Lez012.txt-4"
+    ],
+    "mentions": [
+      "In latino",
+      "Cina"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali sono state le conseguenze sociali della speculazione sui tulipani nei Paesi Bassi e come si sono manifestate in termini politici?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "tulipano",
+      "Olanda",
+      "Duca d'Orange"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è stato l'impatto del Gramlich-Billy Act sulla deregolamentazione del mercato finanziario?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_14_Lez014.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_14_Lez014.txt-3",
+      "economia_applicata_clean_14_Lez014.txt-4",
+      "economia_applicata_clean_14_Lez014.txt-5"
+    ],
+    "mentions": [
+      "Gramlich-Billy Act"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come si articola la spiegazione di Schumpeter riguardo ai cicli economici in relazione alla crisi del 2008?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_14_Lez014.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_14_Lez014.txt-0"
+    ],
+    "mentions": [
+      "Schumpeter"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Qual è la relazione tra Bretton Woods e la capacità degli Stati Uniti di mantenere il controllo dell'economia mondiale?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_14_Lez014.txt-11",
+    "relevant_docs": [
+      "economia_applicata_clean_14_Lez014.txt-11",
+      "economia_applicata_clean_14_Lez014.txt-12"
+    ],
+    "mentions": [
+      "Bretton Woods",
+      "Stati Uniti"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali sono le implicazioni del programma di Reaganomics sull'economia degli Stati Uniti durante l'amministrazione Reagan?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_16_Lez016.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_16_Lez016.txt-4",
+      "economia_applicata_clean_16_Lez016.txt-3"
+    ],
+    "mentions": [
+      "Reaganomics",
+      "Reagan"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come è evoluta la competitività degli Stati Uniti dagli anni '90 nel contesto della crisi globale?",
+    "question_type": "synthesis",
+    "gold_answer": null,
+    "relevant_docs": [
+      "economia_applicata_clean_16_Lez016.txt-1",
+      "economia_applicata_clean_16_Lez016.txt-2",
+      "economia_applicata_clean_16_Lez016.txt-5"
+    ],
+    "mentions": [
+      "Stati Uniti",
+      "Cina",
+      "Giappone"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo l'interrelazione tra la Cina e gli Stati Uniti influenza il debito pubblico americano?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_16_Lez016.txt-8",
+    "relevant_docs": [
+      "economia_applicata_clean_16_Lez016.txt-8"
+    ],
+    "mentions": [
+      "Cina",
+      "Stati Uniti"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è stato il ruolo del dollaro secondo la visione di Lord Keynes dopo la seconda guerra mondiale?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_18_Lez018.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_18_Lez018.txt-1"
+    ],
+    "mentions": [
+      "Lord Keynes"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come ha reagito la Germania rispetto alla crisi economica e come questa reazione si differenzia da paesi come Grecia e Portogallo?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_18_Lez018.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_18_Lez018.txt-3",
+      "economia_applicata_clean_18_Lez018.txt-4"
+    ],
+    "mentions": [
+      "Germania",
+      "Grecia",
+      "Portogallo"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali potrebbero essere le implicazioni per l'Europa se i paesi come Germania e Francia adottassero politiche protezioniste in risposta alla crisi?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "Francia",
+      "Germania"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Quali sono le differenze tra la teoria del commercio internazionale di Smith e quella di Riccardo?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_20_Bianchi_Lez002.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_20_Bianchi_Lez002.txt-0",
+      "economia_applicata_clean_20_Bianchi_Lez002.txt-1"
+    ],
+    "mentions": [
+      "Smith",
+      "Riccardo"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come è cambiato il commercio mondiale dalla fine della guerra ad oggi, tenendo conto della globalizzazione?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_20_Bianchi_Lez002.txt-15",
+    "relevant_docs": [
+      "economia_applicata_clean_20_Bianchi_Lez002.txt-3",
+      "economia_applicata_clean_20_Bianchi_Lez002.txt-7",
+      "economia_applicata_clean_20_Bianchi_Lez002.txt-9"
+    ],
+    "mentions": [
+      "Globalizzazione"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Quali possono essere le conseguenze di un rallentamento della crescita della Cina sul commercio mondiale?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "Cina"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Qual è il ruolo della Cina nel mercato delle ceramiche e quali tecnologie ha acquisito dall'Italia?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_22_Bianchi_Lez004.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_22_Bianchi_Lez004.txt-1"
+    ],
+    "mentions": [
+      "Cina",
+      "Italia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come il sistema industriale italiano è stato influenzato dalla globalizzazione e dalle crisi degli anni 2009-2011?",
+    "question_type": "synthesis",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "Italia",
+      "globalizzazione"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali implicazioni ha avuto la crisi del 2011 per le imprese italiane nel contesto della competizione globale?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "Italia",
+      "globalizzazione"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quando è avvenuto il default di Lehman Brothers e quale impatto ha avuto sull'economia mondiale?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_24_Lez006.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_24_Lez006.txt-1"
+    ],
+    "mentions": [
+      "Lehman Brothers"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come è stata influenzata l'economia dell'Italia dalla globalizzazione e dalle crisi economiche dal 2000 in poi?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_24_Lez006.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_24_Lez006.txt-0",
+      "economia_applicata_clean_24_Lez006.txt-3",
+      "economia_applicata_clean_24_Lez006.txt-5"
+    ],
+    "mentions": [
+      "Italia"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali implicazioni ha avuto la crisi del 2009 sulle politiche economiche dei paesi europei, e come ha evidenziato le differenze tra stati come la Germania e l'Italia?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [
+      "economia_applicata_clean_24_Lez006.txt-9"
+    ],
+    "mentions": [
+      "Germania",
+      "Italia",
+      "Europa"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali sono i piani di rilancio dell'industria americana che hanno caratterizzato l'amministrazione di Barack Obama?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_26_Lez008.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_26_Lez008.txt-1"
+    ],
+    "mentions": [
+      "Barack Obama",
+      "Obama"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come viene reinterpretato il ruolo della politica industriale nell'età della globalizzazione?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_26_Lez008.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_26_Lez008.txt-2",
+      "economia_applicata_clean_26_Lez008.txt-3",
+      "economia_applicata_clean_26_Lez008.txt-4"
+    ],
+    "mentions": [
+      "politica industriale",
+      "globalizzazione"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "In che modo la crescita economica della Cina è influenzata dalle politiche di entitlements e capability secondo il testo?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_26_Lez008.txt-8",
+    "relevant_docs": [
+      "economia_applicata_clean_26_Lez008.txt-6",
+      "economia_applicata_clean_26_Lez008.txt-7",
+      "economia_applicata_clean_26_Lez008.txt-8"
+    ],
+    "mentions": [
+      "Cina",
+      "Entitlements",
+      "capability"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali sono i tre tipi di segnali d'allarme utilizzati dai cercopitechi?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez001.txt-1",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez001.txt-1",
+      "linguaggio_e_comunicazione_clean_Lez001.txt-2"
+    ],
+    "mentions": [
+      "cercopitechi"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come viene descritta la creatività o apertura del linguaggio umano rispetto al codice comunicativo delle api?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez001.txt-6",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez001.txt-6",
+      "linguaggio_e_comunicazione_clean_Lez001.txt-2",
+      "linguaggio_e_comunicazione_clean_Lez001.txt-1"
+    ],
+    "mentions": [
+      "api"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali aspetti potrebbero indicare che le scimmie antropomorfe non sviluppano il linguaggio umano a causa del tratto sovralaringeo?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "antropomorfe"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Qual è il ruolo della laringe nella produzione del suono linguistico?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez003.txt-5",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez003.txt-5",
+      "linguaggio_e_comunicazione_clean_Lez003.txt-6"
+    ],
+    "mentions": [
+      "larynge"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "In che modo le frequenze formanti influenzano la percezione dei suoni vocalici?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez003.txt-8",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez003.txt-8",
+      "linguaggio_e_comunicazione_clean_Lez003.txt-9",
+      "linguaggio_e_comunicazione_clean_Lez003.txt-10"
+    ],
+    "mentions": [
+      "F0",
+      "F1",
+      "F2",
+      "Hz"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali possono essere le implicazioni del posizionamento della lingua e delle labbra nella produzione della vocale ‘A’?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez003.txt-10",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez003.txt-10",
+      "linguaggio_e_comunicazione_clean_Lez003.txt-11"
+    ],
+    "mentions": [
+      "A",
+      "E, vedete, il velo palatino"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali condizioni hanno portato Roger Sperry a ricevere il premio Nobel?",
+    "question_type": "fact",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "Roger Sperry",
+      "premio Nobel"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come viene descritto l'effetto Stroop nel contesto degli stimoli linguistici?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez005.txt-5",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez005.txt-5",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-6"
+    ],
+    "mentions": [
+      "Stroop"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Qual è l'inferenza linguistica che può essere fatta dall'efficacia del priming facilitatorio semantico tra le parole 'cane' e 'gatto'?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez005.txt-4",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez005.txt-4",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-5"
+    ],
+    "mentions": [
+      "cane",
+      "gatto"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali differenze ci sono tra la risonanza magnetica funzionale e la magnetoencefalografia in termini di risoluzione spaziale e temporale?",
+    "question_type": "fact",
+    "gold_answer": null,
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez007.txt-0",
+      "linguaggio_e_comunicazione_clean_Lez007.txt-12"
+    ],
+    "mentions": [
+      "magnetoencefalografia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come si utilizzano le tecniche di risonanza magnetica funzionale per studiare le attività linguistiche nel cervello?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez007.txt-9",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez007.txt-9",
+      "linguaggio_e_comunicazione_clean_Lez007.txt-7",
+      "linguaggio_e_comunicazione_clean_Lez007.txt-8"
+    ],
+    "mentions": [
+      "BOLD",
+      "linguaggio"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Per quale motivo il consumo di ossigeno nei neuroni può essere correlato all'attività cerebrale studiata tramite la risonanza magnetica funzionale?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez007.txt-5",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez007.txt-4",
+      "linguaggio_e_comunicazione_clean_Lez007.txt-5"
+    ],
+    "mentions": [
+      "ossigeno"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Chi era un dislessico dichiarato secondo 'Einstein'?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez009.txt-1",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez009.txt-1"
+    ],
+    "mentions": [
+      "Einstein"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Sintetizza l'importanza dell''emisfero di sinistra' nel contesto dei processi di lettura.",
+    "question_type": "synthesis",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "emisfero di sinistra"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Quale potrebbe essere la relazione tra i movimenti oculari alterati e la 'dislessia'?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez009.txt-5",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez009.txt-5",
+      "linguaggio_e_comunicazione_clean_Lez009.txt-6"
+    ],
+    "mentions": [
+      "dislessia"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è la specificità del test diagnostico di afasia di Boston?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez011.txt-2",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez011.txt-2"
+    ],
+    "mentions": [
+      "Boston"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come varia l'eloquio nel linguaggio fluente rispetto a quello ridotto?",
+    "question_type": "synthesis",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "elocchio"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Quali ipotesi si possono fare sulla memoria procedurale della paziente veneta in base alle sue capacità linguistiche?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez011.txt-13",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez011.txt-13"
+    ],
+    "mentions": [
+      "veneto"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è il contributo di Claude Shannon nello sviluppo della teoria matematica della comunicazione?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez013.txt-2",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez013.txt-2",
+      "linguaggio_e_comunicazione_clean_Lez013.txt-3"
+    ],
+    "mentions": [
+      "Claude Shannon",
+      "Shannon"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Spiega in che modo la comunicazione verbale e la discomunicazione sono collegate secondo la psicologia della comunicazione.",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez013.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez013.txt-0",
+      "linguaggio_e_comunicazione_clean_Lez013.txt-1",
+      "linguaggio_e_comunicazione_clean_Lez013.txt-3"
+    ],
+    "mentions": [
+      "discomunicazione"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo le pratiche linguistiche raccomandate da Grice differiscono dal modello di Shannon-Weaver in termini di implicature conversazionali?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez013.txt-6",
+      "linguaggio_e_comunicazione_clean_Lez013.txt-7",
+      "linguaggio_e_comunicazione_clean_Lez013.txt-8",
+      "linguaggio_e_comunicazione_clean_Lez013.txt-3",
+      "linguaggio_e_comunicazione_clean_Lez013.txt-4"
+    ],
+    "mentions": [
+      "Grice",
+      "Shannon-Weaver",
+      "implicature conversazionali"
+    ],
+    "hops": 3
+  },
+  {
+    "query": "Qual è il contributo di Giacomo Rizzolatti e dell'Università di Parma nello studio dei neuroni specchio?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez015.txt-6",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez015.txt-6",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-7",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-8"
+    ],
+    "mentions": [
+      "Giacomo Rizzolatti",
+      "Università di Parma"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come la scoperta dei neuroni specchio da parte di Giacomo Rizzolatti ha influenzato la comprensione del gesto?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez015.txt-6",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez015.txt-6",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-7",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-8"
+    ],
+    "mentions": [
+      "Giacomo Rizzolatti"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "In che modo i disturbi aprassici possono influenzare la percezione e l'azione nei pazienti, secondo gli studi sui neuroni specchio?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez015.txt-11"
+    ],
+    "mentions": [
+      "aprassiche",
+      "neuroni specchio"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quale importante distinzione ha fatto Aristotile riguardo alla comunicazione dei sordi?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez002.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez002.txt-0"
+    ],
+    "mentions": [
+      "Aristotile"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Quali sono stati i contributi significativi di Agricola e Girolamo Cardano nell'educazione dei sordi?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez002.txt-3",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez002.txt-3"
+    ],
+    "mentions": [
+      "Agricola",
+      "Girolamo Cardano"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Perché il congresso di Milano nel 1880 ha avuto un impatto negativo sull'uso della lingua dei segni tra i sordi?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [],
+    "mentions": [
+      "congresso di Milano"
+    ],
+    "hops": 3
+  },
+  {
+    "query": "Quali lingue dei segni utilizzano diverse configurazioni della mano per esprimere il concetto di 'I love you'?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-2",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-2"
+    ],
+    "mentions": [
+      "I love you",
+      "American Sign Language"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Spiega come la lingua dei segni italiana (LIS) dimostra il concetto di iconicità e arbitrarietà attraverso l'esempio del segno 'albero'.",
+    "question_type": "synthesis",
+    "gold_answer": null,
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-3"
+    ],
+    "mentions": [
+      "LIS"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come le differenze culturali tra Italia e Stati Uniti influenzano la percezione dei segni nella lingua dei segni?",
+    "question_type": "inference",
+    "gold_answer": null,
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-2",
+      "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-3"
+    ],
+    "mentions": [
+      "Italia",
+      "Stati Uniti"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali sono stati i due gruppi che hanno tradotto l'Inno di Mameli in LIS?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-5",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-5"
+    ],
+    "mentions": [
+      "Inno di Mameli",
+      "Deaf Media",
+      "Ciclope"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come le espressioni artistiche in LIS riflettono la cultura dei sordi?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-7",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-7"
+    ],
+    "mentions": [
+      "lingua dei segni al cinema",
+      "Marlee McLean",
+      "Eugenio Scarlato",
+      "Daniele Silvestri"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "In che modo il riconoscimento delle lingue dei segni avrebbe un impatto sociale e culturale secondo la Convenzione ONU?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-8",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-8"
+    ],
+    "mentions": [
+      "ONU",
+      "Nazioni Unite",
+      "lingue dei segni"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Qual è il contributo di Adam Smith alla rivoluzione borghese in Inghilterra del Settecento?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-1",
+      "economia_applicata_clean_02_Lez002.txt-2"
+    ],
+    "mentions": [
+      "Adam Smith",
+      "Inghilterra del Settecento"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come si è sviluppata l'industria nel Lombardo-Veneto e nel Piemonte rispetto al resto d'Italia?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-7",
+      "economia_applicata_clean_02_Lez002.txt-8"
+    ],
+    "mentions": [
+      "Lombardo-Veneto",
+      "Piemonte"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Perché l'Italia è considerata un paese in ritardo rispetto alla rivoluzione industriale, e quali sono le implicazioni di questo ritardo?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-13",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-13",
+      "economia_applicata_clean_02_Lez002.txt-14",
+      "economia_applicata_clean_02_Lez002.txt-15"
+    ],
+    "mentions": [
+      "Italia",
+      "rivoluzione industriale"
+    ],
+    "hops": 3
+  },
+  {
+    "query": "Qual è stato il ruolo di Giovanni Giolitti nel decollo industriale italiano?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-4",
+      "economia_applicata_clean_04_Lez004.txt-5"
+    ],
+    "mentions": [
+      "Giovanni Giolitti"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come si è evoluto il sistema bancario italiano durante il periodo di crescita industriale sotto Giolitti?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-4",
+      "economia_applicata_clean_04_Lez004.txt-5",
+      "economia_applicata_clean_04_Lez004.txt-6"
+    ],
+    "mentions": [
+      "Giolitti",
+      "Italia"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo la relazione tra banche e imprese ha contribuito alla crisi economica in Italia dopo la Prima Guerra Mondiale?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-8",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-3",
+      "economia_applicata_clean_04_Lez004.txt-4",
+      "economia_applicata_clean_04_Lez004.txt-8"
+    ],
+    "mentions": [
+      "Italia",
+      "Prima Guerra Mondiale"
+    ],
+    "hops": 3
+  },
+  {
+    "query": "Qual è stato il ruolo di John Maynard Keynes nel cambiamento delle politiche economiche dopo la Seconda Guerra Mondiale?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-1",
+      "economia_applicata_clean_06_Lez006.txt-3"
+    ],
+    "mentions": [
+      "John Maynard Keynes",
+      "Seconda Guerra Mondiale"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come ha contribuito il piano Marshall allo sviluppo economico dell'Europa nel dopoguerra?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-3",
+      "economia_applicata_clean_06_Lez006.txt-7"
+    ],
+    "mentions": [
+      "piano Marshall",
+      "Europa"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "In che modo la creazione del Fondo Monetario Internazionale ha influenzato la stabilità economica globale dopo la Seconda Guerra Mondiale?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-5",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-5",
+      "economia_applicata_clean_06_Lez006.txt-6"
+    ],
+    "mentions": [
+      "Fondo Monetario Internazionale",
+      "Seconda Guerra Mondiale"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali furono le conseguenze economiche della grande inflazione della Germania di Weimar dopo la prima guerra mondiale?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_08_Lez008.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_08_Lez008.txt-0"
+    ],
+    "mentions": [
+      "Germania di Weimar"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come ha contribuito l'Unione Europea al rilancio economico dell'Italia nel dopoguerra?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_08_Lez008.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_08_Lez008.txt-1",
+      "economia_applicata_clean_08_Lez008.txt-3",
+      "economia_applicata_clean_08_Lez008.txt-4"
+    ],
+    "mentions": [
+      "Unione Europea",
+      "Italia"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo il metodo Monet ha influenzato l'integrazione economica e politica tra Francia e Germania?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_08_Lez008.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_08_Lez008.txt-4",
+      "economia_applicata_clean_08_Lez008.txt-5"
+    ],
+    "mentions": [
+      "Monet",
+      "Francia",
+      "Germania"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è stato l'andamento della popolazione italiana dal 1911 al 2006?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_10_Lez010.txt-5",
+    "relevant_docs": [
+      "economia_applicata_clean_10_Lez010.txt-4",
+      "economia_applicata_clean_10_Lez010.txt-5"
+    ],
+    "mentions": [
+      "Italia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come è cambiata la struttura sociale italiana nel corso del Novecento?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_10_Lez010.txt-12",
+    "relevant_docs": [
+      "economia_applicata_clean_10_Lez010.txt-10",
+      "economia_applicata_clean_10_Lez010.txt-11",
+      "economia_applicata_clean_10_Lez010.txt-12"
+    ],
+    "mentions": [
+      "Novecento"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali sono le implicazioni dell'aumento dell'attesa di vita sulla sostenibilità economica in Italia?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_10_Lez010.txt-9",
+    "relevant_docs": [
+      "economia_applicata_clean_10_Lez010.txt-8",
+      "economia_applicata_clean_10_Lez010.txt-9"
+    ],
+    "mentions": [
+      "Life Expectancy",
+      "Italia"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è stata la data del crollo di Lehman Brothers che ha segnato l'inizio della crisi globale?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_12_Lez012.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_12_Lez012.txt-0"
+    ],
+    "mentions": [
+      "Lehman Brothers",
+      "New York"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come si è evoluta la percezione della crisi nelle diverse culture, come quella greca, latina e cinese?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_12_Lez012.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_12_Lez012.txt-3",
+      "economia_applicata_clean_12_Lez012.txt-4"
+    ],
+    "mentions": [
+      "In latino",
+      "Cina"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali sono le implicazioni della crisi dei tulipani del 1637 per la crisi finanziaria del 2008?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_12_Lez012.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_12_Lez012.txt-6",
+      "economia_applicata_clean_12_Lez012.txt-7"
+    ],
+    "mentions": [
+      "tulipano",
+      "Amsterdam",
+      "Lehman Brothers"
+    ],
+    "hops": 3
+  },
+  {
+    "query": "Qual è stato il ruolo di Lehman Brothers nella crisi del 2008?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_14_Lez014.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_14_Lez014.txt-1"
+    ],
+    "mentions": [
+      "Lehman Brothers"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come si è evoluta la crisi del 2008 secondo il bollettino economico della Banca d'Italia?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_14_Lez014.txt-9",
+    "relevant_docs": [
+      "economia_applicata_clean_14_Lez014.txt-9",
+      "economia_applicata_clean_14_Lez014.txt-10"
+    ],
+    "mentions": [
+      "Banca d'Italia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "In che modo la deregolamentazione del mercato finanziario ha contribuito alla crisi del 2008?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_14_Lez014.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_14_Lez014.txt-3",
+      "economia_applicata_clean_14_Lez014.txt-4"
+    ],
+    "mentions": [
+      "Gramlich-Billy Act",
+      "amministrazione Bush"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali sono stati gli effetti della crisi americana sulla competitività degli Stati Uniti rispetto alla Cina?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_16_Lez016.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_16_Lez016.txt-1",
+      "economia_applicata_clean_16_Lez016.txt-2"
+    ],
+    "mentions": [
+      "Stati Uniti",
+      "Cina"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come si è evoluta la posizione economica degli Stati Uniti nel contesto globale dagli anni '90 ad oggi?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_16_Lez016.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_16_Lez016.txt-0",
+      "economia_applicata_clean_16_Lez016.txt-3",
+      "economia_applicata_clean_16_Lez016.txt-5"
+    ],
+    "mentions": [
+      "Stati Uniti",
+      "Fondo Monetario"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo la Cina ha influenzato il debito pubblico degli Stati Uniti?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_16_Lez016.txt-8",
+    "relevant_docs": [
+      "economia_applicata_clean_16_Lez016.txt-8",
+      "economia_applicata_clean_16_Lez016.txt-7"
+    ],
+    "mentions": [
+      "Cina",
+      "Stati Uniti"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali furono le azioni intraprese dall'Europa dopo la caduta del muro di Berlino?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_18_Lez018.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_18_Lez018.txt-6",
+      "economia_applicata_clean_18_Lez018.txt-7"
+    ],
+    "mentions": [
+      "muro di Berlino",
+      "Europa"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come ha influenzato la crisi economica la crescita dei paesi dell'Europa orientale rispetto a quelli occidentali?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_18_Lez018.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_18_Lez018.txt-7",
+      "economia_applicata_clean_18_Lez018.txt-8"
+    ],
+    "mentions": [
+      "Europa",
+      "crisi"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo la politica di unificazione europea ha cercato di affrontare le differenze economiche tra Germania e paesi come la Grecia e il Portogallo?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_18_Lez018.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_18_Lez018.txt-3",
+      "economia_applicata_clean_18_Lez018.txt-4"
+    ],
+    "mentions": [
+      "Germania",
+      "Grecia",
+      "Portogallo"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è stata la proposta di Lord Keynes durante gli accordi di Bretton Woods?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_20_Bianchi_Lez002.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_20_Bianchi_Lez002.txt-3",
+      "economia_applicata_clean_20_Bianchi_Lez002.txt-4"
+    ],
+    "mentions": [
+      "Lord Keynes",
+      "Bretton Woods"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come si è evoluto il commercio mondiale dalla fine della guerra ad oggi secondo il testo?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_20_Bianchi_Lez002.txt-15",
+    "relevant_docs": [
+      "economia_applicata_clean_20_Bianchi_Lez002.txt-2",
+      "economia_applicata_clean_20_Bianchi_Lez002.txt-3",
+      "economia_applicata_clean_20_Bianchi_Lez002.txt-15"
+    ],
+    "mentions": [
+      "Globalizzazione",
+      "Paesi"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali potrebbero essere le conseguenze del rallentamento economico della Cina sul commercio mondiale?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_20_Bianchi_Lez002.txt-8",
+    "relevant_docs": [
+      "economia_applicata_clean_20_Bianchi_Lez002.txt-8",
+      "economia_applicata_clean_20_Bianchi_Lez002.txt-9"
+    ],
+    "mentions": [
+      "Cina",
+      "Globalizzazione"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è stato l'impatto della crisi del 2009 sull'industria italiana rispetto a quella tedesca?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_22_Bianchi_Lez004.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_22_Bianchi_Lez004.txt-2",
+      "economia_applicata_clean_22_Bianchi_Lez004.txt-3"
+    ],
+    "mentions": [
+      "Italia",
+      "Europa"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come ha reagito il sistema industriale italiano alle crisi del 2009 e del 2011?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_22_Bianchi_Lez004.txt-5",
+    "relevant_docs": [
+      "economia_applicata_clean_22_Bianchi_Lez004.txt-5",
+      "economia_applicata_clean_22_Bianchi_Lez004.txt-6"
+    ],
+    "mentions": [
+      "Italia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Perché le imprese italiane che esportano tecnologie hanno avuto successo rispetto a quelle che operano solo sul mercato interno?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_22_Bianchi_Lez004.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_22_Bianchi_Lez004.txt-3",
+      "economia_applicata_clean_22_Bianchi_Lez004.txt-4"
+    ],
+    "mentions": [
+      "Italia",
+      "Cina"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è stata la crisi economica più clamorosa che ha coinvolto l'Italia e il mondo nel 2009?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_24_Lez006.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_24_Lez006.txt-1"
+    ],
+    "mentions": [
+      "Lehman Brothers",
+      "Italia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come si è evoluta l'economia italiana dal 2000 in termini di competitività e innovazione?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_24_Lez006.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_24_Lez006.txt-3",
+      "economia_applicata_clean_24_Lez006.txt-4"
+    ],
+    "mentions": [
+      "Italia",
+      "Mediobanca"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo la globalizzazione ha influenzato la competitività delle imprese italiane rispetto a quelle di altri paesi europei come la Germania?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_24_Lez006.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_24_Lez006.txt-4",
+      "economia_applicata_clean_24_Lez006.txt-5",
+      "economia_applicata_clean_24_Lez006.txt-6"
+    ],
+    "mentions": [
+      "Italia",
+      "Germania"
+    ],
+    "hops": 3
+  },
+  {
+    "query": "Quali interventi ha effettuato l'amministrazione Obama per rilanciare l'industria americana dopo la crisi del 2009?",
+    "question_type": "fact",
+    "gold_answer": "economia_applicata_clean_26_Lez008.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_26_Lez008.txt-1"
+    ],
+    "mentions": [
+      "Obama",
+      "Chrysler",
+      "Fiat",
+      "GM"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come viene ripensato il ruolo della politica industriale nell'età della globalizzazione secondo il testo?",
+    "question_type": "synthesis",
+    "gold_answer": "economia_applicata_clean_26_Lez008.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_26_Lez008.txt-2",
+      "economia_applicata_clean_26_Lez008.txt-3",
+      "economia_applicata_clean_26_Lez008.txt-4"
+    ],
+    "mentions": [
+      "politica industriale",
+      "globalizzazione"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo il concetto di 'Entitlements' di Amartya Sen e Lord Darendorf può influenzare le politiche di welfare e coesione sociale?",
+    "question_type": "inference",
+    "gold_answer": "economia_applicata_clean_26_Lez008.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_26_Lez008.txt-6",
+      "economia_applicata_clean_26_Lez008.txt-7"
+    ],
+    "mentions": [
+      "Entitlements",
+      "Amartya Sen",
+      "Lord Darendorf"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali sono i tre tipi di segnali d'allarme utilizzati dai cercopitechi?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez001.txt-1",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez001.txt-1",
+      "linguaggio_e_comunicazione_clean_Lez001.txt-2"
+    ],
+    "mentions": [
+      "cercopitechi"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come viene definito il linguaggio umano e quali sono le sue proprietà distintive rispetto ai codici animali?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez001.txt-2",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez001.txt-2",
+      "linguaggio_e_comunicazione_clean_Lez001.txt-3",
+      "linguaggio_e_comunicazione_clean_Lez001.txt-4"
+    ],
+    "mentions": [
+      "linguaggio"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo il gene FOXP2 è collegato allo sviluppo del linguaggio umano?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez001.txt-13",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez001.txt-13",
+      "linguaggio_e_comunicazione_clean_Lez001.txt-14"
+    ],
+    "mentions": [
+      "FOXP2"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali sono i parametri fisici che influenzano la percezione del suono e come si correlano con le caratteristiche percettive?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez003.txt-1",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez003.txt-1",
+      "linguaggio_e_comunicazione_clean_Lez003.txt-2"
+    ],
+    "mentions": [
+      "Hz",
+      "F0"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come viene prodotto e articolato un suono linguistico dal punto di vista anatomico?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez003.txt-5",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez003.txt-5",
+      "linguaggio_e_comunicazione_clean_Lez003.txt-6",
+      "linguaggio_e_comunicazione_clean_Lez003.txt-8"
+    ],
+    "mentions": [
+      "larynge",
+      "F0"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo le caratteristiche anatomiche del parlante influenzano la frequenza fondamentale F0 e la percezione del suono?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez003.txt-7",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez003.txt-7",
+      "linguaggio_e_comunicazione_clean_Lez003.txt-9"
+    ],
+    "mentions": [
+      "F0",
+      "Hz"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quale studioso ha ricevuto il premio Nobel per gli studi sul cervello diviso?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez005.txt-9",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez005.txt-9",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-10"
+    ],
+    "mentions": [
+      "Roger Sperry",
+      "premio Nobel"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come viene utilizzato il paradigma dell'ascolto dicotico per studiare le differenze emisferiche nel linguaggio?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez005.txt-7",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez005.txt-6",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-7",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-8"
+    ],
+    "mentions": [
+      "Stroop"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Perché il riconoscimento di una parola come 'Penna' è più efficace rispetto a una lettera singola come 'E mascherata'?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez005.txt-5",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez005.txt-5",
+      "linguaggio_e_comunicazione_clean_Lez005.txt-6"
+    ],
+    "mentions": [
+      "Penna",
+      "E mascherata"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Qual è la risoluzione temporale della magnetoencefalografia e come si confronta con l'elettroencefalogramma?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez007.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez007.txt-0",
+      "linguaggio_e_comunicazione_clean_Lez007.txt-11"
+    ],
+    "mentions": [
+      "magnetoencefalografia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come la risonanza magnetica funzionale e la magnetoencefalografia contribuiscono allo studio del linguaggio?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez007.txt-14",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez007.txt-0",
+      "linguaggio_e_comunicazione_clean_Lez007.txt-14"
+    ],
+    "mentions": [
+      "magnetoencefalografia",
+      "BOLD"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Perché la magnetoencefalografia richiede cabine altissimamente schermate?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez007.txt-11",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez007.txt-11",
+      "linguaggio_e_comunicazione_clean_Lez007.txt-12"
+    ],
+    "mentions": [
+      "magnetoencefalografia"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Quali sono le differenze tra le lingue ad ortografia trasparente e quelle ad ortografia opaca?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez009.txt-1",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez009.txt-0",
+      "linguaggio_e_comunicazione_clean_Lez009.txt-1"
+    ],
+    "mentions": [
+      "Einstein"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come viene modellizzata la lettura dal punto di vista della neuropsicologia e della psicolinguistica?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez009.txt-2",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez009.txt-2",
+      "linguaggio_e_comunicazione_clean_Lez009.txt-3"
+    ],
+    "mentions": [
+      "Braille"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Perché l'attività cerebrale nei soggetti dislessici è diversa rispetto ai normolettori?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez009.txt-7",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez009.txt-6",
+      "linguaggio_e_comunicazione_clean_Lez009.txt-7"
+    ],
+    "mentions": [
+      "PILTOannah"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è il ruolo del Western Afasia Battery nella valutazione dei disturbi afasici?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez011.txt-2",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez011.txt-2"
+    ],
+    "mentions": [
+      "Western Afasia Battery"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come viene valutata la comprensione linguistica nei test standardizzati per l'afasia?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez011.txt-11",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez011.txt-11",
+      "linguaggio_e_comunicazione_clean_Lez011.txt-10"
+    ],
+    "mentions": [
+      "sottotest"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo le lesioni cerebrali possono influenzare la rappresentazione delle lingue L1 e L2?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez011.txt-13",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez011.txt-13",
+      "linguaggio_e_comunicazione_clean_Lez011.txt-12"
+    ],
+    "mentions": [
+      "L1",
+      "L2"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è il modello di comunicazione sviluppato da Claude Shannon e Warren Weaver?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez013.txt-3",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez013.txt-2",
+      "linguaggio_e_comunicazione_clean_Lez013.txt-3",
+      "linguaggio_e_comunicazione_clean_Lez013.txt-4"
+    ],
+    "mentions": [
+      "Claude Shannon",
+      "Warren Weaver",
+      "Shannon-Weaver"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come viene descritta la discomunicazione nel contesto della psicologia della comunicazione?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez013.txt-2",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez013.txt-2",
+      "linguaggio_e_comunicazione_clean_Lez013.txt-10"
+    ],
+    "mentions": [
+      "discomunicazione"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "In che modo il principio di cooperazione di Grice può influenzare la comunicazione tra esseri viventi?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez013.txt-8",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez013.txt-7",
+      "linguaggio_e_comunicazione_clean_Lez013.txt-8",
+      "linguaggio_e_comunicazione_clean_Lez013.txt-9"
+    ],
+    "mentions": [
+      "Grice"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Qual è il ruolo della corteccia motoria nella produzione di un gesto secondo Giacomo Rizzolatti?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez015.txt-5",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez015.txt-5",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-6"
+    ],
+    "mentions": [
+      "Giacomo Rizzolatti"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come viene descritta la relazione tra percezione e azione nel contesto dei neuroni specchio secondo gli studi dell'Università di Parma?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez015.txt-9",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez015.txt-9",
+      "linguaggio_e_comunicazione_clean_Lez015.txt-10"
+    ],
+    "mentions": [
+      "Università di Parma"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo l'aprasia ideomotoria può influenzare la capacità di eseguire gesti complessi, e quale ruolo giocano gli engrami in questo contesto?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez015.txt-11",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez015.txt-11"
+    ],
+    "mentions": [
+      "aprasia ideomotoria",
+      "engrami"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quale distinzione importante ha fatto Aristotile riguardo alle persone sorde?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez002.txt-0",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez002.txt-0"
+    ],
+    "mentions": [
+      "Aristotile"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Quali furono i contributi di Agricola e Girolamo Cardano nell'educazione dei sordi?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez002.txt-3",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez002.txt-3",
+      "linguaggio_e_comunicazione_clean_Volterra_Lez002.txt-4"
+    ],
+    "mentions": [
+      "Agricola",
+      "Girolamo Cardano"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "In che modo il congresso di Milano ha influenzato l'uso della lingua dei segni nell'educazione dei sordi in Italia?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez002.txt-11",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez002.txt-11",
+      "linguaggio_e_comunicazione_clean_Volterra_Lez002.txt-12"
+    ],
+    "mentions": [
+      "congresso di Milano"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Qual è la configurazione della mano nella lingua dei segni italiana che ha una connotazione neutra e appare in segni come facile e spaghetti?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-1",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-1"
+    ],
+    "mentions": [
+      "LIS"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come si differenziano i segni per 'cane' nelle lingue dei segni italiana, americana e britannica?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-2",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-2",
+      "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-3"
+    ],
+    "mentions": [
+      "LIS",
+      "American Sign Language"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Perché il segno 'uscire' nella lingua dei segni italiana ha causato equivoci nei segnanti britannici?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-6",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-6",
+      "linguaggio_e_comunicazione_clean_Volterra_Lez004.txt-7"
+    ],
+    "mentions": [
+      "Gran Bretagna",
+      "LIS"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "Quali sono le due interpretazioni diverse dell'Inno di Mameli realizzate da Emilio Insolera e Daniele Lerose?",
+    "question_type": "fact",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-5",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-4",
+      "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-5"
+    ],
+    "mentions": [
+      "Emilio Insolera",
+      "Daniele Lerose",
+      "Inno di Mameli"
+    ],
+    "hops": 1
+  },
+  {
+    "query": "Come la poesia in lingua dei segni riesce a trasmettere emozioni simili a quelle delle poesie vocali secondo i fratelli Giuranna?",
+    "question_type": "synthesis",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-4",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-3",
+      "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-4"
+    ],
+    "mentions": [
+      "fratelli Giuranna",
+      "Rosaria Giuranna",
+      "Giuseppe Giuranna"
+    ],
+    "hops": 2
+  },
+  {
+    "query": "In che modo l'Inno di Mameli tradotto da Deaf Media riflette aspetti del mondo dei sordi?",
+    "question_type": "inference",
+    "gold_answer": "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-5",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Volterra_Lez006.txt-5"
+    ],
+    "mentions": [
+      "Deaf Media",
+      "Inno di Mameli"
+    ],
+    "hops": 1
+  }
+]

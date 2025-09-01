@@ -1,0 +1,1250 @@
+[{
+  "query": "Qual è stato il contributo di Adam Smith alla rivoluzione industriale con il suo libro 'La ricchezza delle Nazioni'?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer fornisce una risposta esauriente alla domanda, spiegando come Adam Smith abbia influenzato la rivoluzione industriale con 'La ricchezza delle Nazioni'. Il testo rilevante ripete le stesse informazioni, confermando la pertinenza."
+},
+{
+  "query": "Riassumi come l'Italia è stata influenzata politicamente ed economicamente dalla divisione in tanti piccoli stati prima dell'unità nel 1861.",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer affronta bene l'aspetto della frammentazione politica ed economica e il conseguente impatto di lentezza nello sviluppo economico e integrativo. Il primo relevant doc non è pertinente poiché si concentra principalmente sulla geopolitica e sulla divisione di confini senza dettagli specifici sull'influenza politica ed economica della divisione italiana. Il secondo e terzo relevant doc discutono le infrastrutture e l'organizzazione economica, che sono utili per il contesto della domanda."
+},
+{
+  "query": "Quale sistema bancario si è sviluppato in Francia nella seconda metà dell'Ottocento grazie ai fratelli Perrier?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold_answer risponde correttamente alla query, descrivendo lo sviluppo della 'banca mobiliare' da parte dei fratelli Perrier. Anche il relevant doc è pertinente e contiene le informazioni utili per rispondere alla domanda."
+},
+{
+  "query": "Come si intreccia il ruolo dello Stato con grandi banche e imprese in Italia all'inizio del Novecento?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "La gold answer approfondisce il complesso intreccio tra Stato, banche e imprese, evidenziando il rischio di controllo incrociato e l'impatto sulle politiche economiche dello Stato. I relevant_docs espandono l'argomento fornendo esempi storici e approfondendo il sistema di banca mista e il contesto politico ed economico dell'epoca in vari paesi, incluso l'Italia, durante il periodo di espansione industriale."
+},
+{
+  "query": "Quale piano ha determinato il trasferimento di risorse dagli Stati Uniti verso l'Europa alla fine della Seconda Guerra Mondiale?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold_answer risponde correttamente indicando il piano Marshall come il piano che ha determinato il trasferimento di risorse. Il relevant_docs contiene esattamente lo stesso testo del gold_answer ed è quindi pertinente."
+},
+{
+  "query": "Come ha contribuito l'apertura dei mercati internazionali al boom economico italiano negli anni '60?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "La gold answer risponde adeguatamente alla domanda, fornendo un contesto storico e spiegando l'impatto dell'apertura dei mercati internazionali sul boom economico italiano attraverso elementi come l'emigrazione interna, i bassi salari, gli investimenti dal piano Marshall e la complementarietà tra impresa pubblica e privata. Entrambi i relevant_docs sono pertinenti, con dettagli ulteriori su crescita economica, ruolo dei salari e dell'industria privata, oltre al contesto europeo e globale che ha influenzato il boom economico italiano."
+},
+{
+  "query": "In quale contesto economico si sviluppò la rivoluzione borghese in Inghilterra?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer descrive adeguatamente il contesto economico della rivoluzione borghese in Inghilterra, ossia il passaggio dal feudalesimo al capitalismo con lo sviluppo nelle fabbriche. Anche il relevant doc supporta questa informazione e fornisce contesto sufficiente senza discostarsi dal tema."
+},
+{
+  "query": "Sintetizza l'impatto delle divisioni regionali sulla nascita dell'industria in Italia nel periodo postunitario.",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold_answer copre come le divisioni regionali, con le loro caratteristiche differenziate e microcosmi chiusi, hanno limitato lo sviluppo di un'economia nazionale moderna. Il primo relevant_doc è equivalente al gold e spiega la mancanza di integrazione economica e amministrativa, mentre il secondo doc amplia il discorso sulla mancanza di specializzazione e complementarietà in un mercato ristretto, contribuendo a spiegare l'impatto negativo delle divisioni sull'industrializzazione."
+},
+{
+  "query": "Quali erano le casse di risparmio nate nella metà dell'Ottocento in Italia?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No"
+  ],
+  "comments": "Il gold answer e il relevant doc non rispondono alla domanda specificando le casse di risparmio nate in Italia nella metà dell'Ottocento. Menzionano soltanto 'le casse di risparmio' senza indicare quali fossero in Italia e approfondiscono altri aspetti non pertinenti alla query."
+},
+{
+  "query": "Come ha contribuito Giovanni Giolitti al decollo industriale dell'Italia?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer descrive il ruolo di Giovanni Giolitti nel decollo industriale italiano, evidenziando il sistema di banca mista e le riforme intraprese. Il primo relevant doc, invece, parla principalmente dell'intervento dello Stato nelle ferrovie e degli effetti della guerra sull'economia, che non sono strettamente legati al contributo di Giolitti. Il secondo relevant doc ripete essenzialmente il contenuto del gold answer, quindi è pertinente."
+},
+{
+  "query": "Qual era il ruolo di John Maynard Keynes nella conferenza di Bretton Woods?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold_answer descrive adeguatamente il ruolo di John Maynard Keynes come capo della delegazione inglese, nonché il suo contributo con un discorso memorabile nonostante un infarto. Il relevant doc è pertinente e contiene le stesse informazioni utili sul ruolo di Keynes."
+},
+{
+  "query": "Quali sono state le conseguenze della ricostruzione civile in Italia negli anni '50 in termini di sviluppo economico?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer non risponde direttamente alla query riguardante le conseguenze economiche della ricostruzione civile negli anni '50, concentrandosi invece su eventi precedenti e sulla struttura industriale dell'epoca. Il primo relevant doc è pertinente, poiché discute del boom economico e delle dinamiche salariali e di esportazione. Il secondo relevant doc contiene informazioni già presenti nel gold answer, non essendo coerente con la richiesta di sviluppi economici specifici degli anni '50 post-ricostruzione."
+},
+{
+  "query": "Che cosa ha detto Adamo Smith riguardo alla divisione del lavoro?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde in modo dettagliato alla domanda, spiegando il concetto di divisione del lavoro e come esso sia collegato alla dimensione del mercato. I relevant_docs contengono informazioni coerenti e pertinenti al gold answer."
+},
+{
+  "query": "Come l'Inghilterra ha influenzato lo sviluppo industriale nel Settecento?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer e il relevant doc sono identici e pertinenti alla query, spiegando il ruolo del mercato e delle idee di Adam Smith nello sviluppo industriale inglese del Settecento."
+},
+{
+  "query": "In che modo la rapida unificazione politica in Italia ha influenzato lo sviluppo economico?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer affronta come la rapida unificazione politica abbia creato problemi di integrazione che hanno influito sull'economia, spiegando la discrepanza temporale tra politica ed economia. Il relevant doc ripete essenzialmente il testo del gold answer, quindi è pertinente ma non aggiunge nuove informazioni."
+},
+{
+  "query": "Qual è stato il contributo di Adam Smith alla rivoluzione borghese?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer è valido in quanto esplicita il ruolo di Adam Smith nella rivoluzione borghese attraverso la diffusione delle idee di mercato e produzione industriale. Anche il relevant doc è valido poiché è identico al gold answer e contiene le stesse informazioni pertinenti."
+},
+{
+  "query": "Come Adam Smith vede la relazione tra dimensione del mercato e grado di specializzazione?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer non risponde alla query sulla relazione tra la dimensione del mercato e il grado di specializzazione secondo Adam Smith. Il primo relevant doc è pertinente e descrive direttamente il concetto come espresso da Adam Smith, mentre il secondo relevant doc è una ripetizione del gold answer, che non risponde alla query."
+},
+{
+  "query": "Chi sono i fratelli Perrier e qual è il loro contributo al sistema bancario?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde correttamente alla query descrivendo i fratelli Perrier e il loro contributo alla creazione di un nuovo tipo di banca in Francia nel 1800. Anche il relevant doc fornisce le stesse informazioni, risultando pertinente."
+},
+{
+  "query": "Sintetizza come l'Italia ha utilizzato il sistema di banca mista sotto Giovanni Giolitti per promuovere la crescita industriale.",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer fornisce una risposta chiara, collegando il sistema di banca mista all'industrializzazione italiana sotto Giolitti. I primi due relevant docs supportano e arricchiscono il contesto storico ed economico. Il terzo relevant doc è irrilevante in quanto ripete in gran parte il gold answer, senza aggiungere nuove informazioni."
+},
+{
+  "query": "Quale potrebbe essere stata la causa principale del crollo della banca italiana di sconto secondo lo scenario descritto?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer e i relevant docs descrivono il contesto economico che ha portato alla crisi, indicando la guerra e il conseguente cambiamento economico come fattori chiave. Tutti i documenti rilevanti aggiungono dettagli sulla situazione economica e sul ruolo delle banche e dello Stato, pertinenti per inferire le cause del crollo."
+},
+{
+  "query": "Qual è stato il ruolo del piano Marshall nella ricostruzione europea del dopoguerra?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer contiene molta informazione aggiuntiva e non risponde direttamente alla query riguardo al ruolo del piano Marshall specificamente nella ricostruzione europea. Il primo relevant doc è pertinente poiché descrive come il piano Marshall aiutò nel trasferimento di risorse e incoraggiò la cooperazione tra i paesi europei. Il secondo relevant doc è lo stesso del gold_answer e non si focalizza sufficientemente sulla domanda."
+},
+{
+  "query": "In che modo gli sviluppi economici e politici in Europa dopo la Seconda Guerra Mondiale sono stati influenzati da Bretton Woods e dal piano Marshall?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer discute sia il piano Marshall che Bretton Woods e il loro impatto sugli sviluppi economici e politici, rispondendo quindi alla query. Il primo relevant doc non affronta direttamente la domanda sul piano Marshall o Bretton Woods. Il secondo e il terzo relevant doc menzionano entrambi il piano Marshall e il contesto politico ed economico post-bellico, fornendo informazioni pertinenti."
+},
+{
+  "query": "Quali furono le conseguenze economiche per la Germania di Weimar dopo la prima guerra mondiale?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer è pertinente in quanto fornisce una panoramica delle conseguenze economiche, come l'inflazione, il nazionalismo e la depressione post-bellica. Anche il relevant doc è valido in quanto corrisponde esattamente al gold answer fornendo le stesse informazioni."
+},
+{
+  "query": "In che modo gli aiuti degli Stati Uniti contribuirono al rilancio economico dell'Italia nel dopoguerra?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde in modo esaustivo alla query descrivendo l'impatto degli aiuti statunitensi sulla ripresa economica italiana e lo sviluppo del boom economico. Il relevant doc supporta le informazioni del gold answer senza aggiungere nuovi dettagli."
+},
+{
+  "query": "Qual era il ruolo della comunità europea del carbone e acciaio nella gestione del conflitto tra Francia e Germania?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold_answer risponde direttamente alla query spiegando il ruolo della CECA nel risolvere il conflitto tra Francia e Germania. Il primo relevant_doc non contiene informazioni dirette sul ruolo della CECA nella gestione del conflitto specifico, ma discute ampiamente degli sviluppi successivi a livello economico e politico europeo. Il secondo relevant_doc è identico al gold_answer e quindi pertinente."
+},
+{
+  "query": "Qual è stata l'evoluzione della popolazione italiana dal 1911 al 2006 secondo le informazioni tratte dal testo?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer fornisce una sintesi completa e precisa dell'evoluzione della popolazione italiana dal 1911 al 2006, includendo aspetti come l'effetto dell'emigrazione, la crescita post-bellica, la stagnazione e la ripresa demografica recente. I relevant docs aggiungono dettagli pertinenti sui movimenti demografici interni e le differenze regionali tra nord e sud, nonché sulla dinamica della popolazione in relazione all'immigrazione e ai tassi di natalità e mortalità."
+},
+{
+  "query": "In che modo la scuola ha contribuito alla formazione delle identità nazionali secondo Osborne?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer risponde alla query spiegando come la scuola, tramite l'imposizione di una lingua, abbia conformato le identità nazionali. Il primo relevant doc è pertinente e aggiunge informazioni utili, mentre il secondo relevant doc è irrilevante perché discute di attesa di vita e mortalità infantile, argomenti non correlati alla query."
+},
+{
+  "query": "Quali sono le due entità i cui territori erano comunicanti ma ora sono separati da un confine per effetto delle politiche linguistiche nazionali?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer e il relevant doc trattano entrambi del tema dei confini linguistici creati dalle politiche nazionali, citando il caso specifico della continuità linguistica da Genova a Marsiglia che è stata interrotta. Tuttavia, la risposta non identifica esplicitamente le entità, ma discute il generale effetto delle nazioni e delle politiche linguistiche nazionali, il che è coerente con la domanda di tipo fact."
+},
+{
+  "query": "Quando crolla il titolo di Lehman Brothers alla borsa di New York, segnando l'inizio della crisi globale?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde correttamente alla query fornendo la data del 14 settembre 2008. Anche il relevant doc è pertinente e aggiunge informazioni utili sulla situazione generale legata al crollo di Lehman Brothers e il contesto della crisi globale."
+},
+{
+  "query": "Qual è stata l'evoluzione del concetto di crisi e come è interpretato nelle diverse culture secondo il testo?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer affronta il concetto di crisi e la sua interpretazione nelle diverse culture, rispondendo adeguatamente alla query. Entrambi i relevant docs sono pertinenti: il primo delinea l'evoluzione del concetto di crisi e la sua interpretazione, mentre il secondo fornisce ulteriori dettagli sulle interpretazioni nelle culture greca, latina e cinese, arricchendo la risposta."
+},
+{
+  "query": "Qual è stato l'impatto del Gramlich-Billy Act sulla deregolamentazione del mercato finanziario?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer non affronta specificamente il Gramlich-Billy Act e il suo impatto, ma si concentra sulla generale deregolamentazione del mercato finanziario e l'introduzione dei derivati. Il primo relevant doc è pertinente perché discute direttamente l'atto e il suo contesto storico di deregolamentazione. Il secondo relevant doc contribuisce al contesto più ampio dell'impatto della deregolamentazione sebbene non menzioni specificamente l'atto. Il terzo relevant doc è una ripetizione del gold answer e quindi non è pertinente alla specificità richiesta dalla query."
+},
+{
+  "query": "Come si articola la spiegazione di Schumpeter riguardo ai cicli economici in relazione alla crisi del 2008?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Sia il gold answer che il relevant doc coprono adeguatamente la spiegazione di Schumpeter sui cicli economici e le loro implicazioni nella crisi del 2008, analizzando cicli di diversa durata e la loro connessione con fenomeni economici e politici, ma senza entrare nel dettaglio specifico di Schumpeter."
+},
+{
+  "query": "Qual è la relazione tra Bretton Woods e la capacità degli Stati Uniti di mantenere il controllo dell'economia mondiale?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer descrive correttamente come il sistema di Bretton Woods ha sostenuto l'influenza economica degli Stati Uniti tramite il dollaro e le dinamiche militari-industriali. Il primo relevant doc è pertinente poiché approfondisce le dinamiche economiche internazionali e l'importanza del dollaro. Il secondo relevant doc ripete il gold answer e non aggiunge informazioni nuove o utili."
+},
+{
+  "query": "Quali sono le implicazioni del programma di Reaganomics sull'economia degli Stati Uniti durante l'amministrazione Reagan?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer fornisce una panoramica adeguata delle implicazioni dell'economia di Reagan, inclusa la deregolamentazione e la focalizzazione sui complessi militari. Il primo relevant doc non è pertinente perché tratta dei confronti tra industria americana ed europea e non menziona Reaganomics. Il secondo relevant doc è valido in quanto è praticamente identico al gold answer e tratta delle implicazioni del programma di Reaganomics."
+},
+{
+  "query": "In che modo l'interrelazione tra la Cina e gli Stati Uniti influenza il debito pubblico americano?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold_answer fornisce un'analisi completa sull'influenza delle politiche cinesi di acquisto del debito americano e l'interdipendenza economica tra Cina e Stati Uniti, che influenza il debito pubblico statunitense. I relevant_docs sono pertinenti in quanto discutono del debito pubblico americano, della politica economica degli Stati Uniti e includono riferimenti alla Cina che acquista debito americano, contribuendo così all'argomento della query."
+},
+{
+  "query": "Qual è stato il ruolo del dollaro secondo la visione di Lord Keynes dopo la seconda guerra mondiale?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer e il relevant doc descrivono accuratamente la visione di Lord Keynes sul ruolo del dollaro come pivot dell'economia mondiale post-seconda guerra mondiale."
+},
+{
+  "query": "Come ha reagito la Germania rispetto alla crisi economica e come questa reazione si differenzia da paesi come Grecia e Portogallo?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold_answer risponde bene alla domanda, descrivendo la rapida reazione della Germania e confrontandola con le difficoltà di paesi come Grecia e Portogallo. Il primo documento rilevante non aggiunge informazioni pertinenti alla specifica domanda, trattando più di politiche di protezionismo in generale. Il secondo documento rilevante, invece, coincide con il gold_answer e risulta pertanto valido."
+},
+{
+  "query": "Quali sono le differenze tra la teoria del commercio internazionale di Smith e quella di Riccardo?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer fornisce un'adeguata spiegazione delle differenze tra le teorie di Smith e di Riccardo, quindi è valido. Il primo relevant doc ripete in gran parte il contenuto del gold answer ed è quindi pertinente, mentre il secondo relevant doc non aggiunge informazioni significative sulle differenze tra le due teorie e si focalizza su concetti più generali come globalizzazione e scambi nazionali."
+},
+{
+  "query": "Come è cambiato il commercio mondiale dalla fine della guerra ad oggi, tenendo conto della globalizzazione?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer affronta i cambiamenti nel commercio mondiale considerando le fasi storiche e istituzionali pertinenti alla globalizzazione. Tutti i relevant docs aggiungono informazioni utili e complementari: il primo documento descrive le tre fasi del commercio con dettagli storici sui passaggi di fase, il secondo spiega la discontinuità e le differenze tra paesi sviluppati ed emergenti, mentre il terzo discute l'impatto economico e politico di paesi come Cina, Brasile e Russia sulla globalizzazione."
+},
+{
+  "query": "Qual è il ruolo della Cina nel mercato delle ceramiche e quali tecnologie ha acquisito dall'Italia?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer e i relevant docs forniscono informazioni pertinenti sulla penetrazione della Cina nel mercato delle ceramiche e sull'acquisizione di tecnologie italiane per la produzione. Non ci sono errori o documenti irrilevanti."
+},
+{
+  "query": "Quando è avvenuto il default di Lehman Brothers e quale impatto ha avuto sull'economia mondiale?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No"
+  ],
+  "comments": "La gold answer e i relevant docs non rispondono precisamente alla domanda. Manca la data esatta del default di Lehman Brothers, che è avvenuto il 15 settembre 2008. Inoltre, anche se si parla dell'impatto sull'economia mondiale, la risposta è vaga e non specifica sufficientemente le conseguenze economiche a livello globale."
+},
+{
+  "query": "Come è stata influenzata l'economia dell'Italia dalla globalizzazione e dalle crisi economiche dal 2000 in poi?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold_answer si concentra su un confronto internazionale tra costo del lavoro e valore aggiunto, ma non spiega chiaramente come la globalizzazione e le crisi economiche abbiano influenzato l'economia italiana dopo il 2000. Il primo relevant_doc è pertinente poiché discute l'impatto della globalizzazione sull'economia italiana. Il secondo relevant_doc è una ripetizione del gold_answer e non aggiunge ulteriori informazioni. Il terzo relevant_doc esplora la struttura dell'economia italiana nel contesto della globalizzazione e delle crisi economiche, il che è utile per la sintesi richiesta."
+},
+{
+  "query": "Quali sono i piani di rilancio dell'industria americana che hanno caratterizzato l'amministrazione di Barack Obama?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde in modo dettagliato alla query descrivendo l'intervento dell'amministrazione Obama nell'industria automobilistica e l'adozione di innovazioni e ricerca. I relevant_docs riportano lo stesso testo del gold answer e quindi sono pertinenti e forniscono informazioni utili relative ai piani di Obama."
+},
+{
+  "query": "Come viene reinterpretato il ruolo della politica industriale nell'età della globalizzazione?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde in modo completo alla query, spiegando come la politica industriale viene ripensata nella globalizzazione, introduzione dei concetti di policy, politics e polity. Tutti i relevant docs sono pertinenti, con il primo che approfondisce il ruolo di lungo periodo della politics e della ricerca e il secondo che discute la diffusione della ricerca e la definizione della politica industriale in contesti economici aperti."
+},
+{
+  "query": "In che modo la crescita economica della Cina è influenzata dalle politiche di entitlements e capability secondo il testo?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer è valido perché affronta direttamente la relazione tra le politiche reali (educative, sociali, ecc.) e il loro impatto sulla crescita economica cinese, collegandosi al concetto di capability con riferimento alla necessità di una forza lavoro adeguatamente educata. Tutti i relevant docs aggiungono contesto utile, discutendo di entitlements, capability, e il ruolo di queste politiche nell'innovazione e nel benessere sociale."
+},
+{
+  "query": "Quali sono i tre tipi di segnali d'allarme utilizzati dai cercopitechi?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer non risponde alla domanda sulla specificità dei segnali d'allarme dei cercopitechi. Menziona solo genericamente che hanno tre segnali d'allarme senza dettagli. Il primo relevant doc supporta questa affermazione generica, mentre il secondo fornisce effettivamente una descrizione specifica dei tre tipi di segnali d'allarme usati dai cercopitechi."
+},
+{
+  "query": "Come viene descritta la creatività o apertura del linguaggio umano rispetto al codice comunicativo delle api?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold_answer affronta adeguatamente la questione della creatività e apertura del linguaggio umano. Il primo relevant document è pertinente perché discute la complessità dei codici comunicativi delle api, che è utile per il confronto con il linguaggio umano. Il secondo relevant document è sostanzialmente una ripetizione del gold_answer e quindi è pertinente. Il terzo relevant document è meno rilevante perché si concentra più su definizioni generali del linguaggio e non fornisce un confronto diretto con le api."
+},
+{
+  "query": "Qual è il ruolo della laringe nella produzione del suono linguistico?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold_answer risponde in modo esaustivo spiegando il ruolo della laringe come sorgente del suono che viene successivamente modulato nel tratto sovralaringeo per diventare linguistico. Entrambi i relevant_docs sono pertinenti: il primo descrive come lo spettro sonoro prodotto dalla laringe viene percepito, e il secondo ripete informazioni simili al gold_answer, confermando l'importanza della laringe nel processo descritto."
+},
+{
+  "query": "In che modo le frequenze formanti influenzano la percezione dei suoni vocalici?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold_answer fornisce una spiegazione dettagliata su come le frequenze formanti influenzino i suoni vocalici tramite la funzione di filtro del tratto sovra l'aringio. Tutti i relevant_docs sono pertinenti poiché discutono delle frequenze formanti, degli effetti sul suono in base a differenti individui (uomo, donna, bambino) e forniscono un ulteriore dettaglio tecnico su valori specifici delle frequenze formanti per vari suoni come U, A, e I. Non ci sono errori o mancanze significative."
+},
+{
+  "query": "Quali possono essere le implicazioni del posizionamento della lingua e delle labbra nella produzione della vocale ‘A’?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer discute delle differenze acustiche tra uomini, donne e bambini nella produzione delle vocali, ma non si sofferma specificamente sulle implicazioni del posizionamento di lingua e labbra nella produzione della 'A'. Il primo relevant doc è praticamente una copia del gold answer e non è pertinente alla query. Il secondo relevant doc invece fornisce informazioni utili riguardo al posizionamento di labbra e lingua nella produzione dei suoni vocalici, compresa la 'A'."
+},
+{
+  "query": "Come viene descritto l'effetto Stroop nel contesto degli stimoli linguistici?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer non descrive esplicitamente l'effetto Stroop nel contesto degli stimoli linguistici. Il primo relevant doc menziona l'effetto Stroop e lo descrive come un effetto legato alla congruenza tra il colore dell'inchiostro e il significato della parola, il che è pertinente. Il secondo relevant doc è una ripetizione del gold answer e non è pertinente alla query."
+},
+{
+  "query": "Qual è l'inferenza linguistica che può essere fatta dall'efficacia del priming facilitatorio semantico tra le parole 'cane' e 'gatto'?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold_answer non risponde chiaramente alla domanda sull'inferenza che può essere fatta dall'efficacia del priming facilitatorio semantico tra 'cane' e 'gatto'. Piuttosto, descrive un esperimento senza chiarire l'inferenza linguistica specifica tra i termini 'cane' e 'gatto'. Il primo relevant_doc è pertinente e utile in quanto spiega la facilitazione semantica che avviene tra parole della stessa sfera semantica, come 'cane' e 'gatto'. Il secondo relevant_doc è in gran parte il gold_answer reiterato e non aggiunge informazioni nuove o utili."
+},
+{
+  "query": "Come si utilizzano le tecniche di risonanza magnetica funzionale per studiare le attività linguistiche nel cervello?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer e i relevant docs spiegano l'uso della risonanza magnetica funzionale nello studio del linguaggio nel cervello, includendo esempi di attività frontali e posteriori e studi su bambini e adulti. Sono pertinenti alla sintesi richiesta dalla query."
+},
+{
+  "query": "Per quale motivo il consumo di ossigeno nei neuroni può essere correlato all'attività cerebrale studiata tramite la risonanza magnetica funzionale?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer e il primo relevant doc spiegano chiaramente come l'aumento dell'attività cerebrale porti a un maggior consumo di ossigeno, il quale può essere monitorato tramite segnali di risonanza magnetica funzionale (BOLD) dovuti alle proprietà paramagnetiche diverse dell'emoglobina ossigenata rispetto a quella ridotta. Entrambi i documenti sono pertinenti e forniscono un contesto utile all'argomento richiesto dalla query."
+},
+{
+  "query": "Chi era un dislessico dichiarato secondo 'Einstein'?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde correttamente alla query indicando che Einstein era un dislessico dichiarato. Il relevant doc contiene la stessa informazione e aggiunge contesto sui problemi dislessici in generale."
+},
+{
+  "query": "Quale potrebbe essere la relazione tra i movimenti oculari alterati e la 'dislessia'?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer e i relevant docs evidenziano una possibile correlazione tra alterazioni nei movimenti oculari e difficoltà di lettura nei soggetti con dislessia. Entrambi forniscono informazioni pertinenti sui movimenti oculari alterati nei soggetti dislessici e le relative implicazioni."
+},
+{
+  "query": "Qual è la specificità del test diagnostico di afasia di Boston?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No"
+  ],
+  "comments": "Il gold_answer e il relevant_doc non forniscono informazioni specifiche sulla specificità del test diagnostico di afasia di Boston. Menzionano vari test e componenti valutati dai test di afasia, ma non delineano chiaramente la specificità del test di Boston."
+},
+{
+  "query": "Quali ipotesi si possono fare sulla memoria procedurale della paziente veneta in base alle sue capacità linguistiche?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer discute la connessione tra lesioni sottocorticali e memoria procedurale, utilizzando l'esempio di una paziente veneta che ha perso la capacità di produrre la sua lingua madre. Questo è pertinente per rispondere alla domanda sulla memoria procedurale. Il relevant_doc offre lo stesso contesto e informazioni aggiuntive relative alla rappresentazione linguistica e alla memoria procedurale, venendo considerato pertinente."
+},
+{
+  "query": "Qual è il contributo di Claude Shannon nello sviluppo della teoria matematica della comunicazione?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer fornisce informazioni pertinenti su come Claude Shannon abbia sviluppato la teoria matematica della comunicazione concentrandosi sugli aspetti meccanici piuttosto che psicologici. Entrambi i relevant docs aggiungono contesto utile: il primo spiega l'ulteriore sviluppo e divulgazione del modello da parte di Warren Weaver, e il secondo è un duplicato del gold che conferma la rilevanza dell'informazione."
+},
+{
+  "query": "Spiega in che modo la comunicazione verbale e la discomunicazione sono collegate secondo la psicologia della comunicazione.",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No",
+    "No",
+    "No"
+  ],
+  "comments": "Il gold_answer e i relevant_docs non rispondono specificamente alla domanda riguardante il collegamento tra comunicazione verbale e discomunicazione secondo la psicologia della comunicazione. Forniscono informazioni generali sulla comunicazione e alcuni concetti teorici, ma non affrontano la questione specifica della discomunicazione."
+},
+{
+  "query": "Qual è il contributo di Giacomo Rizzolatti e dell'Università di Parma nello studio dei neuroni specchio?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "La gold answer descrive effettivamente la scoperta fondamentale dei neuroni specchio da parte di Giacomo Rizzolatti e il suo team all'Università di Parma, menzionando specificamente il cambiamento nella comprensione delle funzioni motorie e sensorie. Tutti i relevant_docs aggiungono ulteriori dettagli e contesto sul fenomeno dei neuroni specchio, contribuendo con esempi e chiarimenti sui loro esperimenti e scoperte."
+},
+{
+  "query": "Come la scoperta dei neuroni specchio da parte di Giacomo Rizzolatti ha influenzato la comprensione del gesto?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer fornisce una spiegazione chiara della scoperta dei neuroni specchio, evidenziando come hanno cambiato la comprensione della codifica neurale dei gesti. I relevant_docs espandono ulteriormente il contesto fornendo dettagli sui meccanismi neurali e sulle implicazioni della scoperta in differenti condizioni sperimentali."
+},
+{
+  "query": "Quale importante distinzione ha fatto Aristotile riguardo alla comunicazione dei sordi?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde correttamente alla query fornendo la distinzione importante di Aristotele riguardo alla capacità dei sordi di produrre suoni versus il linguaggio articolato. Il relevant doc è esattamente lo stesso del gold answer e quindi è pertinente alla domanda."
+},
+{
+  "query": "Quali sono stati i contributi significativi di Agricola e Girolamo Cardano nell'educazione dei sordi?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde adeguatamente alla domanda, descrivendo i contributi di Agricola e Cardano nell'educazione dei sordi. Anche i relevant docs sono pertinenti, offrendo informazioni congruenti sui loro contributi."
+},
+{
+  "query": "Quali lingue dei segni utilizzano diverse configurazioni della mano per esprimere il concetto di 'I love you'?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No"
+  ],
+  "comments": "Il gold_answer e il relevant_doc menzionano la configurazione della mano per 'I love you' nella lingua dei segni americana, ma non forniscono informazioni su altre lingue dei segni che rispondano alla query."
+},
+{
+  "query": "Quali sono stati i due gruppi che hanno tradotto l'Inno di Mameli in LIS?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold_answer risponde correttamente alla query specificando i due gruppi, Ciclope di Palermo e Deaf Media. Il relevant doc fornito è identico al gold_answer, quindi è pertinente."
+},
+{
+  "query": "Come le espressioni artistiche in LIS riflettono la cultura dei sordi?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde adeguatamente alla query spiegando come espressioni artistiche come musica e cinema riflettono la cultura dei sordi. Il relevant doc ripete lo stesso testo del gold answer, quindi è anch'esso valido e pertinente."
+},
+{
+  "query": "In che modo il riconoscimento delle lingue dei segni avrebbe un impatto sociale e culturale secondo la Convenzione ONU?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No"
+  ],
+  "comments": "La gold answer fa riferimento agli impatti sociali, culturali e giuridici del riconoscimento delle lingue dei segni, menzionando la Convenzione ONU e altri aspetti pertinenti. Tuttavia, il relevant doc si concentra principalmente sui sordi nel cinema e il cambiamento della loro rappresentazione, che non risponde direttamente alla query sulla Convenzione ONU e i suoi effetti sociali e culturali. Manca una connessione esplicita con l'impatto descritto dalla Convenzione ONU nella gold answer."
+},
+{
+  "query": "Qual è il contributo di Adam Smith alla rivoluzione borghese in Inghilterra del Settecento?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer è valido, in quanto discute del contributo di Adam Smith e del suo libro 'La ricchezza delle Nazioni' riguardo ai cambiamenti economici e sociali che guidarono la rivoluzione borghese. Il primo relevant doc è pertinente poiché replica in parte il contenuto del gold answer. Il secondo relevant doc, tuttavia, si concentra più sulla situazione post-rivoluzione in Europa e includendo riferimenti all'Italia, ma manca di dettagli specifici sul contributo di Adam Smith alla rivoluzione borghese."
+},
+{
+  "query": "Come si è sviluppata l'industria nel Lombardo-Veneto e nel Piemonte rispetto al resto d'Italia?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer fornisce un'ottima sintesi sulle condizioni di sviluppo industriale nel Lombardo-Veneto e Piemonte, specificando i motivi legati al mercato e alla tecnologia. Entrambi i relevant docs sono pertinenti; uno aggiunge dettagli sulla dimensione e gestione delle fabbriche, mentre l'altro ripete parti del gold answer, confermando la sua accuratezza e completezza sulle aree di influenza e lo sviluppo industriale."
+},
+{
+  "query": "Perché l'Italia è considerata un paese in ritardo rispetto alla rivoluzione industriale, e quali sono le implicazioni di questo ritardo?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde alla query descrivendo la condizione di ritardo dell'Italia in ambito politico, sociale e infrastrutturale, e le implicazioni del dover recuperare rapidamente. I relevant docs validano ulteriormente la query fornendo esempi di politiche economiche e strategie, come il protezionismo strategico e l'attrazione di capitali necessarie per fronteggiare il ritardo. Ogni documento rilevante aggiunge dettagli pertinenti rispetto alle politiche che potrebbero accelerare lo sviluppo e le conseguenze del ritardo."
+},
+{
+  "query": "Qual è stato il ruolo di Giovanni Giolitti nel decollo industriale italiano?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer descrive come Giovanni Giolitti abbia contribuito al decollo industriale italiano attraverso un disegno riformista basato sul sistema della banca mista, che aiutò a finanziare le grandi imprese. Entrambi i relevant docs espandono ulteriormente sul contesto economico e la struttura finanziaria che caratterizzavano l'epoca di Giolitti, fornendo dettagli su come lo Stato e le banche fossero coinvolti nella modernizzazione e infrastrutturazione del Paese."
+},
+{
+  "query": "Come si è evoluto il sistema bancario italiano durante il periodo di crescita industriale sotto Giolitti?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde adeguatamente alla query descrivendo l'evoluzione del sistema bancario italiano con l'introduzione di un sistema di banca mista sotto Giolitti. Tutti i relevant_docs sono pertinenti, fornendo dettagli ulteriori su come le banche erano collegate a imprese e allo Stato, e il coinvolgimento dello Stato nell'economia durante il periodo di crescita."
+},
+{
+  "query": "In che modo la relazione tra banche e imprese ha contribuito alla crisi economica in Italia dopo la Prima Guerra Mondiale?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer riguarda la crescita delle imprese durante la guerra, ma non spiega il contributo della relazione tra banche e imprese alla crisi economica post bellica. I primi due relevant_docs spiegano bene la pericolosa interconnessione tra banche e imprese e il loro effetto negativo sull'economia. Il terzo relevant_doc è identico al gold answer e non è pertinente come spiegazione per la crisi economica post-bellica."
+},
+{
+  "query": "Qual è stato il ruolo di John Maynard Keynes nel cambiamento delle politiche economiche dopo la Seconda Guerra Mondiale?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold_answer contiene informazioni pertinenti sul ruolo di Keynes nel cambiamento delle politiche economiche dopo la guerra, evidenziando il suo contributo nell'evitare misure punitive post-belliche. Entrambi i relevant_docs forniscono ulteriore contesto sulla sua influenza, come il piano Marshall e Bretton Woods, sottolineando la sua partecipazione e l'impatto delle sue idee economiche."
+},
+{
+  "query": "Come ha contribuito il piano Marshall allo sviluppo economico dell'Europa nel dopoguerra?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer fornisce informazioni dettagliate sull'iniziativa del piano Marshall e sul suo impatto economico e politico in Europa, menzionando l'incremento del commercio e l'inizio di aggregazioni europee. Entrambi i relevant_docs supportano e ampliano il contesto del piano Marshall, con dettagli sulla sua implementazione e sull'influenza delle istituzioni internazionali post-belliche."
+},
+{
+  "query": "In che modo la creazione del Fondo Monetario Internazionale ha influenzato la stabilità economica globale dopo la Seconda Guerra Mondiale?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde alla domanda fornendo dettagli su come il FMI ha stabilito un sistema di cambi fissi per stabilizzare l'economia. I relevant docs aggiungono ulteriori contesti riguardanti il ruolo del FMI e il suo impatto sulle economie nazionali, supportando pienamente la risposta alla query."
+},
+{
+  "query": "Quali furono le conseguenze economiche della grande inflazione della Germania di Weimar dopo la prima guerra mondiale?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer affronta direttamente le conseguenze economiche della grande inflazione di Weimar, citando il nazionalismo economico e le difficoltà post-belliche. Il relevant doc è identico al gold answer e contiene le stesse informazioni pertinenti."
+},
+{
+  "query": "Come ha contribuito l'Unione Europea al rilancio economico dell'Italia nel dopoguerra?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "La gold answer non menziona specificamente il contributo dell'Unione Europea, ma piuttosto si concentra sugli aiuti americani e sul contesto interno italiano. Il secondo e terzo documento relevante discutono effettivamente il contesto europeo post-bellico e la formazione della Comunità Europea tramite l'iniziativa di cooperazione economica che può essere considerata un passo verso l'Unione Europea e sono rilevanti per comprendere il processo di integrazione europea che ha contribuito all'economia italiana."
+},
+{
+  "query": "In che modo il metodo Monet ha influenzato l'integrazione economica e politica tra Francia e Germania?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde correttamente alla domanda spiegando come il metodo Monet ha influenzato l'integrazione economica e politica. Entrambi i relevant docs sono pertinenti; il primo spiega come la creazione del mercato comune europeo abbia portato a convergenza economica e politica, mentre il secondo è una ripetizione del gold answer, fornendo ulteriori dettagli sul metodo Monet."
+},
+{
+  "query": "Qual è stato l'andamento della popolazione italiana dal 1911 al 2006?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold_answer fornisce un resoconto dettagliato sulla crescita della popolazione italiana negli anni specificati dalla query. Entrambi i relevant_docs supportano il gold_answer aggiungendo contesto sulle dinamiche demografiche e migratorie del periodo."
+},
+{
+  "query": "Come è cambiata la struttura sociale italiana nel corso del Novecento?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer fornisce un'analisi sulle trasformazioni sociali in Italia, come l'invecchiamento della popolazione, le nuove strutture familiari e la sfida dell'integrazione in un contesto globalizzato. I relevant docs supportano e approfondiscono questi temi, con dati demografici specifici e considerazioni sulle migrazioni e sugli stili di vita che hanno segnato il cambiamento strutturale italiano nel corso del Novecento."
+},
+{
+  "query": "Quali sono le implicazioni dell'aumento dell'attesa di vita sulla sostenibilità economica in Italia?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde correttamente alla query trattando le implicazioni economiche dell'aumento dell'attesa di vita. Il primo relevant doc non contiene informazioni rilevanti riguardo le implicazioni economiche dell'aumento dell'attesa di vita, mentre il secondo è uguale alla gold answer e quindi pertinente."
+},
+{
+  "query": "Qual è stata la data del crollo di Lehman Brothers che ha segnato l'inizio della crisi globale?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer fornisce correttamente la data del crollo di Lehman Brothers, il 14 settembre 2008, che risponde esattamente alla query. Il relevant doc è quasi identico al gold answer, quindi è rilevante e fornisce le stesse informazioni."
+},
+{
+  "query": "Come si è evoluta la percezione della crisi nelle diverse culture, come quella greca, latina e cinese?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold_answer e i relevant_docs descrivono correttamente le diverse percezioni della crisi nelle culture greca, latina e cinese. Tuttavia, il gold_answer si concentra maggiormente sul concetto generale di crisi piuttosto che sulla sua evoluzione specifica nelle singole culture, che viene esposta in modo più dettagliato nei relevant_docs."
+},
+{
+  "query": "Quali sono le implicazioni della crisi dei tulipani del 1637 per la crisi finanziaria del 2008?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer fornisce un'analogia dettagliata tra la crisi dei tulipani del 1637 e la crisi finanziaria del 2008, evidenziando parallelismi nella speculazione e nella disconnessione tra economia reale e finanziaria. Il secondo relevant doc è una ripetizione di buona parte del gold answer e aggiunge informazioni pertinenti, mentre il primo relevant doc si concentra su crisi precedenti al capitalismo e quindi non risponde direttamente alla specifica implicazione richiesta dalla query."
+},
+{
+  "query": "Qual è stato il ruolo di Lehman Brothers nella crisi del 2008?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No"
+  ],
+  "comments": "Il gold answer e il relevant doc si concentrano principalmente sulla storia dei tulipani e offrono solo una minima informazione sulla Lehman Brothers, menzionando il fallimento della banca ma non fornendo una chiara spiegazione del suo ruolo specifico nella crisi del 2008. Non rispondono adeguatamente alla domanda sulla natura del coinvolgimento di Lehman Brothers nella crisi finanziaria."
+},
+{
+  "query": "Come si è evoluta la crisi del 2008 secondo il bollettino economico della Banca d'Italia?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer affronta l'evoluzione della crisi 2008 collegandola al bollettino economico della Banca d'Italia e copre in modo adeguato la domanda. I relevant docs aggiungono ulteriori dettagli e sono coerenti con la domanda sulla crisi 2008, integrando con informazioni sui mutui subprime e il loro impatto globale."
+},
+{
+  "query": "In che modo la deregolamentazione del mercato finanziario ha contribuito alla crisi del 2008?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "La gold answer descrive in dettaglio il ruolo della deregolamentazione e l'impatto sul mercato finanziario. Il primo documento pertinente descrive il processo di deregolamentazione e la crescita dei mercati rischiosi, mentre il secondo documento fornisce contesto sulla deregolamentazione e la mancata regolazione della Federal Reserve. Entrambi i documenti rilevanti aggiungono valore alla comprensione dell'argomento."
+},
+{
+  "query": "Quali sono stati gli effetti della crisi americana sulla competitività degli Stati Uniti rispetto alla Cina?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer fornisce una risposta diretta sugli effetti della crisi americana sulla competitività degli Stati Uniti rispetto alla Cina e ad altri paesi. I relevant docs aggiungono contesto, evidenziando la concorrenza con altre nazioni e come la crisi abbia influenzato l'industria interna ed esterna americana."
+},
+{
+  "query": "Come si è evoluta la posizione economica degli Stati Uniti nel contesto globale dagli anni '90 ad oggi?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No",
+    "No",
+    "Yes"
+  ],
+  "comments": "La gold answer non risponde direttamente alla query, mancando una sintesi chiara dell'evoluzione della posizione economica degli Stati Uniti; si concentra più su elementi politici e momenti storici specifici. Il primo relevant doc non aggiunge informazioni pertinenti sull'evoluzione economica globale degli Stati Uniti, mentre il secondo doc è solo una ripetizione del gold. Il terzo doc è rilevante poiché discute la crescita economica, le problematiche di competitività e il contesto economico degli Stati Uniti negli anni 2000, permettendo una visione più completa dell'argomento richiesto dalla query."
+},
+{
+  "query": "In che modo la Cina ha influenzato il debito pubblico degli Stati Uniti?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer è valido poiché spiega il ruolo della Cina nell'acquisto del debito pubblico americano, delineando come la Cina abbia utilizzato le sue risorse per influenzare il deficit statunitense. Il primo relevant doc non è pertinente poiché non menziona la Cina o influssi sul debito pubblico americano. Il secondo relevant doc è pertinente e aggiunge informazioni supplementari riguardanti l'acquisto di debito da parte della Cina."
+},
+{
+  "query": "Quali furono le azioni intraprese dall'Europa dopo la caduta del muro di Berlino?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer non risponde direttamente alla query sulle azioni intraprese, ma piuttosto descrive gli effetti e i cambiamenti subiti dai paesi dell'Europa orientale. Il primo relevant doc è identico al gold answer, quindi non aggiunge informazioni utili. Il secondo relevant doc è utile perché discute l'integrazione dei paesi dell'Est nell'economia globale e la loro crescita economica dopo la caduta del comunismo."
+},
+{
+  "query": "Come ha influenzato la crisi economica la crescita dei paesi dell'Europa orientale rispetto a quelli occidentali?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer è valido in quanto descrive dettagliatamente come i paesi dell'est Europa hanno attraversato una crisi seguita da una rapida crescita rispetto ai paesi dell'Europa occidentale. Il primo relevant doc è pertinente e aggiunge informazioni sul contesto politico ed economico e sui rischi di una crescita fragile. Il secondo relevant doc è ridondante in quanto è identico al gold answer."
+},
+{
+  "query": "In che modo la politica di unificazione europea ha cercato di affrontare le differenze economiche tra Germania e paesi come la Grecia e il Portogallo?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No",
+    "No"
+  ],
+  "comments": "Il gold answer e i relevant docs descrivono la crisi e le risposte dei vari paesi, ma non forniscono una risposta diretta su come la politica di unificazione europea ha affrontato le differenze economiche tra Germania e altri paesi. Mancano dettagli sulle politiche specifiche adottate nell'ambito dell'unificazione europea che mirano a ridurre queste differenze."
+},
+{
+  "query": "Qual è stata la proposta di Lord Keynes durante gli accordi di Bretton Woods?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer non fornisce informazioni specifiche sulla proposta di Lord Keynes ed è principalmente focalizzato su aspetti generali degli accordi di Bretton Woods. Il primo relevant doc coincide con il gold answer e quindi non risponde alla query, mentre il secondo relevant doc è pertinente e descrive la proposta di Lord Keynes di una moneta composita."
+},
+{
+  "query": "Come si è evoluto il commercio mondiale dalla fine della guerra ad oggi secondo il testo?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "No",
+    "Yes"
+  ],
+  "comments": "La gold_answer risponde adeguatamente alla domanda sottolineando la transizione in tre fasi e le influenze politiche e istituzionali sul commercio mondiale. Il primo relevant_doc è valido in quanto discute le fasi del commercio mondiale e menziona cambiamenti strutturali significativi. Il secondo relevant_doc è identico al gold_answer e non aggiunge nuove informazioni. Il terzo relevant_doc fornisce dettagli sulla stabilità economica e i volumi del commercio mondiale, risultando pertanto rilevante."
+},
+{
+  "query": "Quali potrebbero essere le conseguenze del rallentamento economico della Cina sul commercio mondiale?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer non risponde direttamente alla query in quanto si concentra più sulla crescita della Cina e la sua integrazione nell'economia globale piuttosto che sulle conseguenze di un suo rallentamento economico. Il primo relevant doc è pertinente e discute le implicazioni del rallentamento economico della Cina, come la riduzione degli acquisti di beni capitali e i potenziali conflitti interni. Il secondo relevant doc è una ripetizione del gold answer e non fornisce ulteriori dettagli sulle conseguenze del rallentamento economico cinese."
+},
+{
+  "query": "Qual è stato l'impatto della crisi del 2009 sull'industria italiana rispetto a quella tedesca?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer offre una descrizione dettagliata delle differenze nell'impatto della crisi del 2009 tra l'industria italiana e quella tedesca, discute la ripresa e i problemi dell'economia italiana. Entrambi i relevant_docs aggiungono ulteriori contesti sulla differenza tra mercato interno ed esportazioni, spiegando il vantaggio delle imprese italiane sul mercato globale rispetto a quelle tedesche. Nessun documento è irrilevante."
+},
+{
+  "query": "Come ha reagito il sistema industriale italiano alle crisi del 2009 e del 2011?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer e i relevant docs forniscono una risposta esaustiva e coerente alle dinamiche del sistema industriale italiano rispetto alle crisi del 2009 e del 2011, toccando temi di globalizzazione, differenziazione delle imprese, difficoltà di adattamento e cambiamenti strutturali. Non ci sono errori o mancanze evidenti nella copertura degli argomenti richiesti dalla query."
+},
+{
+  "query": "Perché le imprese italiane che esportano tecnologie hanno avuto successo rispetto a quelle che operano solo sul mercato interno?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Duplicate"
+  ],
+  "comments": "Il gold answer risponde correttamente alla query spiegando che le imprese italiane che esportano tecnologie sono più competitive e innovative sui mercati globali rispetto a quelle che operano solo internamente. Il primo relevant doc aggiunge informazioni pertinenti sulle difficoltà delle imprese locali. Il secondo relevant doc è un duplicato del gold answer e non aggiunge ulteriori informazioni."
+},
+{
+  "query": "Qual è stata la crisi economica più clamorosa che ha coinvolto l'Italia e il mondo nel 2009?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "La gold answer risponde pienamente alla query fornendo dettagli sulla crisi economica del 2009 e sul suo impatto globale, con particolare attenzione all'Italia. Il relevant doc è identico al gold answer e quindi è egualmente pertinente ed esaustivo."
+},
+{
+  "query": "Come si è evoluta l'economia italiana dal 2000 in termini di competitività e innovazione?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "La gold answer offre una panoramica dettagliata sul problema del valore aggiunto rispetto al costo del lavoro e come questo incida sulla competitività e sull'innovazione in Italia. I relevant docs sono pertinenti poiché approfondiscono il tema affrontanto nel gold, fornendo confronti con altri paesi e settori tecnologici specifici, contribuendo alla comprensione della situazione economica italiana."
+},
+{
+  "query": "In che modo la globalizzazione ha influenzato la competitività delle imprese italiane rispetto a quelle di altri paesi europei come la Germania?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold_answer tratta specificamente delle differenze tra le imprese italiane e tedesche, sottolineando le somiglianze strutturali ma anche gli obiettivi futuri per migliorare la competitività. I relevant_docs sono pertinenti in quanto offrono ulteriori dettagli sul contesto globale e sugli indicatori di competitività, come la diversità industriale e i challenge legati alla globalizzazione."
+},
+{
+  "query": "Quali interventi ha effettuato l'amministrazione Obama per rilanciare l'industria americana dopo la crisi del 2009?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde alla query fornendo dettagli sugli interventi di salvataggio delle grandi imprese automobilistiche, prestiti e innovazione. Il relevant document è identico al gold answer, quindi è pertinente e informativo rispetto alla domanda."
+},
+{
+  "query": "Come viene ripensato il ruolo della politica industriale nell'età della globalizzazione secondo il testo?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde adeguatamente alla query, esplorando come la politica industriale viene reinterpretata nell'età della globalizzazione, includendo discorsi su innovazione, ricerca e le varie dimensioni della 'politica'. I relevant docs offrono ulteriori dettagli sulla politica della ricerca, l'importanza della pianificazione a lungo termine e la diffusione della conoscenza, tutti elementi pertinenti alla domanda."
+},
+{
+  "query": "In che modo il concetto di 'Entitlements' di Amartya Sen e Lord Darendorf può influenzare le politiche di welfare e coesione sociale?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "La gold answer non risponde direttamente alla query poiché si focalizza su innovazione, territorio e vari elementi di politiche europee, senza spiegare come 'Entitlements' possa influenzare direttamente le politiche di welfare e coesione sociale. I relevant docs, al contrario, offrono una spiegazione più appropriata e dettagliata sul concetto di 'Entitlements' e la sua relazione con i diritti e le risorse, collegandoli alle politiche sociali e di welfare."
+},
+{
+  "query": "Quali sono i tre tipi di segnali d'allarme utilizzati dai cercopitechi?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer non contiene informazioni specifiche sui tre tipi di segnali d'allarme dei cercopitechi, ma solo un riferimento generico alla loro esistenza. Il secondo documento rilevante descrive invece correttamente i tre tipi di segnali d'allarme associati ai cercopitechi, mentre il primo documento non aggiunge dettagli specifici sui segnali richiesti nella query."
+},
+{
+  "query": "Come viene definito il linguaggio umano e quali sono le sue proprietà distintive rispetto ai codici animali?",
+  "gold_valid": "Partially",
+  "relevant_docs_valid": [
+    "No",
+    "Yes",
+    "Partially"
+  ],
+  "comments": "Il gold answer contiene una definizione generale del linguaggio umano, ma si concentra principalmente sulla comunicazione animale senza discutere a fondo le proprietà distintive del linguaggio umano rispetto ai codici animali. Solo l'ultimo paragrafo accenna a tali proprietà. Il primo relevant doc non è direttamente pertinente alla query poiché discute principalmente lo sviluppo del linguaggio in un contesto umano senza confronto con codici animali. Il secondo relevant doc è pertinente perché descrive alcune proprietà distintive del linguaggio umano. Il terzo relevant doc ripete in parte quanto presente nel gold answer e ha una validità parziale per la definizione del linguaggio umano e menzione della complessità comunicativa."
+},
+{
+  "query": "In che modo il gene FOXP2 è collegato allo sviluppo del linguaggio umano?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer non affronta direttamente il collegamento del gene FOXP2 con lo sviluppo del linguaggio umano. Il primo relevant document invece discute dettagliatamente il ruolo del gene FOXP2 nella filogenesi e nel linguaggio, rendendolo rilevante. Il secondo relevant document è fondamentalmente lo stesso del gold answer e non aggiunge nuove informazioni alla risposta principale."
+},
+{
+  "query": "Quali sono i parametri fisici che influenzano la percezione del suono e come si correlano con le caratteristiche percettive?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde chiaramente alla query spiegando la correlazione tra lunghezza d'onda, frequenza e ampiezza con le caratteristiche percettive del suono. I relevant docs sono pertinenti e forniscono ulteriori dettagli sulla percezione del suono, includendo informazioni sull'udito e il sistema sensoriale uditivo."
+},
+{
+  "query": "Come viene prodotto e articolato un suono linguistico dal punto di vista anatomico?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold_answer è molto dettagliato e risponde accuratamente alla domanda sulla produzione e articolazione del suono linguistico dal punto di vista anatomico. Il primo relevant doc fornisce ulteriori dettagli sulla funzione del tratto sovralaringeo e la sua importanza nella modulazione del suono. Il secondo relevant doc illustra come il tratto sovralaringeo agisce come filtro e confronta il processo con esempi pratici evocativi. Il terzo documento ripete essenzialmente le informazioni già presenti nel gold_answer e non aggiunge nuove informazioni pertinenti."
+},
+{
+  "query": "In che modo le caratteristiche anatomiche del parlante influenzano la frequenza fondamentale F0 e la percezione del suono?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer fornisce una spiegazione dettagliata di come le caratteristiche anatomiche, come la conformazione delle corde vocali, influenzino la frequenza fondamentale, oltre a considerare l'impatto delle emozioni sulla percezione del suono. Il primo relevant doc ripete sostanzialmente il contenuto del gold answer, quindi è valido e pertinente. Il secondo relevant doc invece si concentra maggiormente sulle frequenze formanti e la loro dipendenza dalle caratteristiche del filtro, il che è irrilevante per la specifica domanda centrata su F0."
+},
+{
+  "query": "Quale studioso ha ricevuto il premio Nobel per gli studi sul cervello diviso?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer non risponde alla domanda sulla persona che ha vinto il premio Nobel per gli studi sul cervello diviso. Il primo documento rilevante menziona correttamente Roger Sperry come vincitore del premio Nobel nel 1981 per questi studi, mentre il secondo documento non fornisce informazioni pertinenti relative alla domanda."
+},
+{
+  "query": "Come viene utilizzato il paradigma dell'ascolto dicotico per studiare le differenze emisferiche nel linguaggio?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold_answer risponde in modo pertinente alla query, spiegando come il paradigma dell'ascolto dicotico venga utilizzato per studiare la competizione tra le vie neurologiche e la predominanza degli emisferi nella ricezione degli stimoli linguistici. Il primo relevant_doc è valido perché approfondisce la nozione di differenze emisferiche nel contesto del linguaggio e della patologia clinica. Il secondo relevant_doc è valido perché ripete in gran parte il contenuto del gold_answer. Il terzo relevant_doc non è pertinente, poiché si concentra su altri effetti psicologici come l'effetto Stroop, che non sono direttamente collegati al paradigma dell'ascolto dicotico."
+},
+{
+  "query": "Perché il riconoscimento di una parola come 'Penna' è più efficace rispetto a una lettera singola come 'E mascherata'?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer e i relevant docs elencano concetti di 'effetto di superiorità delle parole' e descrivono la facilitazione semantica, che sono pertinenti alla query e rispondono in modo adeguato al confronto tra il riconoscimento di una parola intera e una lettera singola."
+},
+{
+  "query": "Qual è la risoluzione temporale della magnetoencefalografia e come si confronta con l'elettroencefalogramma?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer è corretto poiché spiega che la magnetoencefalografia ha una risoluzione temporale dell'ordine del millesimo di secondo, simile a quella dell'elettroencefalogramma. Il secondo relevant doc ripete il contenuto del gold answer ed è pertinente. Il primo relevant doc non apporta informazioni pertinenti alla risoluzione temporale o al confronto con l'elettroencefalogramma."
+},
+{
+  "query": "Come la risonanza magnetica funzionale e la magnetoencefalografia contribuiscono allo studio del linguaggio?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer spiega dettagliatamente come le due tecniche vengono utilizzate per analizzare i processi del linguaggio. Il primo documento rilevante discute aspetti generali di fMRI e MEG ma non specifica il loro contributo allo studio del linguaggio, mentre il secondo documento rilevante è essenzialmente una ripetizione del gold answer e pertanto è pertinente."
+},
+{
+  "query": "Perché la magnetoencefalografia richiede cabine altissimamente schermate?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer non fornisce informazioni dirette sul perché la magnetoencefalografia richieda cabine schermate; descrive l'apparecchiatura e la tecnica stessa. Il primo relevant doc è valido in quanto spiega le interferenze esterne come il campo magnetico terrestre e l'uso di SQUID che richiedono la schermatura. Il secondo documento è una ripetizione della gold answer e non aggiunge informazioni pertinenti alla domanda."
+},
+{
+  "query": "Quali sono le differenze tra le lingue ad ortografia trasparente e quelle ad ortografia opaca?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold_answer fornisce una risposta completa riguardo alle differenze tra ortografie trasparenti e opache, menzionando la corrispondenza tra grafemi e fonemi. Il primo relevant_doc, invece, parla principalmente della lettura e non fornisce dettagli rilevanti specificamente sulle differenze tra le lingue ad ortografia trasparente e opaca."
+},
+{
+  "query": "Come viene modellizzata la lettura dal punto di vista della neuropsicologia e della psicolinguistica?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer e i relevant_docs forniscono una spiegazione chiara e dettagliata del processo di lettura, evidenziando i modelli a doppia via e l'analisi visiva, rispondendo esaustivamente alla query."
+},
+{
+  "query": "Perché l'attività cerebrale nei soggetti dislessici è diversa rispetto ai normolettori?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer spiega in dettaglio le differenze nell'attività cerebrale tra soggetti dislessici e normolettori, soprattutto riguardo all'attività nell'emisfero sinistro. Entrambi i relevant_docs sono pertinenti: il primo ripete e conferma molti dettagli del gold answer, mentre il secondo aggiunge informazioni sui movimenti oculari e sulla variabilità di dislessia a seconda delle lingue."
+},
+{
+  "query": "Qual è il ruolo del Western Afasia Battery nella valutazione dei disturbi afasici?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No"
+  ],
+  "comments": "Il gold answer menziona il Western Afasia Battery, ma non descrive chiaramente il suo ruolo specifico nella valutazione dei disturbi afasici. Anziché fornire dettagli precisi sul suo utilizzo o sull'efficacia, il testo divaga su altre batterie e test. Pertanto, non è informativo o pertinente in relazione alla query. Lo stesso vale per i relevant docs che replicano il contenuto del gold answer."
+},
+{
+  "query": "Come viene valutata la comprensione linguistica nei test standardizzati per l'afasia?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold answer è valido e risponde adeguatamente alla query, descrivendo come viene valutata la comprensione linguistica nei test per l'afasia. Il primo relevant doc è pertinente e fornisce informazioni simili al gold answer. Il secondo relevant doc, invece, non si concentra sulla valutazione della comprensione linguistica, bensì discute la traduzione e i vantaggi di un test specifico, senza dettagli sulla valutazione della comprensione."
+},
+{
+  "query": "In che modo le lesioni cerebrali possono influenzare la rappresentazione delle lingue L1 e L2?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold_answer fornisce una risposta dettagliata alla query, trattando il recupero linguistico in pazienti poliglotti con disturbi afasici e spiegando vari fenomeni osservati. Il primo relevant_doc è rilevante in quanto copre fenomeni di switching e mescolamento delle lingue legati a lesioni cerebrali. Il secondo relevant_doc non è direttamente pertinente poiché si concentra sui metodi di valutazione dei disturbi linguistici piuttosto che sugli effetti delle lesioni cerebrali sulla rappresentazione linguistica."
+},
+{
+  "query": "Qual è il modello di comunicazione sviluppato da Claude Shannon e Warren Weaver?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer descrive chiaramente il modello di Shannon e Weaver, includendo i concetti chiave come fonte, codifica, trasmissione, decodifica e rumore. I relevant docs forniscono ulteriori dettagli sui limiti del modello nel contesto della comunicazione tra esseri viventi e il background teorico di Shannon, rendendoli pertinenti e utili alla comprensione della query."
+},
+{
+  "query": "Come viene descritta la discomunicazione nel contesto della psicologia della comunicazione?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "La gold answer risponde in modo adeguato alla domanda descrivendo la discomunicazione come un dire ambiguo e differenziandola dalla patologia comunicativa. Entrambi i relevant_docs sono pertinenti e forniscono ulteriori esempi e chiarimenti sulla discomunicazione e su come si manifesti attraverso la violazione delle massime conversazionali e metafore, arricchendo così la comprensione del fenomeno."
+},
+{
+  "query": "In che modo il principio di cooperazione di Grice può influenzare la comunicazione tra esseri viventi?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes",
+    "No"
+  ],
+  "comments": "Il gold_answer risponde bene alla domanda spiegando come il principio di cooperazione di Grice ottimizza la comunicazione. Il primo e il secondo relevant doc sono pertinenti e discutono delle implicature conversazionali e del ruolo della comunicazione implicita, che sono centrali per Grice. Il terzo relevant doc discute più sulle ambiguità linguistiche in generale, non direttamente correlato al principio di cooperazione di Grice."
+},
+{
+  "query": "Qual è il ruolo della corteccia motoria nella produzione di un gesto secondo Giacomo Rizzolatti?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer spiega correttamente il ruolo della corteccia motoria nella produzione di un gesto secondo Giacomo Rizzolatti. Il secondo relevant doc è essenzialmente il gold answer e quindi pertinente. Il primo relevant doc menziona Rizzolatti ma si concentra su un'altra scoperta legata alla corteccia frontale, non sulla corteccia motoria specificamente nella produzione di un gesto."
+},
+{
+  "query": "Come viene descritta la relazione tra percezione e azione nel contesto dei neuroni specchio secondo gli studi dell'Università di Parma?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer risponde adeguatamente alla domanda descrivendo la relazione tra percezione e azione tramite i neuroni specchio secondo gli studi di Parma. Il primo relevant doc non aggiunge informazioni rilevanti alla query specifica, in quanto si concentra sugli studi sui ballerini senza collegare direttamente percezione e azione nel contesto dei neuroni specchio."
+},
+{
+  "query": "In che modo l'aprasia ideomotoria può influenzare la capacità di eseguire gesti complessi, e quale ruolo giocano gli engrami in questo contesto?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold_answer e i relevant_docs forniscono informazioni pertanto rispondenti alla domanda, descrivendo come l'aprasia ideomotoria altera l'attivazione degli engrammi motori e discutendo il ruolo dei neuroni specchio e delle aree cerebrali coinvolte."
+},
+{
+  "query": "Quale distinzione importante ha fatto Aristotile riguardo alle persone sorde?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer contiene la distinzione specifica fatta da Aristotile, ovvero la differenza tra produrre suoni e produrre la voce articolata. Il relevant document è anch'esso rilevante perché ripete tutta l'informazione fornita nel gold answer."
+},
+{
+  "query": "Quali furono i contributi di Agricola e Girolamo Cardano nell'educazione dei sordi?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer è pertinente poiché menziona specificamente il contributo di Agricola e Cardano nell'educazione dei sordi. Il primo relevant doc invece si concentra su padre Ponce de Leon, che non è pertinente alla query. Il secondo relevant doc è pertinente perché riecheggia il contenuto del gold answer riguardo al ruolo di Agricola e Cardano."
+},
+{
+  "query": "In che modo il congresso di Milano ha influenzato l'uso della lingua dei segni nell'educazione dei sordi in Italia?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer e i relevant docs sono pertinenti e forniscono informazioni dettagliate sull'impatto del congresso di Milano sull'uso della lingua dei segni, incluse le motivazioni politiche e pedagogiche del cambiamento."
+},
+{
+  "query": "Qual è la configurazione della mano nella lingua dei segni italiana che ha una connotazione neutra e appare in segni come facile e spaghetti?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer contiene l'informazione richiesta nella query riguardo la configurazione della mano con il mignolo esteso e la sua connotazione neutra. Il relevant doc supporta la risposta fornita."
+},
+{
+  "query": "Come si differenziano i segni per 'cane' nelle lingue dei segni italiana, americana e britannica?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold answer affronta diverse configurazioni delle mani e discussioni generali sulle lingue dei segni senza rispondere specificamente alla query riguardante i segnali per 'cane'. Il primo relevant doc è identico al gold answer e quindi non pertinente alla domanda. Il secondo relevant doc invece menziona i segni per 'cane' nelle lingue dei segni italiana, americana e britannica, rispondendo così alla domanda."
+},
+{
+  "query": "Perché il segno 'uscire' nella lingua dei segni italiana ha causato equivoci nei segnanti britannici?",
+  "gold_valid": "No",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "Il gold answer non risponde direttamente alla domanda sul perché il segno 'uscire' ha causato equivoci nei segnanti britannici, anche se menziona l'esperimento e le differenze culturali dei segni. Uno dei relevant docs però fornisce una spiegazione precisa: 'uscire' ha causato equivoci a causa di connotazioni negative nei segnanti britannici."
+},
+{
+  "query": "Quali sono le due interpretazioni diverse dell'Inno di Mameli realizzate da Emilio Insolera e Daniele Lerose?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "No",
+    "Yes"
+  ],
+  "comments": "Il gold_answer risponde correttamente alla query specificando le due diverse interpretazioni dell'Inno di Mameli. Il primo relevant doc non è pertinente alla query in quanto si concentra su altre opere di poesia in lingua dei segni e non menziona le interpretazioni di Emilio Insolera e Daniele Lerose. Il secondo relevant doc è pertinente, poiché descrive le interpretazioni dei due artisti sordi in relazione all'Inno di Mameli."
+},
+{
+  "query": "Come la poesia in lingua dei segni riesce a trasmettere emozioni simili a quelle delle poesie vocali secondo i fratelli Giuranna?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes",
+    "Yes"
+  ],
+  "comments": "La gold answer risponde correttamente alla query spiegando come la poesia in lingua dei segni trasmette emozioni simili a quelle vocali, facendo riferimento ai lavori dei fratelli Giuranna. Entrambi i documenti rilevanti sono pertinenti; il primo fornisce un contesto sulle opere dei Giuranna, mentre il secondo spiega come le poesie in lingua dei segni usano simmetrie visive per creare emozioni analoghe a quelle delle poesie vocali."
+},
+{
+  "query": "In che modo l'Inno di Mameli tradotto da Deaf Media riflette aspetti del mondo dei sordi?",
+  "gold_valid": "Yes",
+  "relevant_docs_valid": [
+    "Yes"
+  ],
+  "comments": "Il gold answer contiene informazioni pertinenti sulla traduzione dell'Inno di Mameli da parte di Deaf Media, evidenziando come l'adattamento rifletta aspetti del mondo dei sordi. Il relevant doc fornito ripete esattamente il gold answer, quindi è pertinente e valido, ma non aggiunge ulteriori informazioni oltre a quelle già presenti."
+}
+]

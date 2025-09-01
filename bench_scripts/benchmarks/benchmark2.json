@@ -1,0 +1,630 @@
+[
+  {
+    "query": "Quale evento segna la fine dell'epoca feudale?",
+    "gold_answer": "economia_applicata_clean_01_Lez001.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_01_Lez001.txt-0",
+      "economia_applicata_clean_01_Lez001.txt-2",
+      "economia_applicata_clean_01_Lez001.txt-3"
+    ]
+  },
+  {
+    "query": "Spiega come la rivoluzione industriale abbia trasformato l'economia da feudale a moderna.",
+    "gold_answer": "economia_applicata_clean_01_Lez001.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_01_Lez001.txt-0",
+      "economia_applicata_clean_01_Lez001.txt-1",
+      "economia_applicata_clean_01_Lez001.txt-2"
+    ]
+  },
+  {
+    "query": "In che modo la teoria della 'mano invisibile' di Smith si collega alla rivoluzione francese?",
+    "gold_answer": "economia_applicata_clean_01_Lez001.txt-10",
+    "relevant_docs": [
+      "economia_applicata_clean_01_Lez001.txt-4",
+      "economia_applicata_clean_01_Lez001.txt-10"
+    ]
+  },
+  {
+    "query": "Chi aveva un cimiero con le insegne della nobiltà?",
+    "gold_answer": "economia_applicata_clean_01_Lez001.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_01_Lez001.txt-1"
+    ]
+  },
+  {
+    "query": "Qual era la situazione dell'industria in Italia prima dell'unità?",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-4",
+      "economia_applicata_clean_02_Lez002.txt-5",
+      "economia_applicata_clean_02_Lez002.txt-6"
+    ]
+  },
+  {
+    "query": "Quali furono le conseguenze politiche ed economiche delle rivoluzioni borghesi in Europa?",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-1",
+      "economia_applicata_clean_02_Lez002.txt-2",
+      "economia_applicata_clean_02_Lez002.txt-3"
+    ]
+  },
+  {
+    "query": "Perché l'Italia era un late comer rispetto alla rivoluzione industriale?",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-13",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-12",
+      "economia_applicata_clean_02_Lez002.txt-13",
+      "economia_applicata_clean_02_Lez002.txt-14"
+    ]
+  },
+  {
+    "query": "Quanto era veloce la politica rispetto all'economia?",
+    "gold_answer": null,
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-4"
+    ]
+  },
+  {
+    "query": "Chi è l'autore del libro La ricchezza delle nazioni?",
+    "gold_answer": "economia_applicata_clean_01_Lez001.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_01_Lez001.txt-3",
+      "economia_applicata_clean_01_Lez001.txt-4"
+    ]
+  },
+  {
+    "query": "Qual è l'impatto generale della rivoluzione industriale sull'economia?",
+    "gold_answer": "economia_applicata_clean_01_Lez001.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_01_Lez001.txt-0",
+      "economia_applicata_clean_01_Lez001.txt-2"
+    ]
+  },
+  {
+    "query": "Perché la rivoluzione francese fu considerata una frattura forte nella storia?",
+    "gold_answer": "economia_applicata_clean_01_Lez001.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_01_Lez001.txt-2",
+      "economia_applicata_clean_01_Lez001.txt-4"
+    ]
+  },
+  {
+    "query": "Quando è successo tutto questo?",
+    "gold_answer": "economia_applicata_clean_01_Lez001.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_01_Lez001.txt-0",
+      "economia_applicata_clean_01_Lez001.txt-11"
+    ]
+  },
+  {
+    "query": "Qual era l'economia dell'Italia prima dell'unità?",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-2",
+      "economia_applicata_clean_02_Lez002.txt-3"
+    ]
+  },
+  {
+    "query": "Perché l'industria è nata prima nel Piemonte e nel Lombardo-Veneto?",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-6",
+      "economia_applicata_clean_02_Lez002.txt-7"
+    ]
+  },
+  {
+    "query": "Come la rivoluzione industriale ha influenzato le politiche in Germania e Italia?",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-12",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-11",
+      "economia_applicata_clean_02_Lez002.txt-12",
+      "economia_applicata_clean_02_Lez002.txt-15"
+    ]
+  },
+  {
+    "query": "Cos'è un paese in ritardo?",
+    "gold_answer": "economia_applicata_clean_02_Lez002.txt-13",
+    "relevant_docs": [
+      "economia_applicata_clean_02_Lez002.txt-13"
+    ]
+  },
+  {
+    "query": "Qual era il porto importante del triangolo industriale italiano nel periodo post-unitario?",
+    "gold_answer": "economia_applicata_clean_03_Lez003.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_03_Lez003.txt-0",
+      "economia_applicata_clean_03_Lez003.txt-1"
+    ]
+  },
+  {
+    "query": "Come è stata gestita l'economia italiana immediatamente dopo l'Unità d'Italia?",
+    "gold_answer": "economia_applicata_clean_03_Lez003.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_03_Lez003.txt-3",
+      "economia_applicata_clean_03_Lez003.txt-4",
+      "economia_applicata_clean_03_Lez003.txt-5"
+    ]
+  },
+  {
+    "query": "Perché l'Italia è considerata un 'late-comer' nello sviluppo industriale europeo?",
+    "gold_answer": "economia_applicata_clean_03_Lez003.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_03_Lez003.txt-5",
+      "economia_applicata_clean_03_Lez003.txt-6",
+      "economia_applicata_clean_03_Lez003.txt-7"
+    ]
+  },
+  {
+    "query": "Cosa significa 'fare gli italiani' nel contesto del testo?",
+    "gold_answer": "economia_applicata_clean_03_Lez003.txt-8",
+    "relevant_docs": [
+      "economia_applicata_clean_03_Lez003.txt-8"
+    ]
+  },
+  {
+    "query": "Qual era il ruolo dello Stato nell'economia durante la guerra secondo il testo?",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-6",
+      "economia_applicata_clean_04_Lez004.txt-7"
+    ]
+  },
+  {
+    "query": "Quali erano gli effetti del sistema di banca mista durante l'era Giolitti?",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-4",
+      "economia_applicata_clean_04_Lez004.txt-5"
+    ]
+  },
+  {
+    "query": "Perché lo sviluppo economico in Italia durante l'inizio del Novecento era considerato fragile?",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-1",
+      "economia_applicata_clean_04_Lez004.txt-2",
+      "economia_applicata_clean_04_Lez004.txt-3"
+    ]
+  },
+  {
+    "query": "Che cosa succede quando le aspettative non sono buone?",
+    "gold_answer": "economia_applicata_clean_04_Lez004.txt-9",
+    "relevant_docs": [
+      "economia_applicata_clean_04_Lez004.txt-9"
+    ]
+  },
+  {
+    "query": "Chi è stato il Presidente degli Stati Uniti che ha introdotto il New Deal?",
+    "gold_answer": "economia_applicata_clean_05_Lez005.txt-8",
+    "relevant_docs": [
+      "economia_applicata_clean_05_Lez005.txt-8",
+      "economia_applicata_clean_05_Lez005.txt-9"
+    ]
+  },
+  {
+    "query": "Quali erano le soluzioni economiche adottate durante la crisi del 1929 negli USA e in Europa?",
+    "gold_answer": "economia_applicata_clean_05_Lez005.txt-8",
+    "relevant_docs": [
+      "economia_applicata_clean_05_Lez005.txt-8",
+      "economia_applicata_clean_05_Lez005.txt-9",
+      "economia_applicata_clean_05_Lez005.txt-10"
+    ]
+  },
+  {
+    "query": "Perché l'inflazione di Weimar portò al potere Hitler?",
+    "gold_answer": "economia_applicata_clean_05_Lez005.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_05_Lez005.txt-4",
+      "economia_applicata_clean_05_Lez005.txt-5"
+    ]
+  },
+  {
+    "query": "Cosa succede alle banche durante un fenomeno storico casuale?",
+    "gold_answer": "economia_applicata_clean_05_Lez005.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_05_Lez005.txt-3",
+      "economia_applicata_clean_05_Lez005.txt-10"
+    ]
+  },
+  {
+    "query": "Cos'è il piano Marshall?",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-3",
+      "economia_applicata_clean_06_Lez006.txt-2"
+    ]
+  },
+  {
+    "query": "Quali furono gli effetti del boom economico in Italia tra il 1959 e il 1962?",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-9",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-9",
+      "economia_applicata_clean_06_Lez006.txt-10"
+    ]
+  },
+  {
+    "query": "Come hanno contribuito i piani internazionali al rilancio economico europeo nel dopoguerra?",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-3",
+      "economia_applicata_clean_06_Lez006.txt-7"
+    ]
+  },
+  {
+    "query": "Qual è stata la situazione delle banche nella ricostruzione postbellica?",
+    "gold_answer": "economia_applicata_clean_06_Lez006.txt-8",
+    "relevant_docs": [
+      "economia_applicata_clean_06_Lez006.txt-8",
+      "economia_applicata_clean_06_Lez006.txt-9"
+    ]
+  },
+  {
+    "query": "Quale fu una delle principali sfide economiche dell'Italia negli anni '70?",
+    "gold_answer": "economia_applicata_clean_07_Lez007.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_07_Lez007.txt-4",
+      "economia_applicata_clean_07_Lez007.txt-5"
+    ]
+  },
+  {
+    "query": "Come ha reagito l'industria italiana alla crisi degli anni '70 e '80?",
+    "gold_answer": "economia_applicata_clean_07_Lez007.txt-12",
+    "relevant_docs": [
+      "economia_applicata_clean_07_Lez007.txt-9",
+      "economia_applicata_clean_07_Lez007.txt-12",
+      "economia_applicata_clean_07_Lez007.txt-13"
+    ]
+  },
+  {
+    "query": "Perché la crisi petrolifera del 1973 ha avuto un impatto significativo sull'economia italiana?",
+    "gold_answer": "economia_applicata_clean_07_Lez007.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_07_Lez007.txt-6",
+      "economia_applicata_clean_07_Lez007.txt-7",
+      "economia_applicata_clean_07_Lez007.txt-8"
+    ]
+  },
+  {
+    "query": "Quali furono le conseguenze delle politiche economiche vaghe dell'Italia?",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quali furono le conseguenze economiche della Prima Guerra Mondiale in Germania?",
+    "gold_answer": "economia_applicata_clean_08_Lez008.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_08_Lez008.txt-0"
+    ]
+  },
+  {
+    "query": "Come è avvenuta la crescita economica italiana nel secondo dopoguerra?",
+    "gold_answer": "economia_applicata_clean_08_Lez008.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_08_Lez008.txt-1",
+      "economia_applicata_clean_08_Lez008.txt-2"
+    ]
+  },
+  {
+    "query": "Perché l'adozione dell'euro è stata politicamente significativa per l'Europa?",
+    "gold_answer": "economia_applicata_clean_08_Lez008.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_08_Lez008.txt-7",
+      "economia_applicata_clean_08_Lez008.txt-8"
+    ]
+  },
+  {
+    "query": "Cosa succede quando gli stati smettono di essere stati?",
+    "gold_answer": "economia_applicata_clean_08_Lez008.txt-9",
+    "relevant_docs": [
+      "economia_applicata_clean_08_Lez008.txt-9"
+    ]
+  },
+  {
+    "query": "Qual è l'importanza del WTO e quando è stato fondato secondo il testo?",
+    "gold_answer": "economia_applicata_clean_09_Lez009.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_09_Lez009.txt-1",
+      "economia_applicata_clean_09_Lez009.txt-2"
+    ]
+  },
+  {
+    "query": "Spiega come il crollo dell'Unione Sovietica ha influenzato l'economia globale secondo il testo.",
+    "gold_answer": "economia_applicata_clean_09_Lez009.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_09_Lez009.txt-3",
+      "economia_applicata_clean_09_Lez009.txt-4"
+    ]
+  },
+  {
+    "query": "Perché la Cina è un paese importante nel contesto internazionale e quali fattori ne hanno influenzato la crescita dal 2000?",
+    "gold_answer": "economia_applicata_clean_09_Lez009.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_09_Lez009.txt-6",
+      "economia_applicata_clean_09_Lez009.txt-8"
+    ]
+  },
+  {
+    "query": "Cosa significa per l'Europa essere a diverse velocità?",
+    "gold_answer": "economia_applicata_clean_09_Lez009.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_09_Lez009.txt-5",
+      "economia_applicata_clean_09_Lez009.txt-7"
+    ]
+  },
+  {
+    "query": "Quante persone vivevano in Italia nel 1911?",
+    "gold_answer": "economia_applicata_clean_10_Lez010.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_10_Lez010.txt-4",
+      "economia_applicata_clean_10_Lez010.txt-5"
+    ]
+  },
+  {
+    "query": "Come è cambiata la società italiana dal 1931 al 2006 in termini di attesa di vita e struttura familiare?",
+    "gold_answer": "economia_applicata_clean_10_Lez010.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_10_Lez010.txt-7",
+      "economia_applicata_clean_10_Lez010.txt-10"
+    ]
+  },
+  {
+    "query": "Quali potrebbero essere le implicazioni economiche dell'invecchiamento della popolazione in Italia?",
+    "gold_answer": "economia_applicata_clean_10_Lez010.txt-10",
+    "relevant_docs": [
+      "economia_applicata_clean_10_Lez010.txt-9",
+      "economia_applicata_clean_10_Lez010.txt-10"
+    ]
+  },
+  {
+    "query": "Perché il corvo vola basso in Italia?",
+    "gold_answer": "null",
+    "relevant_docs": []
+  },
+  {
+    "query": "Qual è l'età media a cui una madre ha il suo primo figlio nel 2010?",
+    "gold_answer": "economia_applicata_clean_11_Lez011.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_11_Lez011.txt-1"
+    ]
+  },
+  {
+    "query": "Come è cambiata la struttura familiare in Italia dal 1961 al 2001?",
+    "gold_answer": "economia_applicata_clean_11_Lez011.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_11_Lez011.txt-2",
+      "economia_applicata_clean_11_Lez011.txt-3"
+    ]
+  },
+  {
+    "query": "Cosa implica l'aumento dell'età media di pensionamento sull'economia italiana?",
+    "gold_answer": "economia_applicata_clean_11_Lez011.txt-8",
+    "relevant_docs": [
+      "economia_applicata_clean_11_Lez011.txt-7",
+      "economia_applicata_clean_11_Lez011.txt-8"
+    ]
+  },
+  {
+    "query": "Qual è il tempo di attesa?",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quando è avvenuto il crollo di Lehman Brothers?",
+    "gold_answer": "economia_applicata_clean_12_Lez012.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_12_Lez012.txt-0"
+    ]
+  },
+  {
+    "query": "Quale cambiamento storico è collegato alla crisi finanziaria del 2007-2008?",
+    "gold_answer": "economia_applicata_clean_12_Lez012.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_12_Lez012.txt-2",
+      "economia_applicata_clean_12_Lez012.txt-6"
+    ]
+  },
+  {
+    "query": "Come sono correlati il mercato finanziario e la crisi dei tulipani del 1600?",
+    "gold_answer": "economia_applicata_clean_12_Lez012.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_12_Lez012.txt-6",
+      "economia_applicata_clean_12_Lez012.txt-7"
+    ]
+  },
+  {
+    "query": "Cosa significa crisi nel contesto attuale?",
+    "gold_answer": "economia_applicata_clean_12_Lez012.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_12_Lez012.txt-3",
+      "economia_applicata_clean_12_Lez012.txt-4"
+    ]
+  },
+  {
+    "query": "Chi era Joseph Schumpeter e cosa ha studiato riguardo alla crisi?",
+    "gold_answer": "economia_applicata_clean_13_Lez013.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_13_Lez013.txt-0",
+      "economia_applicata_clean_13_Lez013.txt-1"
+    ]
+  },
+  {
+    "query": "Quali sono le principali fasi storiche e economiche legate ai cicli del capitalismo descritte nel testo?",
+    "gold_answer": "economia_applicata_clean_13_Lez013.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_13_Lez013.txt-3",
+      "economia_applicata_clean_13_Lez013.txt-4",
+      "economia_applicata_clean_13_Lez013.txt-5"
+    ]
+  },
+  {
+    "query": "Come si può inferire l'importanza dell'intervento statale secondo Keynes dalla crisi del 1929?",
+    "gold_answer": "economia_applicata_clean_13_Lez013.txt-10",
+    "relevant_docs": [
+      "economia_applicata_clean_13_Lez013.txt-9",
+      "economia_applicata_clean_13_Lez013.txt-10",
+      "economia_applicata_clean_13_Lez013.txt-11"
+    ]
+  },
+  {
+    "query": "Qual è il miglior tipo di economia?",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quando è fallita Lehman Brothers?",
+    "gold_answer": "economia_applicata_clean_14_Lez014.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_14_Lez014.txt-0",
+      "economia_applicata_clean_14_Lez014.txt-1"
+    ]
+  },
+  {
+    "query": "Quali sono state le cause principali della crisi finanziaria del 2008?",
+    "gold_answer": "economia_applicata_clean_14_Lez014.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_14_Lez014.txt-6",
+      "economia_applicata_clean_14_Lez014.txt-7"
+    ]
+  },
+  {
+    "query": "Come la deregolamentazione ha influenzato i mercati finanziari prima del 2008?",
+    "gold_answer": "economia_applicata_clean_14_Lez014.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_14_Lez014.txt-3",
+      "economia_applicata_clean_14_Lez014.txt-4"
+    ]
+  },
+  {
+    "query": "Chi ha il potere nell'economia globale?",
+    "gold_answer": "economia_applicata_clean_14_Lez014.txt-11",
+    "relevant_docs": [
+      "economia_applicata_clean_14_Lez014.txt-11",
+      "economia_applicata_clean_14_Lez014.txt-12"
+    ]
+  },
+  {
+    "query": "Quando è iniziata la crisi economica del 2008?",
+    "gold_answer": "economia_applicata_clean_15_Lez015.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_15_Lez015.txt-0",
+      "economia_applicata_clean_15_Lez015.txt-1"
+    ]
+  },
+  {
+    "query": "Quali sono state le quattro fasi del cambiamento globale dalla fine della Seconda Guerra Mondiale al 2008?",
+    "gold_answer": "economia_applicata_clean_15_Lez015.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_15_Lez015.txt-2",
+      "economia_applicata_clean_15_Lez015.txt-3"
+    ]
+  },
+  {
+    "query": "Che implicazioni ha avuto l'espansione della Cina sul mercato globale?",
+    "gold_answer": "economia_applicata_clean_15_Lez015.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_15_Lez015.txt-4",
+      "economia_applicata_clean_15_Lez015.txt-5"
+    ]
+  },
+  {
+    "query": "Perché la crisi è stata confusa come una nebulosa di eventi?",
+    "gold_answer": "economia_applicata_clean_15_Lez015.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_15_Lez015.txt-0",
+      "economia_applicata_clean_15_Lez015.txt-1"
+    ]
+  },
+  {
+    "query": "Quando è stata la guerra in Iraq?",
+    "gold_answer": "economia_applicata_clean_16_Lez016.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_16_Lez016.txt-0"
+    ]
+  },
+  {
+    "query": "Quali sono i fattori che hanno portato alla crisi degli Stati Uniti?",
+    "gold_answer": "economia_applicata_clean_16_Lez016.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_16_Lez016.txt-3",
+      "economia_applicata_clean_16_Lez016.txt-4",
+      "economia_applicata_clean_16_Lez016.txt-5",
+      "economia_applicata_clean_16_Lez016.txt-6"
+    ]
+  },
+  {
+    "query": "Come la Cina ha influenzato l'economia americana?",
+    "gold_answer": "economia_applicata_clean_16_Lez016.txt-6",
+    "relevant_docs": [
+      "economia_applicata_clean_16_Lez016.txt-2",
+      "economia_applicata_clean_16_Lez016.txt-6"
+    ]
+  },
+  {
+    "query": "Perché è importante?",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quando è avvenuta la crisi economica mondiale che coinvolge i paesi industrializzati?",
+    "gold_answer": "economia_applicata_clean_17_Lez017.txt-1",
+    "relevant_docs": [
+      "economia_applicata_clean_17_Lez017.txt-0",
+      "economia_applicata_clean_17_Lez017.txt-1"
+    ]
+  },
+  {
+    "query": "Qual è il ruolo della Cina nei cambiamenti economici globali recenti?",
+    "gold_answer": "economia_applicata_clean_17_Lez017.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_17_Lez017.txt-2",
+      "economia_applicata_clean_17_Lez017.txt-3"
+    ]
+  },
+  {
+    "query": "Come si relazionano educazione e crescita economica nei paesi emergenti?",
+    "gold_answer": "economia_applicata_clean_17_Lez017.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_17_Lez017.txt-6",
+      "economia_applicata_clean_17_Lez017.txt-7"
+    ]
+  },
+  {
+    "query": "Perché la sincerità è importante?",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quando è iniziata la crisi dei PICS?",
+    "gold_answer": "economia_applicata_clean_18_Lez018.txt-3",
+    "relevant_docs": [
+      "economia_applicata_clean_18_Lez018.txt-3",
+      "economia_applicata_clean_18_Lez018.txt-4"
+    ]
+  },
+  {
+    "query": "Quali sono le principali differenze tra la crisi affrontata dai paesi dell'Europa occidentale e quelli orientali?",
+    "gold_answer": "economia_applicata_clean_18_Lez018.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_18_Lez018.txt-6",
+      "economia_applicata_clean_18_Lez018.txt-7"
+    ]
+  },
+  {
+    "query": "Come ha influito la caduta del Muro di Berlino sull'economia dei paesi europei?",
+    "gold_answer": "economia_applicata_clean_18_Lez018.txt-5",
+    "relevant_docs": [
+      "economia_applicata_clean_18_Lez018.txt-5",
+      "economia_applicata_clean_18_Lez018.txt-6"
+    ]
+  },
+  {
+    "query": "Perché la strategia di Lisbona non ha funzionato come previsto?",
+    "gold_answer": "economia_applicata_clean_18_Lez018.txt-9",
+    "relevant_docs": [
+      "economia_applicata_clean_18_Lez018.txt-9",
+      "economia_applicata_clean_18_Lez018.txt-11"
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "gold_answer": "economia_applicata_clean_07_Lez007.txt-0",
+    "relevant_docs": [
+      "economia_applicata_clean_07_Lez007.txt-0",
+      "economia_applicata_clean_07_Lez007.txt-1"
+    ]
+  },
+  {
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "gold_answer": "economia_applicata_clean_09_Lez009.txt-7",
+    "relevant_docs": [
+      "economia_applicata_clean_09_Lez009.txt-7",
+      "economia_applicata_clean_09_Lez009.txt-8"
+    ]
+  },
+  {
+    "gold_answer": "economia_applicata_clean_13_Lez013.txt-9",
+    "relevant_docs": [
+      "economia_applicata_clean_13_Lez013.txt-9",
+      "economia_applicata_clean_13_Lez013.txt-10"
+    ]
+  },
+  {
+    "gold_answer": "economia_applicata_clean_19_Bianchi_Lez001.txt-2",
+    "relevant_docs": [
+      "economia_applicata_clean_19_Bianchi_Lez001.txt-2",
+      "economia_applicata_clean_19_Bianchi_Lez001.txt-3",
+      "economia_applicata_clean_19_Bianchi_Lez001.txt-5",
+      "economia_applicata_clean_19_Bianchi_Lez001.txt-11"
+    ]
+  },
+  {
+    "gold_answer": "economia_applicata_clean_21_Bianchi_Lez003.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-3",
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-4",
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-5",
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-6"
+    ]
+  },
+  {
+    "gold_answer": "economia_applicata_clean_21_Bianchi_Lez003.txt-4",
+    "relevant_docs": [
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-3",
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-4",
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-5",
+      "economia_applicata_clean_21_Bianchi_Lez003.txt-6"
+    ]
+  },
+  {
+    "gold_answer": "linguaggio_e_comunicazione_clean_Lez008.txt-8",
+    "relevant_docs": [
+      "linguaggio_e_comunicazione_clean_Lez008.txt-0",
+      "linguaggio_e_comunicazione_clean_Lez008.txt-8",
+      "linguaggio_e_comunicazione_clean_Lez008.txt-9",
+      "linguaggio_e_comunicazione_clean_Lez008.txt-10"
+    ]
+  },
+  {
+    "query tolte dal benchmark": "questa",
+    "query": "Come vengono distinti i paesi sviluppati dai paesi emergenti nel contesto economico mondiale?",
+    "question_type": "synthesis",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quali sono le date di inizio e fine che definiscono convenzionalmente un secolo?",
+    "question_type": "fact",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Cos'è stato il detonatore della grande crisi del 2007?",
+    "question_type": "fact",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Qual è il ruolo dell'abbigliamento nella comunicazione non verbale?",
+    "question_type": "synthesis",
+    "gold_answer": null,
+    "relevant_docs": []
+  },
+  {
+    "query": "Quali sono i benefici dell'educazione bilingue per i bambini?",
+    "question_type": "synthesis",
+    "gold_answer": null,
+    "relevant_docs": []
+  }
+]

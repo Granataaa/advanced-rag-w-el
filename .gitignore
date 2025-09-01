@@ -41,3 +41,9 @@ __pycache__/
 # file generali
 request_log.json
 reactApi/react-client/public/video
+BLINK
+rag_api/out.txt
+rag_api/out2.txt
+rag_api/out3.txt
+rag_api/out4.txt
+rag_api/out5.txt
