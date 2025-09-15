@@ -91,7 +91,7 @@ def LLMHelpFunc(query, results):
     # Aggiunge link html
     response = addLink(response)
 
-    print("Risposta AI:", response)
+    # print("Risposta AI:", response)
     return response
 
 def query_rag(query, k_ric, LLMHelp):

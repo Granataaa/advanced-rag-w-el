@@ -44,7 +44,7 @@ def loading_entity_linking():
         index = faiss.read_index("../faiss_index300.index") 
 
         # Carica il NUOVO file JSON con le entità già linkate
-        with open("../chunks_scripts/chunks_metadata/chunks_linked_entities_emb_final.json", "r", encoding="utf-8") as f:
+        with open("../chunks_scripts/chunks_metadata/chunks_linked_entities_emb_final_noemb.json", "r", encoding="utf-8") as f:
             chunk_data_linked = json.load(f)
         
         print("Caricamento completato.")
@@ -52,12 +52,20 @@ def loading_entity_linking():
     else:
         print("Caricamento già effettuato.")
 
-# Caricamento delle chiavi API e configurazione LLM (invariato)
 load_dotenv()
 key = os.getenv("OPENAI_API_KEY")
-client = OpenAI(organization=os.getenv("ORGANIZATION"), project=os.getenv("PROJECT"))
+
+client = OpenAI(
+  organization=os.getenv("ORGANIZATION"),
+  project=os.getenv("PROJECT"),
+)
+
 url = os.getenv("URL")
-headers = {"Content-Type": "application/json", "Authorization": f"Bearer {key}"}
+
+headers = {
+    "Content-Type": "application/json",
+    "Authorization": f"Bearer {key}"
+}
 
 
 # --- 2. FUNZIONI HELPER (LLM, LINKING, ETC.) ---
@@ -110,36 +118,64 @@ def wikidata_candidate_search(entity_text, limit=10):
 def cosine_similarity(vec1, vec2):
     if np.all(vec1 == 0) or np.all(vec2 == 0): return 0.0
     return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
-    
-# Funzioni per l'LLM e la formattazione (invariate)
+
+def normalize(vecs):
+    return vecs / np.linalg.norm(vecs, axis=1, keepdims=True)
+
 def AIRequest(mess):
-    payload = {"model": "gpt-4o", "messages": mess, "max_tokens": 3000, "temperature": 0.0}
+
+    payload = {
+        "model": "gpt-4o",
+        "messages": mess,
+        # "max_completion_tokens": 3000,
+        "temperature": 0
+    }
     response = requests.post(url, json=payload, headers=headers)
+    r = ""
     if response.status_code == 200:
-        return response.json()['choices'][0]['message']['content']
+        result = response.json()
+        r = result['choices'][0]['message']['content']
     else:
         print(f"Errore: {response.status_code}, Dettagli: {response.text}")
-        return ""
+    return r
 
 def addLink(testo, x=10):
+    # Funzione di sostituzione dinamica
     def replacer(match):
         numero = int(match.group(1))
-        return f' <a href="#ris-{numero}">[{numero}]</a>' if 1 <= numero <= x else match.group(0)
-    return re.sub(r'\[(\d+)\]', replacer, testo)
+        if 1 <= numero <= x:
+            return f' <a href="#ris-{numero}">[{numero}]</a>'
+        return match.group(0)  # Non modificare se fuori range
+
+    pattern = r'\[(\d+)\]'  # Corrisponde a [numero]
+    return re.sub(pattern, replacer, testo)
 
 def LLMHelpFunc(query, results):
-    richiesta = f"Sei un assistente che risponde a domande basandosi solo sui testi forniti. Rispondi in modo conciso alla domanda: '{query}'. Usa i seguenti testi per formulare la risposta, citandoli con [numero] dove usi le loro informazioni:\n\n"
-    for i, res in enumerate(results):
-        richiesta += f"[{i+1}] {res['text']}\n"
-    
-    mess = [{"role": "user", "content": richiesta}]
-    response = AIRequest(mess)
-    return addLink(response, len(results))
+    # Prepara il messaggio per l'AI
+    richiesta = f"""Ti sto inviando una query e i risultati più simili trovati da un sistema di Dense Retrieval.
+    Tu devi analizzare i risultati e restituire una risposta compatta alla query utilizzando le informazioni dei risultati.
+    La query è: {query}, i risultati sono: {results}
+    I risultati sono in formato JSON e contengono i seguenti campi: chunk_id, text, source, start_time, end_time, entities.
+    restituisci solo un testo unico con le note tipo [1] nelle parti di testo che hai scritto che sono prese da un file. solo questo testo e non altro, non specificare i riferimenti alla fine del testo.
+    Se non hai trovato informazioni utili all'imterno dei risultati per la query data o la query sembra essere mal posta o fuori contesto, rispondi con "Nessun risultato trovato per questa domanda."
+    """
 
+    mess = [
+        {"role": "user", "content": richiesta}
+    ]
+
+    # Invia la richiesta all'AI
+    response = AIRequest(mess)
+
+    # Aggiunge link html
+    response = addLink(response)
+
+    # print("Risposta AI:", response)
+    return response
 
 # --- 3. FUNZIONE PRINCIPALE DI RICERCA E RE-RANKING ---
 
-def query_rag_with_cross_encoder(query: str, k_final_llm=10, k_rerank_rrf=20, k_initial_retrieval=30, LLMHelp="false"):
+def query_rag_with_cross_encoder(query: str, k_final_llm=10, k_rerank_rrf=20, k_initial_retrieval=50, LLMHelp="false"):
     """
     Esegue una pipeline RAG SOTA a 3 fasi:
     1. Retrieve con Faiss (veloce e ampio).
@@ -190,7 +226,7 @@ def query_rag_with_cross_encoder(query: str, k_final_llm=10, k_rerank_rrf=20, k_
     cross_encoder_input = [[query, chunk['text']] for chunk in top_candidates_for_cross_encoder]
     
     # Calcola gli score di pertinenza
-    cross_encoder_scores = cross_encoder_model.predict(cross_encoder_input, show_progress_bar=True)
+    cross_encoder_scores = cross_encoder_model.predict(cross_encoder_input, show_progress_bar=False)
     
     # Aggiungi i nuovi score ai chunk
     for i in range(len(cross_encoder_scores)):
@@ -204,13 +240,42 @@ def query_rag_with_cross_encoder(query: str, k_final_llm=10, k_rerank_rrf=20, k_
     
     # --- FASE 4: GENERAZIONE CON LLM ---
     if not final_chunks_for_llm:
-        return {"chunks": [], "testoRisp": "Nessun risultato trovato per questa domanda."}
+        result_json = {"chunks": final_chunks_for_llm}
+        result_json["testoRisp"] = "Nessun risultato trovato per questa domanda."
+        #print(f"Risultati della query: {result_json}")
+        return result_json
+
     result_json = {"chunks": final_chunks_for_llm}
+    response_text = "Ecco i risultati!" # Testo di risposta predefinito
+
+    campi_desiderati = ["chunk_id", "text", "source", "start_time", "end_time", "entities", "linked_entities"]
+
+    chunks_filtrati = [{campo: chunk[campo] for campo in campi_desiderati} for chunk in final_chunks_for_llm]
+    for chunk in chunks_filtrati:
+        if "linked_entities" in chunk and "all_candidates" in chunk["linked_entities"]:
+            # Check if 'all_candidates' exists before modifying it
+            chunk["linked_entities"]["all_candidates"] = []
+
+    response_data = {
+        "chunks": chunks_filtrati,  # This is your list of dictionaries
+        "testoRisp": response_text   # Add the LLM's response as a separate key
+    }
+
     if LLMHelp.lower() == "true":
-        result_json["testoRisp"] = LLMHelpFunc(query, final_chunks_for_llm)
-    else:
-        result_json["testoRisp"] = "Ecco i risultati finali della ricerca."
-    return result_json
+        res = LLMHelpFunc(query, chunks_filtrati)
+        if res == "Nessun risultato trovato per questa domanda.":
+            response_data["chunks"] = []
+            response_data["testoRisp"] = res
+        else:
+            cleaned_chunks = []
+            response_data["testoRisp"] = res
+            for i, chunk in enumerate(response_data["chunks"]):
+                x = f"[{i + 1}]"
+                if x in res:
+                    cleaned_chunks.append(chunk)
+            response_data["chunks"] = cleaned_chunks
+
+    return response_data
 
 def query_entity_linking_rerank_RRF(query: str, k_final=10, k_initial_retrieval=30, LLMHelp="true"):
     """
@@ -223,9 +288,9 @@ def query_entity_linking_rerank_RRF(query: str, k_final=10, k_initial_retrieval=
     distances, indices = index.search(query_embedding, k_initial_retrieval)
 
     # --- FASE 2: ENTITY LINKING SULLA QUERY (come prima) ---
-    print(f"Linking entità per la query: '{query}'...")
+    # print(f"Linking entità per la query: '{query}'...")
     query_qids = link_query_entities(query)
-    print(f"QID trovati nella query: {query_qids}")
+    # print(f"QID trovati nella query: {query_qids}")
 
     # --- FASE 3: CALCOLO DEGLI SCORE E PREPARAZIONE PER RRF ---
     candidate_chunks = []
@@ -279,13 +344,42 @@ def query_entity_linking_rerank_RRF(query: str, k_final=10, k_initial_retrieval=
     
     # ... il resto della funzione (passaggio all'LLM) rimane identico ...
     if not final_chunks:
-        return {"chunks": [], "testoRisp": "Nessun risultato trovato per questa domanda."}
+        result_json = {"chunks": final_chunks}
+        result_json["testoRisp"] = "Nessun risultato trovato per questa domanda."
+        #print(f"Risultati della query: {result_json}")
+        return result_json
+
     result_json = {"chunks": final_chunks}
+    response_text = "Ecco i risultati!" # Testo di risposta predefinito
+
+    campi_desiderati = ["chunk_id", "text", "source", "start_time", "end_time", "entities"]#, "linked_entities"]
+
+    chunks_filtrati = [{campo: chunk[campo] for campo in campi_desiderati} for chunk in final_chunks]
+    for chunk in chunks_filtrati:
+        if "linked_entities" in chunk and "all_candidates" in chunk["linked_entities"]:
+            # Check if 'all_candidates' exists before modifying it
+            chunk["linked_entities"]["all_candidates"] = []
+
+    response_data = {
+        "chunks": chunks_filtrati,  # This is your list of dictionaries
+        "testoRisp": response_text   # Add the LLM's response as a separate key
+    }
+
     if LLMHelp.lower() == "true":
-        result_json["testoRisp"] = LLMHelpFunc(query, final_chunks)
-    else:
-        result_json["testoRisp"] = "Ecco i risultati della ricerca con re-ranking RRF."
-    return result_json
+        res = LLMHelpFunc(query, chunks_filtrati)
+        if res == "Nessun risultato trovato per questa domanda.":
+            response_data["chunks"] = []
+            response_data["testoRisp"] = res
+        else:
+            cleaned_chunks = []
+            response_data["testoRisp"] = res
+            for i, chunk in enumerate(response_data["chunks"]):
+                x = f"[{i + 1}]"
+                if x in res:
+                    cleaned_chunks.append(chunk)
+            response_data["chunks"] = cleaned_chunks
+
+    return response_data
 
 def query_entity_linking_rerank(query: str, k_final=10, k_initial_retrieval=30, BETA=0.5, LLMHelp="true"):
     """
@@ -331,7 +425,7 @@ def query_entity_linking_rerank(query: str, k_final=10, k_initial_retrieval=30, 
 
         # Calcola il punteggio finale ibrido
         final_score = dense_score + (BETA * entity_score)
-        print(final_score)
+        # print(final_score)
 
         chunk_copy = chunk.copy()
         chunk_copy['dense_similarity'] = float(dense_score)
@@ -346,21 +440,100 @@ def query_entity_linking_rerank(query: str, k_final=10, k_initial_retrieval=30, 
     final_chunks = reranked_results[:k_final]
 
     if not final_chunks:
-        return {"chunks": [], "testoRisp": "Nessun risultato trovato per questa domanda."}
-        
+        result_json = {"chunks": final_chunks}
+        result_json["testoRisp"] = "Nessun risultato trovato per questa domanda."
+        #print(f"Risultati della query: {result_json}")
+        return result_json
+
     result_json = {"chunks": final_chunks}
+    response_text = "Ecco i risultati!" # Testo di risposta predefinito
 
-    # --- FASE 4: INTERAZIONE CON LLM (invariata) ---
+    campi_desiderati = ["chunk_id", "text", "source", "start_time", "end_time", "entities", "linked_entities"]
+
+    chunks_filtrati = [{campo: chunk[campo] for campo in campi_desiderati} for chunk in final_chunks]
+    for chunk in chunks_filtrati:
+        if "linked_entities" in chunk and "all_candidates" in chunk["linked_entities"]:
+            # Check if 'all_candidates' exists before modifying it
+            chunk["linked_entities"]["all_candidates"] = []
+
+    response_data = {
+        "chunks": chunks_filtrati,  # This is your list of dictionaries
+        "testoRisp": response_text   # Add the LLM's response as a separate key
+    }
+
     if LLMHelp.lower() == "true":
-        response_text = LLMHelpFunc(query, final_chunks)
-        # (Logica per pulire i chunk usati dall'LLM, opzionale ma utile)
-        # ...
-        result_json["testoRisp"] = response_text
-    else:
-        result_json["testoRisp"] = "Ecco i risultati della ricerca con re-ranking."
+        res = LLMHelpFunc(query, chunks_filtrati)
+        if res == "Nessun risultato trovato per questa domanda.":
+            response_data["chunks"] = []
+            response_data["testoRisp"] = res
+        else:
+            cleaned_chunks = []
+            response_data["testoRisp"] = res
+            for i, chunk in enumerate(response_data["chunks"]):
+                x = f"[{i + 1}]"
+                if x in res:
+                    cleaned_chunks.append(chunk)
+            response_data["chunks"] = cleaned_chunks
 
-    return result_json
+    return response_data
 
+def query_rag(query, k_ric, LLMHelp):
+    #loading()  # Assicura che tutto sia caricato (embeddings, indice, metadata)
+
+    # Calcola e normalizza l'embedding della query
+    query_embedding = st_model.encode([f"query: {query}"], normalize_embeddings=True).astype("float32")
+
+    # Ricerca dei k più simili
+    k = int(k_ric)
+    D, I = index.search(query_embedding, k)
+
+    # Applica soglia su similarità (cosine, dato che usi IndexFlatIP con normalizzazione)
+    threshold = 0.0
+    filtered_results = []
+    for idx, score in zip(I[0], D[0]):
+        #print(f"Similarità: {score}")
+        if score >= threshold:
+            data = chunk_data_linked[idx]
+            data['similarity'] = float(score)
+            filtered_results.append(data)
+
+    if not filtered_results:
+        result_json = {"chunks": filtered_results}
+        result_json["testoRisp"] = "Nessun risultato trovato per questa domanda."
+        #print(f"Risultati della query: {result_json}")
+        return result_json
+
+    result_json = {"chunks": filtered_results}
+    response_text = "Ecco i risultati!" # Testo di risposta predefinito
+
+    campi_desiderati = ["chunk_id", "text", "source", "start_time", "end_time"]#, "linked_entities"]
+
+    chunks_filtrati = [{campo: chunk[campo] for campo in campi_desiderati} for chunk in filtered_results]
+    for chunk in chunks_filtrati:
+        if "linked_entities" in chunk and "all_candidates" in chunk["linked_entities"]:
+            # Check if 'all_candidates' exists before modifying it
+            chunk["linked_entities"]["all_candidates"] = []
+
+    response_data = {
+        "chunks": chunks_filtrati,  # This is your list of dictionaries
+        "testoRisp": response_text   # Add the LLM's response as a separate key
+    }
+
+    if LLMHelp.lower() == "true":
+        res = LLMHelpFunc(query, chunks_filtrati)
+        if res == "Nessun risultato trovato per questa domanda.":
+            response_data["chunks"] = []
+            response_data["testoRisp"] = res
+        else:
+            cleaned_chunks = []
+            response_data["testoRisp"] = res
+            for i, chunk in enumerate(response_data["chunks"]):
+                x = f"[{i + 1}]"
+                if x in res:
+                    cleaned_chunks.append(chunk)
+            response_data["chunks"] = cleaned_chunks
+
+    return response_data
 
 # --- ESEMPIO DI ESECUZIONE ---
 if __name__ == '__main__':

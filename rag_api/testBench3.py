@@ -1,10 +1,13 @@
 from rag_service import loading, query_rag
+from rag_el import loading_entity_linking, query_entity_linking_rerank, query_entity_linking_rerank_RRF, query_rag_with_cross_encoder
 import json
 import time
+from tqdm import tqdm
 
 # Caricamento modello e benchmark
-loading()
-with open("../benchmark_revisited_1_fixed_corrected.json", "r", encoding="utf-8") as f:
+# loading()
+loading_entity_linking()
+with open("../bench_scripts/benchmarks/benchmark_revisited_3_fixed_corrected.json", "r", encoding="utf-8") as f:
     benchmark = json.load(f)
 
 # Inizializzazione metriche
@@ -12,12 +15,13 @@ metrics = {
     "exact_match": 0,
     "recall": 0,
     "precision": 0,
-    "mrr": 0,
+    "mrr_rev_docs": 0,
+    "mrr_gold": 0,
     "total_queries": 0,  # Conta tutte le query
     "total_defined_queries": 0  # Conta solo le query con gold_answer definita
 }
 
-for item in benchmark:
+for i, item in enumerate(tqdm(benchmark, "Processing Benchmark")):
     
     q = item["query"]
     gold_answer = item["gold_answer"]
@@ -37,7 +41,10 @@ for item in benchmark:
     metrics["total_defined_queries"] += 1
 
     # Recupera i top-10 risultati con il sistema RAG completo (dense + LLM)
-    results = query_rag(q, 10, "true")["chunks"]
+    # results = query_rag(q, 10, "true")["chunks"]
+    # results = query_entity_linking_rerank(query=q, k_final=10, k_initial_retrieval=30, BETA=0.5, LLMHelp="true")["chunks"]
+    # results = query_entity_linking_rerank_RRF(query=q, k_final=10, k_initial_retrieval=30, LLMHelp="true")["chunks"]
+    results = query_rag_with_cross_encoder(query=q, k_final_llm=10, LLMHelp="true")["chunks"]
 
     # Ottieni i documenti filtrati dall'LLM
     retrieved_docs = [f"{res['source']}-{res['chunk_id']}" for res in results]
@@ -53,21 +60,26 @@ for item in benchmark:
     # Precision su tutti i documenti filtrati
     metrics["precision"] += relevant_found / len(retrieved_docs) if retrieved_docs else 0
 
+    for rank, doc in enumerate(retrieved_docs, start=1):
+        if doc in relevant_docs: # MRR calcolato su tutti i relevant docs, non solo gold
+            metrics["mrr_rev_docs"] += 1 / rank
+            break
+
     # MRR (considera il primo documento rilevante tra tutti)
     for rank, doc in enumerate(retrieved_docs, start=1):
         if doc == gold_answer:
-            metrics["mrr"] += 1 / rank
+            metrics["mrr_gold"] += 1 / rank
             break
 
     time.sleep(30)
 
 # Normalizzazione delle metriche
 metrics["exact_match"] /= metrics["total_queries"]  # Dividi per tutte le query
-for key in ["recall", "precision", "mrr"]:
+for key in ["recall", "precision", "mrr_gold", "mrr_rev_docs"]:
     metrics[key] /= metrics["total_defined_queries"]  # Dividi solo per le query con risposte definite
 
 # Salvataggio risultati
-with open("benchmark_rag_complete_results.json", "w", encoding="utf-8") as f:
+with open("./final_results/test3pt2_EL_50_20_10_cross.json", "w", encoding="utf-8") as f:
     json.dump(metrics, f, indent=2)
 
 # Stampa report
@@ -77,4 +89,5 @@ print(f"Query con risposte definite: {metrics['total_defined_queries']}")
 print(f"Exact Match (top-1): {metrics['exact_match']:.2%}")
 print(f"Recall: {metrics['recall']:.2%}")
 print(f"Precision: {metrics['precision']:.2%}")
-print(f"MRR: {metrics['mrr']:.4f}")
+print(f"MRR: {metrics['mrr_rev_docs']:.4f}")
+print(f"MRR (solo gold): {metrics['mrr_gold']:.4f}")

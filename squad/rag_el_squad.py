@@ -30,21 +30,21 @@ def loading_entity_linking():
         # Carica il modello per calcolare gli embedding
         st_model = SentenceTransformer('intfloat/multilingual-e5-large')
 
-        # print("Caricamento Cross-Encoder (potrebbe richiedere un po' di tempo)...")
-        # cross_encoder_model = CrossEncoder('cross-encoder/mmarco-mMiniLMv2-L12-H384-v1')
-        # # cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
-        # # nickprock/cross-encoder-italian-bert-stsb
-        # # Osiria/minilm-l6-h384-italian-cross-encoder
-        # print("Cross-Encoder caricato.")
+        print("Caricamento Cross-Encoder (potrebbe richiedere un po' di tempo)...")
+        cross_encoder_model = CrossEncoder('cross-encoder/mmarco-mMiniLMv2-L12-H384-v1')
+        # cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+        # nickprock/cross-encoder-italian-bert-stsb
+        # Osiria/minilm-l6-h384-italian-cross-encoder
+        print("Cross-Encoder caricato.")
 
         # Carica spaCy per il NER sulla query
         nlp = spacy.load("it_core_news_lg")
 
         # Carica l'indice Faiss (costruito sugli embedding del testo puro)
-        index = faiss.read_index("squad_faiss_index300.index") 
+        index = faiss.read_index("squad_faiss_index_all.index") 
 
         # Carica il NUOVO file JSON con le entità già linkate
-        with open("squad_metadata.json", "r", encoding="utf-8") as f:
+        with open("squad_metadata_all.json", "r", encoding="utf-8") as f:
             chunk_data_linked = json.load(f)
         
         print("Caricamento completato.")
@@ -185,12 +185,12 @@ def query_rag_with_cross_encoder(query: str, k_final_llm=10, k_rerank_rrf=20, k_
     top_candidates_for_cross_encoder = rrf_reranked_results[:k_rerank_rrf]
 
     # --- FASE 3: RE-RANKING DI PRECISIONE (Cross-Encoder) ---
-    print(f"Esecuzione Cross-Encoder su {len(top_candidates_for_cross_encoder)} candidati...")
+    # print(f"Esecuzione Cross-Encoder su {len(top_candidates_for_cross_encoder)} candidati...")
     # Il Cross-Encoder ha bisogno di coppie (query, testo_chunk)
     cross_encoder_input = [[query, chunk['text']] for chunk in top_candidates_for_cross_encoder]
     
     # Calcola gli score di pertinenza
-    cross_encoder_scores = cross_encoder_model.predict(cross_encoder_input, show_progress_bar=True)
+    cross_encoder_scores = cross_encoder_model.predict(cross_encoder_input, show_progress_bar=False)
     
     # Aggiungi i nuovi score ai chunk
     for i in range(len(cross_encoder_scores)):

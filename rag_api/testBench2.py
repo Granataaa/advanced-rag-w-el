@@ -1,4 +1,5 @@
 from rag_service import loading, query_rag
+from rag_el import loading_entity_linking, query_entity_linking_rerank, query_entity_linking_rerank_RRF, query_rag_with_cross_encoder
 from openai import OpenAI
 import json
 import os
@@ -6,9 +7,11 @@ from dotenv import load_dotenv
 import requests
 import numpy as np
 import time
+from tqdm import tqdm
 
 # Caricamento modello e benchmark
-loading()
+# loading()
+loading_entity_linking()
 
 load_dotenv()
 key = os.getenv("OPENAI_API_KEY")
@@ -19,7 +22,7 @@ client = OpenAI(
 )
 
 url = os.getenv("URL")
-print(f"[DEBUG] URL: {url}")
+# print(f"[DEBUG] URL: {url}")
 
 headers = {
         "Content-Type": "application/json",
@@ -41,7 +44,7 @@ def AIRequest(mess):
     r = ""
     if response.status_code == 200:
             result = response.json()
-            print(f"[DEBUG] Response JSON: {result}")
+            # print(f"[DEBUG] Response JSON: {result}")
             r = result['choices'][0]['message']['content']
     else:
             print(f"Errore: {response.status_code}, Dettagli: {response.text}")
@@ -61,13 +64,14 @@ def normRes(res):
 
         return final_data
 
-with open("../benchmark_revisited_1_fixed_corrected.json", "r", encoding="utf-8") as f:
+with open("../bench_scripts/benchmarks/benchmark_revisited_3_fixed_corrected.json", "r", encoding="utf-8") as f:
     benchmark = json.load(f)
 
 # Funzione per valutare una risposta con un LLM
 def evaluate_with_llm(query, generated_answer):
     content = f"""
-                    Il tuo compito è valutare una risposta basata su una domanda e su un testo di supporto fornito dal sistema di dense-retrieval.
+            Il tuo compito è valutare una risposta in base ad una domanda.
+            la domanda è presa da un benchmark mentre la risposta è generata da un sistema di Dense-Retrieval, in particolare sono i top-3 chunk generati e messi insieme uno dopoml'altro.
 
             I criteri di valutazione sono i seguenti:
 
@@ -106,15 +110,22 @@ metrics = {
     "total_queries": 0
 }
 
-for item in benchmark:
+for i, item in enumerate(tqdm(benchmark, "Processing Benchmark")):
+
+    # if metrics["total_queries"] >= 5:
+    #     break
     
     q = item["query"]
     gold_answer = item["gold_answer"]
     if gold_answer is None:
         continue
 
-    # Recupera i top-10 risultati
-    results = query_rag(q, 3, "false")["chunks"]
+    # results = query_rag(q, 3, "false")["chunks"]
+    # results = query_entity_linking_rerank(query=q, k_final=3, k_initial_retrieval=30, BETA=0.5, LLMHelp="false")["chunks"]
+    # results = query_entity_linking_rerank_RRF(query=q, k_final=3, k_initial_retrieval=30, LLMHelp="false")["chunks"]
+    results = query_rag_with_cross_encoder(query=q, k_final_llm=3)["chunks"]
+  
+
     # retrieved_docs = [f"{res['source']}-{res['chunk_id']}" for res in results]
 
     # Genera una risposta concatenando i contenuti dei documenti recuperati
@@ -123,7 +134,7 @@ for item in benchmark:
     # Valuta la risposta con un LLM
     scores = evaluate_with_llm(q, generated_answer)
 
-    print(scores)
+    # print(scores)
 
     # Aggiorna le metriche
     metrics["completezza"] += scores["completezza"]
@@ -138,7 +149,7 @@ for key in ["completezza", "rilevanza", "chiarezza"]:
     metrics[key] /= metrics["total_queries"]
 
 # Salvataggio risultati
-with open("benchmark_llm_evaluation_results_2.json", "w", encoding="utf-8") as f:
+with open("./final_results/test2_EL_50_20_3_cross.json", "w", encoding="utf-8") as f:
     json.dump(metrics, f, indent=2)
 
 # Stampa report

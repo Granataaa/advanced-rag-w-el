@@ -1,5 +1,6 @@
 from flask import request, jsonify
-from rag_service import query_rag
+# from rag_service import query_rag
+from rag_el import query_rag, query_entity_linking_rerank, query_entity_linking_rerank_RRF, query_rag_with_cross_encoder
 from models.models import RagResponse
 import json
 import os
@@ -17,7 +18,10 @@ def ask_get():
     if not LLMHelp:
         return {"error": "Missing 'LLMHelp' parameter"}, 400
 
-    res = query_rag(query, k_ric, LLMHelp)
+    # res = query_rag(query=query, k_ric=k_ric, LLMHelp=LLMHelp)
+    # res = query_entity_linking_rerank(query=query, k_final=int(k_ric), k_initial_retrieval=30, BETA=0.5, LLMHelp=LLMHelp)
+    res = query_entity_linking_rerank_RRF(query=query, k_final=int(k_ric), k_initial_retrieval=30, LLMHelp=LLMHelp)
+    # res = query_rag_with_cross_encoder(query=query, k_ric=int(k_ric), LLMHelp=LLMHelp)
     # print(res)
 
     x = RagResponse(**res).model_dump()

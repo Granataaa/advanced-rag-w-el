@@ -25,9 +25,9 @@ metrics = {
 for i, item in enumerate(tqdm(benchmark, "valutazione benchmark SQuAD-it")):
     q = item["question"]
     # se dentro relevant_docs c'è un numero >= 200, esce dal ciclo
-    if any(doc_id >= 200 for doc_id in item["relevant_docs"]):
-        print("arrivati a 200, esco")
-        break
+    # if any(doc_id >= 200 for doc_id in item["relevant_docs"]):
+    #     print("arrivati a 200, esco")
+    #     break
 
     relevant_docs = set([f"squad_it-{doc_id}" for doc_id in item["relevant_docs"]])
     # gold_answer = item.get("gold_answer", None)
@@ -36,7 +36,7 @@ for i, item in enumerate(tqdm(benchmark, "valutazione benchmark SQuAD-it")):
 
     # --- ESEGUI LA QUERY ---
     # results = query_entity_linking_rerank(query=q, k_final=10, BETA=0.5, LLMHelp="false")["chunks"]
-    # results = query_entity_linking_rerank_RRF(query=q, k_final=10, LLMHelp="false")["chunks"]
+    # results = query_entity_linking_rerank_RRF(query=q, k_final=10, k_initial_retrieval=30, LLMHelp="false")["chunks"]
     results = query_rag_with_cross_encoder(query=q)["chunks"]
     # results = query_rag(q, 10, "false")["chunks"]
 
@@ -67,7 +67,7 @@ for key in metrics:
     if key != "total_queries":
         metrics[key] /= metrics["total_queries"]
 
-with open("squad_it_results_200_cross_50_20_10.json", "w", encoding="utf-8") as f:
+with open("squad_it_results_all_cross_50_20_10.json", "w", encoding="utf-8") as f:
     json.dump(metrics, f, indent=2, ensure_ascii=False)
 
 # Stampa report finale
