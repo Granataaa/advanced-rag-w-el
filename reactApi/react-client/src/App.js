@@ -59,7 +59,6 @@ function App() {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}  // Aggiorna lo stato della query
-            placeholder="Es. Qual è la capitale della Francia?"
             style={{ marginLeft: '10px', padding: '5px', width: '300px' }}
           />
         </label>
